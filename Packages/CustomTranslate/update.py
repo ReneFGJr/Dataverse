@@ -1,12 +1,7 @@
 #pip install panda
 #pip install ipython
-
-import csv
 import pandas as pd
-from IPython.display import display
 import os
-import math
-import numpy as np
 
 translates = pd.read_csv("customTranslate.csv",sep=";")
 linhas = len(translates)
