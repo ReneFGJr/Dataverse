@@ -31,6 +31,7 @@ for ln in range(linhas):
             ################ SOURCE
             with open(path + file,"r", encoding="utf-8") as source:
                 texto = source.readlines()
+                print(texto)
 
             ################ DESTINITY
             with open(fileN,"w", encoding="utf-8") as destinity:
