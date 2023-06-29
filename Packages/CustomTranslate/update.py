@@ -50,7 +50,7 @@ for ln in range(linhas):
             fileO = file+'.bk'
             while os.path.isfile(fileO):
                 fileO = file + i + '.bk'
-                i += 1
+                i = i + 1
             print("========"+fileO)
 
         else:
