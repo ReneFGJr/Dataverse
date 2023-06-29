@@ -34,7 +34,8 @@ for ln in range(linhas):
                 texto = source.readlines()
 
             ################ DESTINITY
-            with open(fileN,"w", encoding="utf-8") as destinity:
+            with open(fileN,"w") as destinity:
+            #with open(fileN,"w", encoding="utf-8") as destinity:
                 for frase in texto:
                     if field in frase:
                         frase = field +"="+description
