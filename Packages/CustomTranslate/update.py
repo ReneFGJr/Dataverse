@@ -29,13 +29,11 @@ for ln in range(linhas):
             ############################## Lendo arquivo
             fileN = file+'.new'
             ################ SOURCE
-            #with open(path + file,"r", encoding="utf-8") as source:
-            with open(path + file,"r") as source:
+            with open(path + file,"r", encoding="utf-8") as source:
                 texto = source.readlines()
 
             ################ DESTINITY
-            with open(fileN,"w") as destinity:
-            #with open(fileN,"w", encoding="utf-8") as destinity:
+            with open(fileN,"w", encoding="utf-8") as destinity:
                 for frase in texto:
                     if field in frase:
                         frase = field +"="+description
