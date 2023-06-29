@@ -1,5 +1,7 @@
 #pip install panda
 #pip install ipython
+#pip install file-magic
+import magic
 import pandas as pd
 import os
 
@@ -29,6 +31,8 @@ for ln in range(linhas):
             ############################## Lendo arquivo
             fileN = file+'.new'
             ################ SOURCE
+            filename_detected = magic.detect_from_filename(path + file)
+            print(filename_detected)
             with open(path + file,"r", encoding="utf-8") as source:
                 texto = source.readlines()
                 print(texto)
