@@ -52,7 +52,8 @@ for ln in range(linhas):
             i = 1
             fileO = file + '.bk'
             path2 = 'backup/'
-            os.mkdir(path2)
+            if not os.path.isdir(path2):
+                os.mkdir(path2)
             while os.path.isfile(path2 + fileO):
                 fileO = file + str(i) + '.bk'
                 i = i + 1
