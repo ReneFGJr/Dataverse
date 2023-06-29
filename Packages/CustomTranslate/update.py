@@ -25,7 +25,7 @@ for ln in range(linhas):
         ####################### Arquivo
         if os.path.isfile(path + file):
             print("================== P R O C E S S A N D O ==")
-            print(file)
+            print(path + file)
             ############################## Lendo arquivo
             fileN = file+'.new'
             ################ SOURCE
