@@ -56,4 +56,4 @@ for ln in range(linhas):
         else:
             print(" ERRO ao acessar arquivo",file)
 
-print("O DataFrame contém linhas: "+format(linhas))
+print("Fim do processamento")
