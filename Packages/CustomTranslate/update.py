@@ -1,9 +1,11 @@
 #pip install panda
 #pip install ipython
 #pip install file-magic
+#pip install python-magic-bin
 import magic
 import pandas as pd
 import os
+import shutil
 
 translates = pd.read_csv("customTranslate.csv",sep=";")
 linhas = len(translates)
@@ -49,10 +51,14 @@ for ln in range(linhas):
             ################ GERAR COPIAS
             i = 1
             fileO = file + '.bk'
-            while os.path.isfile(fileO):
+            path2 = 'backup/'
+            os.mkdir(path2)
+            while os.path.isfile(path2 + fileO):
                 fileO = file + str(i) + '.bk'
                 i = i + 1
-            print("========"+fileO)
+
+            shutil.copyfile(path + file, path2 + fileO)
+            shutil.copyfile(fileN, path + file)
 
         else:
             print(" ERRO ao acessar arquivo",file)
