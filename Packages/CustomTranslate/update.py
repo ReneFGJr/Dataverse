@@ -38,14 +38,12 @@ for ln in range(linhas):
 
             with open(path + file,"r", encoding="utf-8") as source:
                 texto = source.readlines()
-                print(texto)
 
             ################ DESTINITY
             with open(fileN,"w", encoding="utf-8") as destinity:
                 for frase in texto:
                     if field in frase:
                         frase = field +"="+description
-                        print("=============",frase)
                     destinity.writelines(frase)
 
             ################ GERAR COPIAS
