@@ -9,13 +9,17 @@ from os.path import isfile
 import re
 
 path = '/var/www/dataverse/langBundles/'
-
 chdir(path)
+
 for c in listdir():
     if os.path.isfile(path + c):
         if ('.prop' in c):
             print("=>"+path + c)
-            filename_detected = magic.detect_from_filename(path + c)
-            print(filename_detected)
+            fd = magic.detect_from_filename(path + c)
+            idp1 = fd.find('encoding=') + 10
+            idp2 = fd.find(', name=') -1
+            decod = fd[idp1:idp2]
+            print(decod,c)
+            print("=========================")
 
 print("Fim do processamento")
