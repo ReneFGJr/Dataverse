@@ -25,7 +25,10 @@ for c in listdir():
                 print("=>"+path + c)
                 print(decod,c)
                 print("=========================")
-                cmd = cmd + 'iconv -f ISO-8859-1 -t ASCII ' + path+c + ' > ' + path+c + chr(13)
+                cmd = cmd + 'iconv -f ISO-8859-1 -t UTF-8 ' + path+c + ' > ' + path+c + chr(13)
 
-print(cmd)
+if (cmd != ''):
+    with open('convert',"w", encoding="utf-8") as destinity:
+        destinity.writelines(cmd)
+
 print("Fim do processamento")
