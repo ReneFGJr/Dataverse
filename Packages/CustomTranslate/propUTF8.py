@@ -11,6 +11,8 @@ import re
 path = '/var/www/dataverse/langBundles/'
 chdir(path)
 
+cmd = ""
+
 for c in listdir():
     if os.path.isfile(path + c):
         if ('.prop' in c):
@@ -23,5 +25,7 @@ for c in listdir():
                 print("=>"+path + c)
                 print(decod,c)
                 print("=========================")
+                cmd = cmd + 'iconv -f ISO-8859-1 -t ASCII ' + path+c + ' > ' + path+c + chr(13)
 
+print(cmd)
 print("Fim do processamento")
