@@ -31,7 +31,8 @@ for c in listdir():
 
 if (len(cmd) > 0):
     chdir(cwd)
-    with open('convert',"w") as destinity:
+    with open('convert.sh',"w") as destinity:
         destinity.writelines(cmd)
+    os.chmod('convert.sh', 0o700)
 
 print("Fim do processamento")
