@@ -20,7 +20,9 @@ for c in listdir():
             idp1 = fd.find('encoding=') + 10
             idp2 = fd.find(', name=') -1
             decod = fd[idp1:idp2]
-            print(decod,c)
-            print("=========================")
+
+            if (decod == 'iso-8859-1'):
+                print(decod,c)
+                print("=========================")
 
 print("Fim do processamento")
