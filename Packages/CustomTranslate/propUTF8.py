@@ -27,7 +27,7 @@ for c in listdir():
                 print("=>"+path + c)
                 print(decod,c)
                 print("=========================")
-                cmd = cmd + 'iconv -f ISO-8859-1 -t UTF-8 ' + path+c + ' > ' + path+c + chr(13)
+                cmd = cmd + 'iconv -f ISO-8859-1 -t UTF-8 ' + path+c + ' > ' + path+c + chr(10)
 
 if (len(cmd) > 0):
     chdir(cwd)
