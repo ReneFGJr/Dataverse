@@ -31,7 +31,7 @@ for c in listdir():
 
 if (len(cmd) > 0):
     chdir(cwd)
-    with open('convert',"w", encoding="utf-8") as destinity:
+    with open('convert',"w") as destinity:
         destinity.writelines(cmd)
 
 print("Fim do processamento")
