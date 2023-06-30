@@ -8,6 +8,8 @@ from os import chdir, getcwd, listdir
 from os.path import isfile
 import re
 
+cwd = os.getcwd()
+
 path = '/var/www/dataverse/langBundles/'
 chdir(path)
 
@@ -27,7 +29,8 @@ for c in listdir():
                 print("=========================")
                 cmd = cmd + 'iconv -f ISO-8859-1 -t UTF-8 ' + path+c + ' > ' + path+c + chr(13)
 
-if (cmd != ''):
+if (len(cmd) > 0):
+    chdir(cwd)
     with open('convert',"w", encoding="utf-8") as destinity:
         destinity.writelines(cmd)
 
