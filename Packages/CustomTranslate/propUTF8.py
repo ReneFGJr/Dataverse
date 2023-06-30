@@ -14,14 +14,13 @@ chdir(path)
 for c in listdir():
     if os.path.isfile(path + c):
         if ('.prop' in c):
-            print("=>"+path + c)
             fd = str(magic.detect_from_filename(path + c))
-            print(fd)
             idp1 = fd.find('encoding=') + 10
             idp2 = fd.find(', name=') -1
             decod = fd[idp1:idp2]
 
             if (decod == 'iso-8859-1'):
+                print("=>"+path + c)
                 print(decod,c)
                 print("=========================")
 
