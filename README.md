@@ -2,6 +2,9 @@
 Base de conhecimento do Dataverse
 Pacotes para ajustes da Tadução da FioCruz
 
+Baixar os scripts
+  git clone https://github.com/ReneFGJr/Dataverse.git
+
 apt install python3-pip
 pip3 install file-magic
 
