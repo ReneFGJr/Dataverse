@@ -16,4 +16,4 @@ Caso tenha algum arquivo para converter, será criado um bash
 
 
  Arquivos com a customização das traduções
- customTranslate.csv
+  customTranslate.csv
