@@ -1,3 +1,9 @@
+echo "Criar Pastas"
+mkdir /var/
+mkdir /var/www/
+mkdir /var/www/dataverse/
+mkdir /var/www/dataverse/langBundles
+
 echo "Criando parametro para o Payara"
 $PAYARA/bin/asadmin create-jvm-options '-Ddataverse.lang.directory=/var/www/dataverse/langBundles'
 $PAYARA/bin/asadmin stop-domain
