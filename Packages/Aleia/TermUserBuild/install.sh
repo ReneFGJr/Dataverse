@@ -12,5 +12,5 @@ curl -X PUT -d@UserTerm.html_br.html http://localhost:8080/api/admin/settings/:A
 
 echo "Para outros idiomas"
 
-curl -X PUT -d@UserTerm.html_en.html http://localhost:8080/api/admin/settings/:ApplicationTermsOfUse/lang/us
+curl -X PUT -d@UserTerm.html_us.html http://localhost:8080/api/admin/settings/:ApplicationTermsOfUse/lang/us
 curl -X PUT -d@UserTerm.html_es.html http://localhost:8080/api/admin/settings/:ApplicationTermsOfUse/lang/es
