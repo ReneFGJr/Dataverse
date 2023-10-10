@@ -26,10 +26,17 @@
       <ui:param name="showMessagePanel" value="#{true}" />
       <ui:define name="body"> </ui:define>
 
+      <ui:fragment rendered="#{Shib.offerToCreateNewAccount}">
+        <!-- THIS MSG SHOULD BE IN THE BACKING BEAN + BUNDLE, NOT HARDCODED HERE IN THE XHTML -->
+        <div class="alert alert-info messagePanel">
+          <span class="glyphicon glyphicon-info-sign" />
+          <strong>#{bundle['shib.accountInformation']}</strong> –
+          #{bundle['shib.offerToCre>
+        </div>
+        <!-- END: THIS MSG SHOULD BE IN THE BACKING BEAN + BUNDLE, NOT HARDCODED HERE IN THE XHTML -->
+      </ui:fragment>
 
-    <h1>Informations - {Shib.init}</h1>
-
+      <h1>Informations - {Shib.init}</h1>
     </ui:composition>
-
   </h:body>
 </html>
