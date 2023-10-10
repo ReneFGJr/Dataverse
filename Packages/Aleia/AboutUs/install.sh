@@ -8,3 +8,6 @@ export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse-5
 
 cp $ABOUT_XML $APP/$ABOUT_XML
 curl -X PUT -d $URL$ABOUT_XML $SERVER_URL/api/admin/settings/:NavbarAboutUrl
+
+#Reinicia o Dataverse
+/home/dataverse/restart
