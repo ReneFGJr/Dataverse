@@ -8,7 +8,7 @@
   xmlns:jsf="http://xmlns.jcp.org/jsf"
 >
   <h:head> </h:head>
-
+  <script src="https://kit.fontawesome.com/b387d4989b.js" crossorigin="anonymous"></script>
   <h:body>
     <f:metadata>
       <f:viewAction action="#{dataverseSession.updateLocaleInViewRoot}" />
@@ -21,80 +21,159 @@
       <ui:param name="pageTitle" value="Policy" />
       <ui:param name="showDataverseHeader" value="false" />
       <ui:param name="showMessagePanel" value="#{true}" />
-      <ui:define name="body">
-        <p:tabView id="accountInfoShib">
-          <p:tab
-            id="accountInfo2"
-            title="#{bundle['header.user.selectTab.accountInfo']}"
-          >
-            XXAAXX
-          </p:tab>
-
-          <p:tab
-            id="accountInfo"
-            title="#{bundle['header.user.selectTab.accountInfo']}"
-          >
-            <h2>SOBRE O ALEIA</h2>
-            <p>
-              A criação do Repositório de Dados Científicos do Instituto
-              Brasileiro de Informação em Ciência e Tecnologia (Ibict),
-              denominado Aleia, foi motivado pelo Compromisso 3, do 4º Plano de
-              Ação Nacional que visa estabelecer mecanismos de governança de
-              dados científicos para o avanço da Ciência Aberta no Brasil.
-            </p>
-            <p>
-              O Aleia tem por objetivo oferecer ferramentas que permitam
-              registrar, reunir, organizar, disseminar, compartilhar e preservar
-              os dados científicos produzidos em pesquisas executadas por
-              colaboradores do Ibict, em laboratórios e projetos da instituição,
-              além dos dados científicos produzidos por discentes do Programa de
-              Pós-Graduação em Ciência da Informação IBICT/UFRJ. Serão também
-              aceitos depósitos de conjuntos de dados científicos de
-              pesquisadores externos ao Ibict, em uma comunidade específica
-              configurada para este fim.
-            </p>
-
-            <p>O repositório tem por principais metas:</p>
-            <ul>
-              <li>
-                Incentivar a criação de repositórios de dados de pesquisa,
-                servindo como repositório modelo para tal;
-              </li>
-              <li>
-                Orientar na aplicação de boas práticas internacionais à
-                repositórios de dados de pesquisa;
-              </li>
-              <li>
-                Funcionar como ferramenta de disponibilização, promover a
-                transparência e possibilitar o reuso dos dados;
-              </li>
-              <li>
-                Viabilizar a preservação digital de dados de pesquisa,
-                colaborando para evitar a perda e má gestão dos dados,
-                orientando e incentivando os autores na organização e
-                planejamento do ciclo de vida do dado de pesquisa;
-              </li>
-              <li>Possibilitar a aplicação dos princípios FAIR;</li>
-              <li>
-                Promover a conformidade com as atuais demandas da comunidade
-                científica, em especial às de revistas e agências de fomento
-                sobre a disponibilização dos dados de pesquisa;
-              </li>
-              <li>
-                Tornar os dados citáveis e possibilitar o uso de métricas,
-                valorizando e dando visibilidade a outros produtos da pesquisa
-                ao contrário de unicamente seu resultado.
-              </li>
-            </ul>
-          </p:tab>
-        </p:tabView>
-        <p:tab
-          id="accountInfo"
-          title="#{bundle['header.user.selectTab.accountInfo']}"
-        >
-          AAA
-        </p:tab>
-      </ui:define>
+      <ui:define name="body"> </ui:define>
     </ui:composition>
+
+<nav id="dataverse-header-block"><div id="navbarFixed" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar" aria-pressed="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/"><img src="/logos/navbar/logo-aleia.jpg;jsessionid=473d0c5c054912c8309356f19691" alt="Aléia homepage" class="navbar-brand custom-logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="topNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search <b class="caret"></b></a>
+                            <ul class="dropdown-menu navbar-search">
+                                <li>
+                                    <form class="form-inline" role="search">
+                                        <label id="searchNavLabel" class="sr-only" for="navbarsearch">Search</label>
+                                        <div class="input-group">
+                                            <input id="navbarsearch" type="text" class="form-control" size="28" value="" placeholder="Search all dataverses...">
+                                            <span class="input-group-btn">
+                                                <button type="submit" title="" class="btn btn-default bootstrap-button-tooltip" aria-labelledby="searchNavLabel" onclick="window.location='/dataverse/aleia?q=' + document.getElementById('navbarsearch').value;return false;" data-original-title="Find">
+                                                    <span class="glyphicon glyphicon-search no-text"></span>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li><li><a href="http://172.16.16.68/dvn/about/;jsessionid=473d0c5c054912c8309356f19691" rel="noopener" target="_blank">About</a></li>
+                        <li><a href="https://guides.dataverse.org/en/5.11/user" rel="noopener" target="_blank">User Guide</a>
+                        </li>
+                            <li>
+<form id="j_idt47" name="j_idt47" method="post" action="/;jsessionid=473d0c5c054912c8309356f19691" class="navbar-form navbar-left navbar-form-link" enctype="application/x-www-form-urlencoded" data-partialsubmit="true">
+<input type="hidden" name="j_idt47" value="j_idt47">
+<a id="j_idt47:headerSupportLink" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt47:headerSupportLink&quot;,f:&quot;j_idt47&quot;,u:&quot;contactDialog&quot;,onco:function(xhr,status,args,data){PF('contactForm').show();}});return false;">Support</a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="3487707717602913134:1092646622010601996" autocomplete="off">
+</form>
+                            </li><li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Language">Idioma Padrão <b class="caret"></b></a>
+                            <ul class="dropdown-menu navbar-language">
+<form id="j_idt52" name="j_idt52" method="post" action="/;jsessionid=473d0c5c054912c8309356f19691" class="form-inline" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt52" value="j_idt52">
+
+                                        <li class="active"><script type="text/javascript" src="/javax.faces.resource/jsf.js.xhtml;jsessionid=473d0c5c054912c8309356f19691?ln=javax.faces"></script><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt52'),{'j_idt52:j_idt53:0:j_idt55':'j_idt52:j_idt53:0:j_idt55'},'');return false" class="language-menu-link">Idioma Padrão</a>
+                                        </li>
+                                        <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt52'),{'j_idt52:j_idt53:1:j_idt55':'j_idt52:j_idt53:1:j_idt55'},'');return false" class="language-menu-link">English</a>
+                                        </li>
+                                        <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt52'),{'j_idt52:j_idt53:2:j_idt55':'j_idt52:j_idt53:2:j_idt55'},'');return false" class="language-menu-link">Português</a>
+                                        </li><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="3487707717602913134:1092646622010601996" autocomplete="off">
+</form>
+                            </ul></li>
+                            <li><a href="/dataverseuser.xhtml;jsessionid=473d0c5c054912c8309356f19691?editMode=CREATE&amp;redirectPage=%2Fdataverse_homepage.xhtml">
+                                    Sign Up
+                                </a>
+                            </li>
+                            <li><a href="/loginpage.xhtml;jsessionid=473d0c5c054912c8309356f19691?redirectPage=%2Fdataverse_homepage.xhtml">
+                                    Log In
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div></div>
+
+
+	<div style="background:#FFFFFF;" id="dataverseHeader" class="container bg-muted">
+            <div class="dataverseHeaderBlock"><div class="dataverseHeaderCell dataverseHeaderName">
+                    <a href="/dataverse/aleia" class="dataverseHeaderDataverseName" style="color:#428BCA;"><h1>Aléia</h1></a></div>
+            </div></div><div id="messagePanel">
+            <div class="container messagePanel">
+            </div></div>
+    </nav>
+<div class="container" id="content" role="main">
+  <div class="row-fluid">
+    <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
+      <li role="presentation" class="active" > <a aria-controls="home" aria-expanded="true" data-toggle="tab" href="#home" id="home-tab" role="tab">Histórico</a> </li>
+      <li role="presentation" class=""> <a aria-controls="politica" aria-expanded="false" data-toggle="tab" href="#politica" id="politica-tab" role="tab" >Política do Repositório</a> </li>
+      <li role="presentation" class="" > <a aria-controls="faq" aria-expanded="false" data-toggle="tab" href="#faq" id="faq-tab" >FAQ</a> </li>
+      <li role="presentation" class="" > <a aria-controls="contato" aria-expanded="false" data-toggle="tab" href="#contato" id="contato-tab" >Contato</a> </li>
+    </ul>
+    <div class="col">
+      <div class="tab-content" id="myTabContent">
+        <div aria-labelledby="home-tab" class="tab-pane fade active in" id="home" role="tabpanel">
+          <h2>SOBRE O ALEIA</h2>
+          <p dir="ltr">A criação do Repositório de Dados Científicos do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict), denominado Aleia, foi motivado pelo Compromisso 3, do 4º Plano de Ação Nacional que visa estabelecer mecanismos de governança de dados científicos para o avanço da Ciência Aberta no Brasil.</p>
+          <p dir="ltr">O Aleia tem por objetivo oferecer ferramentas que permitam registrar, reunir, organizar, disseminar, compartilhar e preservar os dados científicos produzidos em pesquisas executadas por colaboradores do Ibict, em laboratórios e projetos da instituição, além dos dados científicos produzidos por discentes do Programa de Pós-Graduação em Ciência da Informação IBICT/UFRJ. Serão também aceitos depósitos de conjuntos de dados científicos de pesquisadores externos ao Ibict, em uma comunidade específica configurada para este fim.</p>
+          <p dir="ltr">O repositório tem por principais metas:</p>
+          <ul>
+            <li>Incentivar a criação de repositórios de dados de pesquisa, servindo como repositório modelo para tal;</li>
+            <li>Orientar na aplicação de boas práticas internacionais à repositórios de dados de pesquisa;</li>
+            <li>Funcionar como ferramenta de disponibilização, promover a transparência e possibilitar o reuso dos dados;</li>
+            <li>Viabilizar a preservação digital de dados de pesquisa, colaborando para evitar a perda e má gestão dos dados, orientando e incentivando os autores na organização e planejamento do ciclo de vida do dado de pesquisa;</li>
+            <li>Possibilitar a aplicação dos princípios FAIR;</li>
+            <li>Promover a conformidade com as atuais demandas da comunidade científica, em especial às de revistas e agências de fomento sobre a disponibilização dos dados de pesquisa;</li>
+            <li>Tornar os dados citáveis e possibilitar o uso de métricas, valorizando e dando visibilidade a outros produtos da pesquisa ao contrário de unicamente seu resultado. </li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+        <div aria-labelledby="politica-tab" class="tab-pane fade" id="politica" role="tabpanel">
+          <h2>POLÍTICA DE PRIVACIDADE DO ALEIA</h2>
+          <p>Conteúdo em construção <br>
+          </p>
+        </div>
+        <div aria-labelledby="faq-tab" class="tab-pane fade" id="faq" role="tabpanel">
+          <h2>FAQ</h2>
+          <p>Nesta seção são divulgadas as perguntas frequentes sobre o Repositório Aleia do Instituto Brasileiro de Informação em Ciência e Tecnologia. - Ibict. </p>
+          <div id="demo-gen-faq" class="panel-group accordion">
+            <div class="bord-no pad-top">
+
+              <!-- Question -->
+              <div class="faq-question"> <a href="#demo-gen-faq1" data-toggle="collapse" data-parent="#demo-gen-faq">O que é o Repositório Aleia?</a> </div>
+
+              <!-- Answer -->
+              <div id="demo-gen-faq1" class="collapse">
+                <div class="pad-all">O Aleia é voltado para os dados de pesquisa abertos dos projetos executados no Ibict, tanto como unidade de pesquisa quanto programa de pós-graduação. Além disso, o repositório também aceita dados abertos de qualquer pesquisador cuja instituição ainda não possua um repositório de dados de pesquisa próprio<br>
+                </div>
+              </div>
+            </div>
+            <div class="bord-no pad-top">
+
+              <!-- Question -->
+              <div class="faq-question"> <a href="#demo-gen-faq2" data-toggle="collapse" data-parent="#demo-gen-faq">Quais serviços o Aleia oferece?</a> </div>
+
+              <!-- Answer -->
+              <div id="demo-gen-faq2" class="collapse">
+                <div class="pad-all"> O Aleia oferece os seguintes serviços: depósito e disponibilização de dados científicos produzidos em pesquisas executadas por colaboradores do Ibict, em laboratórios e projetos da instituição, além dos dados científicos produzidos por discentes do Programa de Pós-Graduação em Ciência da Informação IBICT/UFRJ. Serão também aceitos depósitos de conjuntos de dados científicos de pesquisadores externos ao Ibict, em uma comunidade específica configurada para este fim.</div>
+              </div>
+            </div>
+            <div class="bord-no pad-top">
+
+              <!-- Question -->
+              <div class="faq-question"> <a href="#demo-gen-faq3" data-toggle="collapse" data-parent="#demo-gen-faq">Quem pode acessar o Aleia?</a> </div>
+
+              <!-- Answer -->
+              <div id="demo-gen-faq3" class="collapse">
+                <div class="pad-all">O Repositório está disponível para pesquisadores e sociedade em geral, podendo navegar, pesquisar os metadados e baixar os conteúdos que estiverem em acesso aberto no repositório.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div aria-labelledby="contato-tab" class="tab-pane fade" id="contato" role="tabpanel">
+          <h2>Contato</h2>
+          <p>Caso tenha dúvidas ou precise tratar de qualquer assunto relacionado, entre em contato conosco por meio do e-mail: aleia@ibict.br <br>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
   </h:body>
 </html>
