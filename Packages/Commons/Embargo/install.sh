@@ -4,7 +4,7 @@ export PAYARA=/usr/local/payara5/glassfish
 case $1 in
     "--on" )
     echo "ON"
-    curl -X PUT -d $2 /api/admin/settings/:MaxEmbargoDurationInMonths
+    curl -X PUT -d $2 http://localhost:8080/api/admin/settings/:MaxEmbargoDurationInMonths
     ;;
     "--off" )
     echo "OFF"
