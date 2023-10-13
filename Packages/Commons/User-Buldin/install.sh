@@ -3,10 +3,10 @@ for arg in "$@"
 do
     case $arg in
         "--on" )
-           echo "ON"
+           echo "ON";;
         "--off" )
-           echo "OFF"
-        so on
-            echo "use: install --off"
+           echo "OFF";;
+        *)
+            echo "use: install --off";;
    esac
 done
