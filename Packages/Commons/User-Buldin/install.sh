@@ -1,7 +1,7 @@
-echo "Paramentro: $1"
-for arg in "$@"
+echo "Paramentros: $1 $2 $3"
+
 do
-    case $arg in
+    case $1 in
         "--on" )
            echo "ON";;
         "--off" )
