@@ -1,5 +1,5 @@
 echo "Ativando o Handle"
-export PREFIX='20.500.11959'
+export PREFIX='20.500.12401'
 export PAYARA=/usr/local/payara5/glassfish
 export SENHA="ALTERE A SENHA"
 export SHOULDER="cedapdados/"
