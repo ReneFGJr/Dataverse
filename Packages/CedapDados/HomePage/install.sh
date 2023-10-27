@@ -13,4 +13,4 @@ mkdir $APP/assets/img/
 cp *.png $APP/assets/img/$IMG
 cp *.jpg $APP/assets/img/$IMG
 
-curl -X PUT -d $APP/$HOME $SERVER_URL/api/admin/settings/:HomePageCustomizationFile
+curl -X PUT -d $APP$HOME $SERVER_URL/api/admin/settings/:HomePageCustomizationFile
