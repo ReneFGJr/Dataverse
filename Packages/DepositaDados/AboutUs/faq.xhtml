@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://java.sun.com/jsf/html"
+  xmlns:f="http://java.sun.com/jsf/core"
+  xmlns:ui="http://java.sun.com/jsf/facelets"
+  xmlns:p="http://primefaces.org/ui"
+  xmlns:jsf="http://xmlns.jcp.org/jsf"
+>
+  <h:head> </h:head>
+
+  <h:body>
+    <f:metadata>
+      <f:viewAction action="#{dataverseSession.updateLocaleInViewRoot}" />
+      <f:viewAction action="#{Shib.init}" />
+      <!--Only allow existing email to be specified while in development, to test account conversion.-->
+      <!--<f:viewParam name="exisitingEmail" value="#{Shib.existingEmail}"/>-->
+      <f:viewParam name="redirectPage" value="#{Shib.redirectPage}" />
+    </f:metadata>
+    <ui:composition template="/dataverse_template.xhtml">
+      <ui:param
+        name="pageTitle"
+        value="Aleia - Repositório de Dados de Pesquisa"
+      />
+      <ui:param name="showDataverseHeader" value="false" />
+      <ui:param name="showMessagePanel" value="#{true}" />
+      <ui:define name="body">
+        <ui:fragment rendered="#{Shib.offerToConvertExistingAccount}">
+          <ui:fragment rendered="#{Shib.existingDisplayName != null}">
+            <h2>#{bundle['shib.askToConvert']}</h2>
+          </ui:fragment>
+          <div class="alert alert-info messagePanel">
+            <p>
+              <span class="glyphicon glyphicon-info-sign" />
+              <h:outputFormat
+                value=" #{bundle['shib.welcomeExistingUserMessage']}"
+              >
+                <f:param value="#{Shib.friendlyNameForInstitution}" />
+              </h:outputFormat>
+            </p>
+          </div>
+          <div
+            class="alert alert-danger messagePanel"
+            jsf:rendered="#{Shib.passwordRejected}"
+          >
+            <div
+              class="alert alert-danger messagePanel"
+              jsf:rendered="#{Shib.passwordRejected}"
+            >
+              <p>
+                <span class="glyphicon glyphicon-exclamation-sign" />
+                <h:outputText
+                  value=" #{bundle['shib.passwordRejected']}"
+                  escape="false"
+                />
+              </p>
+            </div>
+          </div>
+        </ui:fragment>
+
+        <ui:fragment rendered="#{Shib.offerToCreateNewAccount}">
+          <!-- THIS MSG SHOULD BE IN THE BACKING BEAN + BUNDLE, NOT HARDCODED HERE IN THE XHTML -->
+          <div class="alert alert-info messagePanel">
+            <span class="glyphicon glyphicon-info-sign" />
+            <strong>#{bundle['shib.accountInformation']}</strong> –
+            #{bundle['shib.offerToCreeateNewAccount']}
+          </div>
+        </ui:fragment>
+
+        <p:tabView id="accountInfoShib">
+          <p:tab id="accountInfo10" title="FAQ">
+            <h4>FAQ</h4>
+            <p>
+              Nesta seção são divulgadas as perguntas frequentes sobre o
+              Deposita Dados.
+            </p>
+
+            <p><b>O que é o Deposita Dados?</b></p>
+            <p>
+              O Repositório Comum de Dados de Pesquisa (Deposita Dados) é uma base de 
+              dados para arquivar, publicar, disseminar, preservar e compartilhar os dados digitais 
+              de pesquisa e tem como missão promover, apoiar e facilitar a adoção do acesso 
+              aberto aos conjuntos de dados de pesquisadores brasileiros vinculados a 
+              instituições científicas que ainda não possuem seus repositórios de dados de
+              pesquisa e/ou de pesquisadores brasileiros que executaram seus conjuntos de 
+              dados por meio de colaboração científica em instituições estrangeiras de ensino e 
+              pesquisa.
+            </p>
+
+            <p><b>O que são dados de pesquisa?</b></p>
+            <p>
+              São dados coletados e produzidos durante a pesquisa técnica ou
+              científica e usados como fonte primária, comumente aceitos na
+              comunidade para validar as descobertas e resultados de um estudo.
+            </p>
+
+            <p><b>Quem pode acessar o Deposita Dados? </b></p>
+            <p>
+              O Aleia está disponível para pesquisadores e sociedade em geral,
+              podendo realizar buscas, visualizar os metadados e fazer download
+              de conteúdos que estiverem em acesso aberto e/ou irrestrito, sem
+              precisar autenticar pela rede CAFe ou pelo ORCID. Caso o usuário
+              queira solicitar acesso aos arquivos dos dados restritos, é
+              necessário autenticar pela rede Cafe ou pelo ORCID. 
+            </p>
+            <p>
+              Pesquisadores brasileiros vinculados a instituições científicas que ainda não
+              possuem seus repositórios de dados de pesquisa e/ou de pesquisadores brasileiros 
+              que executaram seus conjuntos de dados por meio de colaboração científica em 
+              instituições estrangeiras de ensino e pesquisa, podem depositar os conjuntos de 
+              dados no Aleia.
+            </p>
+
+            <p><b>Quem pode depositar dados de pesquisa no Aleia? </b></p>
+            <p>
+              Pesquisadores brasileiros vinculados a instituições científicas que ainda não 
+              possuem seus repositórios de dados de pesquisa e/ou de pesquisadores brasileiros 
+              que executaram seus conjuntos de dados por meio de colaboração científica em
+              instituições estrangeiras de ensino e pesquisa, podem depositar os conjuntos de
+              dados no Deposita Dados.
+            </p>
+
+            <p><b>Que tipos de dados podem ser depositados no Deposita Dados?</b></p>
+            <p>
+              Os conjuntos de dados permitidos para depósito no Aleia incluem
+              planilhas, imagens, vídeos, gráficos, arquivos tabulares, entre
+              outros, desde que sejam dados coletados e produzidos durante a
+              pesquisa técnica ou científica pela comunidade científica. 
+              Devem estar em formato natos digitais ou digitalizados,
+              completos e prontos para disseminação.
+              <br />Para conjuntos de dados que envolvem pesquisas com seres
+              humanos, de qualquer natureza e área do conhecimento, os
+              pesquisadores devem certificar-se e garantir que todos os
+              preceitos e procedimentos éticos foram seguidos. Os dados pessoais
+              devem ser anonimizados ou pseudonimizados antes do depósito.
+              <br />É proibido qualquer conteúdo de caráter difamatório,
+              calunioso, injurioso, violento, pornográfico, obsceno, ofensivo ou
+              ilícito conforme apuração do Deposita Dados a seu critério exclusivo,
+              inclusive informações de propriedade exclusiva pertencentes a
+              outras pessoas ou empresas, sem a expressa autorização do titular
+              desses direitos, cuja violação não será responsabilidade do Deposita Dados.
+            </p>
+
+            <p>
+              <b>Que formatos de arquivos podem ser depositados no Deposita Dados?</b>
+            </p>
+            <p>
+              Qualquer formato de arquivo pode ser depositado no Deposita Dados, mas,
+              sempre que possível, devem ser escolhidos formatos que ajudem a
+              preservar e garantir o acesso a longo prazo aos arquivos
+              depositados no Deposita Dados, com preferência por arquivos em formatos
+              abertos e não-proprietários. Por exemplo: PDF/A e ASCII são
+              formatos preferidos para conteúdo textual; TIFF e JPEG2000 são
+              preferidos para imagens.
+            </p>
+
+            <p>
+              <b>Existe um tamanho limite para os arquivos depositados? </b>
+            </p>
+            <p>
+              Para que um conjunto de dados (dataset) seja depositado no Aleia
+              ele não deve ser maior do que 1 (um) GB.
+            </p>
+
+            <p>
+              <b>Posso controlar quem pode ter acesso aos dados depositados?</b>
+            </p>
+            <p>
+              A critério do autor dos dados de pesquisa, poderão ser aplicadas
+              regras específicas e controle de acesso para os conjuntos de dados
+              de pesquisa definidos como: Público (acesso tanto aos metadados
+              como aos conjuntos de dados) ou Restrito (acesso apenas aos
+              metadados).
+            </p>
+
+            <p>
+              <b
+                >Como entrar em contato com a equipe de atendimento do Deposita Dados?
+              </b>
+            </p>
+            <p>
+              Para entrar em contato com um de nossos colaboradores, envie um
+              e-mail para o endereço depositadados@ibict.br ou entre em contato através
+              do telefone (61) 3217-6134.
+            </p>
+          </p:tab>
+
+          <p:tab id="accountInfo11" title="Contato">
+            <h4>Contato</h4>
+            <p>
+              Se tiver alguma dúvida, obter informações ou iniciar um processo de depósito no
+              Deposita Dados, envie um e-mail para o endereço depositadados@ibict.br ou entre
+              em contato através do telefone (61) 3217-6134.
+            </p>
+          </p:tab>
+        </p:tabView>
+      </ui:define>
+    </ui:composition>
+  </h:body>
+</html>
