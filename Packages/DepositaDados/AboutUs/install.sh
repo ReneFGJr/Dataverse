@@ -9,8 +9,8 @@ export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse/
 export GUIDE=Guia_Aleia.pdf
 export IMG=fluxo_deposito.png
 
-cp $ABOUT_XML $APP/$ABOUT_XML
-cp $FAQ_XML $APP/$FAQ_XML
+cp -iv $ABOUT_XML $APP/$ABOUT_XML
+cp -iv $FAQ_XML $APP/$FAQ_XML
 mkdir $APP/assets/
 mkdir $APP/assets/pdf/
 mkdir $APP/assets/img/
