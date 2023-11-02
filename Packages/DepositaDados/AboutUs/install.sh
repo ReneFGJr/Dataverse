@@ -5,7 +5,7 @@ export SERVER_URL=http://localhost:8080
 export URL=https://depositadados.ibict.br/
 export ABOUT_XML=about.xhtml
 export FAQ_XML=faq.xhtml
-export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse/
+export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse
 export GUIDE=Guia_Aleia.pdf
 export IMG=fluxo_deposito.png
 
