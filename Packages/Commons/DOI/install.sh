@@ -1,6 +1,6 @@
 export DOI=10.82835
 echo "Configurando o DOI"
-curl -X PUT -d '$DOI' localhost:8080/api/admin/settings/:Authority
+curl -X PUT -d '10.82835' localhost:8080/api/admin/settings/:Authority
 
 echo '<jvm-options>-Ddataverse.auth.password-reset-timeout-in-minutes=60</jvm-options>'
 echo '<jvm-options>-Ddataverse.pid.datacite.username=IBICT.DOICURSO</jvm-options>'
