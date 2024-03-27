@@ -3,16 +3,16 @@
         "field-name": "keyword",
         "term-uri-field": "keywordValue",
         "cvoc-url": "https://sistemas.sede.embrapa.br/agrotermos/",
-        "js-url": "https://lattesdata.cnpq.br/thesa/js/skosmos.js",
+        "js-url": "/cvoc/js/skosmos.js",
         "protocol": "skosmos",
-        "retrieval-uri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/rest/v1/data?uri={0}",
+        "retrieval-uri": "https://sistemas.sede.embrapa.br/agrotermos/rest/termoParcial?label={0}",
         "term-parent-uri": "",
         "allow-free-text": false,
         "languages": "en, br",
         "vocabs": {
             "areas_internacionais": {
-                "vocabularyUri": "https://sistemas.sede.embrapa.br/agrotermos/resources",
-                "uriSpace": "https://sistemas.sede.embrapa.br/agrotermos/resources/"
+                "vocabularyUri": "https: //sistemas.sede.embrapa.br/agrotermos/resources/",
+                "uriSpace": "https: //sistemas.sede.embrapa.br/agrotermos/resources/"
             }
         },
         "managed-fields": {
