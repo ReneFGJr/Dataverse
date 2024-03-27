@@ -266,17 +266,24 @@ function updateSkosmosInputs() {
                                 .map(
                                     function(x) {
                                         return {
-                                            //For each returned item, show the term, it's alternative label (which may be what matches the query) and the termUri
-                                            text: x.prefLabel + ((x.hasOwnProperty('altLabel') && x.altLabel.length > 0) ? " (" + x.altLabel + "), " : ", ") +
-                                                x.uri,
-                                            name: x.prefLabel,
-                                            id: x.uri,
-                                            // Since clicking in the selection re-opens the
-                                            // choice list, one has to use a right click/open in
-                                            // new tab/window to view the ORCID page
-                                            // Using title to provide that hint as a popup
-                                            title: 'Open in new tab to view Term page'
-                                        }
+                                          //For each returned item, show the term, it's alternative label (which may be what matches the query) and the termUri
+                                          text:
+                                            x.prefLabel +
+                                            (x.hasOwnProperty("altLabel") &&
+                                            x.altLabel.length > 0
+                                              ? " (" + x.altLabel + "), "
+                                              : ", ") +
+                                            x.uri,
+                                          //name: x.prefLabel,
+                                          name: x.dados.label,
+                                          id: x.dados.uri,
+                                          // Since clicking in the selection re-opens the
+                                          // choice list, one has to use a right click/open in
+                                          // new tab/window to view the ORCID page
+                                          // Using title to provide that hint as a popup
+                                          title:
+                                            "Open in new tab to view Term page",
+                                        };
                                     })
                         };
                     }
