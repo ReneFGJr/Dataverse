@@ -284,6 +284,7 @@ function updateSkosmosInputs() {
             // If the input has a value already, format it the same way as if it
             // were a new selection. Since we only have the term URI, we query the service to find the label in the right language
             var id = $(skosmosInput).val();
+            console.log("====ID="+id)
             if (id.startsWith("http")) {
                 $.ajax({
                     type: "GET",
