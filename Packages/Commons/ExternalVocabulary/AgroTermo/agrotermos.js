@@ -254,6 +254,8 @@ function updateSkosmosInputs() {
                         //return cvocUrl + 'rest/v1/search?unique=true&vocab=' + $('#' + selectId).attr('data-cvoc-cur-vocab') + '&parent=' + termParentUri + langParam;
                     },
                     dataType: "json",
+
+                    /**************** POST */
                     data: function(params) {
                         // Used in templateResult
                         term = params.term;
@@ -261,6 +263,11 @@ function updateSkosmosInputs() {
                         //Add the query - skosmos needs a trailing * to match words starting with the supplied letters
                         return "&query=" + params.term + "*";
                     },
+                    success:function(data)
+                        {
+                            console.log("OKOKOKOKOKO")
+                            console.log(data)
+                        },
                     processResults: function(data, page) {
                         console.log("XXXXXXXXXXXXXXXXXX");
                         console.log(data);
