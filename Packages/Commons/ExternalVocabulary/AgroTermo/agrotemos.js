@@ -247,8 +247,9 @@ function updateSkosmosInputs() {
                     //Add the current vocab, any subvocabulary(termParentUri) filter, and desired language
                     url: function() {
                         /************** EMBRAPA */
-                        urlN = cvocUrl + "rest/termoParcial??unique=true&label=" +$("#" + selectId).attr("data-cvoc-cur-vocab") +"&parent=" +termParentUri +langParam;
+                        urlN = cvocUrl + "rest/termoParcial??unique=true&vocab=" +$("#" + selectId).attr("data-cvoc-cur-vocab") +"&label="+term+"&parent=" +termParentUri +langParam;
                         console.log(urlN);
+                        console.log("Term="+term)
                         return urlN;
                         //return cvocUrl + 'rest/v1/search?unique=true&vocab=' + $('#' + selectId).attr('data-cvoc-cur-vocab') + '&parent=' + termParentUri + langParam;
                     },
