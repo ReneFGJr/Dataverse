@@ -266,6 +266,7 @@ function updateSkosmosInputs() {
                             results: data.results
                                 .map(
                                     function(x) {
+                                        console.log(x)
                                         return {
                                           //For each returned item, show the term, it's alternative label (which may be what matches the query) and the termUri
                                           text:
