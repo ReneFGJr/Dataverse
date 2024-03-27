@@ -16,9 +16,8 @@
             }
         },
         "managed-fields": {
-            "vocabularyName": "internationalAreasVocabulary",
-            "termName": "internationalAreasTerm",
-            "vocabularyUri": "internationalAreasTermURI"
+            "vocabularyName": "keywordVocabulary",
+            "vocabularyUri": "keywordVocabularyURI"
         },
         "retrieval-filtering": {
             "@context": {
