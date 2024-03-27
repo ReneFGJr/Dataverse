@@ -245,11 +245,11 @@ function updateSkosmosInputs() {
                 ajax: {
                     //Call the specified skosmos service to get matching terms
                     //Add the current vocab, any subvocabulary(termParentUri) filter, and desired language
-                    url: function() {
+                    url: function(params) {
                         /************** EMBRAPA */
-                        urlN = cvocUrl + "rest/termoParcial??unique=true&vocab=" +$("#" + selectId).attr("data-cvoc-cur-vocab") +"&label="+termParentUri+"&parent=" +termParentUri +langParam;
+                        urlN = cvocUrl + "rest/termoParcial??unique=true&vocab=" +$("#" + selectId).attr("data-cvoc-cur-vocab") +"&label="+params.term+"&parent=" +termParentUri +langParam;
                         console.log("URL = "+urlN);
-                        console.log("Term=" + termParentUri);
+                        console.log("Term=" + params.term);
                         return urlN;
                         //return cvocUrl + 'rest/v1/search?unique=true&vocab=' + $('#' + selectId).attr('data-cvoc-cur-vocab') + '&parent=' + termParentUri + langParam;
                     },
