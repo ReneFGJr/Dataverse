@@ -203,115 +203,83 @@ function updateSkosmosInputs() {
             }
             //St up this select2
             $("#" + selectId).select2({
-              theme: "classic",
-              //tags true allows a free text entry (not a term uri, just plain text): ToDo - make this configurable
-              tags: allowFreeText,
-              delay: 500,
-              templateResult: function (item) {
-                // No need to template the searching text
-                if (item.loading) {
-                  return item.text;
+                theme: "classic",
+                //tags true allows a free text entry (not a term uri, just plain text): ToDo - make this configurable
+                tags: allowFreeText,
+                delay: 500,
+                templateResult: function(item) {
+                    // No need to template the searching text
+                    if (item.loading) {
+                        return item.text;
+                    }
+                    var term = '';
+                    if (typeof(query) !== 'undefined') {
+                        term = query.term;
+                    }
+                    // markMatch bolds the search term if/where it appears in the result
+                    var $result = markMatch(item.text, term);
+                    return $result;
+                },
+                templateSelection: function(item) {
+                    // For a selection, add HTML to make the term uri a link
+                    if (item.text != item.id) {
+                        //Plain text (i.e. with tags:true) would have item.text == item.id
+                        var pos = item.text.search(/http[s]?:\/\//);
+                        if (pos >= 0) {
+                            var termuri = item.text.substr(pos);
+                            return $('<span></span>').append(item.text.replace(termuri, "<a href='" + termuri + "'  target='_blank' rel='noopener'>" + termuri + "</a>"));
+                        }
+                    }
+                    return item.text;
+                },
+                language: {
+                    searching: function(params) {
+                        // Change this to be appropriate for your application
+                        return 'Search by preferred or alternate label…';
+                    }
+                },
+                placeholder: placeholder,
+                //Some vocabs are very slow and/or fail with a 500 error when searching for only 2 letters
+                minimumInputLength: 3,
+                allowClear: true,
+                ajax: {
+                    //Call the specified skosmos service to get matching terms
+                    //Add the current vocab, any subvocabulary(termParentUri) filter, and desired language
+                    url: function() {
+                        return cvocUrl + 'rest/v1/search?unique=true&vocab=' + $('#' + selectId).attr('data-cvoc-cur-vocab') + '&parent=' + termParentUri + langParam;
+                    },
+                    dataType: "json",
+                    data: function(params) {
+                        // Used in templateResult
+                        term = params.term;
+                        //Add the query - skosmos needs a trailing * to match words starting with the supplied letters
+                        return "&query=" + params.term + "*";
+                    },
+                    processResults: function(data, page) {
+                        return {
+                            results: data.results
+                                .map(
+                                    function(x) {
+                                        return {
+                                            //For each returned item, show the term, it's alternative label (which may be what matches the query) and the termUri
+                                            text: x.prefLabel + ((x.hasOwnProperty('altLabel') && x.altLabel.length > 0) ? " (" + x.altLabel + "), " : ", ") +
+                                                x.uri,
+                                            name: x.prefLabel,
+                                            id: x.uri,
+                                            // Since clicking in the selection re-opens the
+                                            // choice list, one has to use a right click/open in
+                                            // new tab/window to view the ORCID page
+                                            // Using title to provide that hint as a popup
+                                            title: 'Open in new tab to view Term page'
+                                        }
+                                    })
+                        };
+                    }
                 }
-                var term = "";
-                if (typeof query !== "undefined") {
-                  term = query.term;
-                }
-                // markMatch bolds the search term if/where it appears in the result
-                var $result = markMatch(item.text, term);
-                return $result;
-              },
-              templateSelection: function (item) {
-                // For a selection, add HTML to make the term uri a link
-                if (item.text != item.id) {
-                  //Plain text (i.e. with tags:true) would have item.text == item.id
-                  var pos = item.text.search(/http[s]?:\/\//);
-                  if (pos >= 0) {
-                    var termuri = item.text.substr(pos);
-                    return $("<span></span>").append(
-                      item.text.replace(
-                        termuri,
-                        "<a href='" +
-                          termuri +
-                          "'  target='_blank' rel='noopener'>" +
-                          termuri +
-                          "</a>"
-                      )
-                    );
-                  }
-                }
-                return item.text;
-              },
-              language: {
-                searching: function (params) {
-                  // Change this to be appropriate for your application
-                  return "Search by preferred or alternate label…";
-                },
-              },
-              placeholder: placeholder,
-              //Some vocabs are very slow and/or fail with a 500 error when searching for only 2 letters
-              minimumInputLength: 3,
-              allowClear: true,
-              ajax: {
-                //Call the specified skosmos service to get matching terms
-                //Add the current vocab, any subvocabulary(termParentUri) filter, and desired language
-                url: function (params) {
-                  /************** EMBRAPA */
-                  urlN =
-                    cvocUrl +
-                    "rest/termoParcial??unique=true&vocab=" +
-                    $("#" + selectId).attr("data-cvoc-cur-vocab") +
-                    "&label=" +
-                    params.term +
-                    "&parent=" +
-                    termParentUri +
-                    langParam;
-                  console.log("URL = " + urlN);
-                  console.log("Term=" + params.term);
-                  return urlN;
-                  //return cvocUrl + 'rest/v1/search?unique=true&vocab=' + $('#' + selectId).attr('data-cvoc-cur-vocab') + '&parent=' + termParentUri + langParam;
-                },
-                dataType: "json",
-
-                /**************** POST */
-                data: function (params) {
-                  // Used in templateResult
-                  term = params.term;
-                  console.log("Params.term = " + term);
-                  //Add the query - skosmos needs a trailing * to match words starting with the supplied letters
-                  return "&query=" + params.term + "*";
-                },
-                success: function (data) {
-                  console.log("OKOKOKOKOKO");
-                  console.log(data);
-                },
-                processResults: function (data, page) {
-                  return {
-                    results: data.results.map(function (x) {
-                      return {
-                        //For each returned item, show the term, it's alternative label (which may be what matches the query) and the termUri
-                        text:
-                          x.prefLabel +
-                          (x.hasOwnProperty("altLabel") && x.altLabel.length > 0
-                            ? " (" + x.altLabel + "), "
-                            : ", ") +
-                          x.uri,
-                        name: x.prefLabel,
-                        id: x.uri,
-                        // Since clicking in the selection re-opens the
-                        // choice list, one has to use a right click/open in
-                        // new tab/window to view the ORCID page
-                        // Using title to provide that hint as a popup
-                        title: "Open in new tab to view Term page",
-                      };
-                    }),
-                  };
-                },
-              },
             });
             // If the input has a value already, format it the same way as if it
             // were a new selection. Since we only have the term URI, we query the service to find the label in the right language
             var id = $(skosmosInput).val();
-            console.log("====ID="+id)
             if (id.startsWith("http")) {
                 $.ajax({
                     type: "GET",
