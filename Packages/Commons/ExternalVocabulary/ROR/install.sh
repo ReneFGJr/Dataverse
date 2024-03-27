@@ -1,0 +1,1 @@
+curl -X PUT --upload-file rorAuthAffiliation.json http://localhost:8080/api/admin/settings/:CVocConf
