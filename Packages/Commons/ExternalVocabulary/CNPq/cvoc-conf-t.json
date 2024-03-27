@@ -2,17 +2,17 @@
     {
         "field-name": "keyword",
         "term-uri-field": "keywordValue",
-        "cvoc-url": "http://200.130.0.214/thesa/index.php/thesa/",
-        "js-url": "http://200.130.0.214/thesa/js/skosmos.js",
+        "cvoc-url": "https://lattesdata.cnpq.br/thesa/index.php/thesa/",
+        "js-url": "https://lattesdata.cnpq.br/thesa/js/skosmos.js",
         "protocol": "skosmos",
-        "retrieval-uri": "http://200.130.0.214/thesa/index.php/thesa/rest/v1/data?uri={0}",
+        "retrieval-uri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/rest/v1/data?uri={0}",
         "term-parent-uri": "",
         "allow-free-text": false,
         "languages": "en, br",
         "vocabs": {
             "areas_internacionais": {
-                "vocabularyUri": "http://200.130.0.214/thesa/index.php/thesa/th/1",
-                "uriSpace": "http://200.130.0.214/thesa/index.php/thesa/"
+                "vocabularyUri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/th/1",
+                "uriSpace": "https://lattesdata.cnpq.br/thesa/index.php/thesa/"
             }
         },
         "managed-fields": {
@@ -56,16 +56,16 @@
     {
         "field-name": "DGPGroup",
         "term-uri-field": "DGPGroupTermURI",
-        "cvoc-url": "http://200.130.0.214/thesa/index.php/thesa/",
-        "js-url": "http://200.130.0.214/thesa/js/skosmos.js",
+        "cvoc-url": "https://lattesdata.cnpq.br/thesa/index.php/thesa/",
+        "js-url": "https://lattesdata.cnpq.br/thesa/js/skosmos.js",
         "protocol": "skosmos",
-        "retrieval-uri": "http://200.130.0.214/thesa/index.php/thesa/rest/v1/data?uri={0}",
+        "retrieval-uri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/rest/v1/data?uri={0}",
         "term-parent-uri": "",
         "allow-free-text": false,
         "languages": "en, br",
         "vocabs": {
             "dgp": {
-                "vocabularyUri": "http://200.130.0.214/thesa/index.php/thesa/th/1",
+                "vocabularyUri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/th/1",
                 "uriSpace": "https://dgp.cnpq.br/dgp/espelhogrupo/"
             }
         },
@@ -111,17 +111,17 @@
     {
         "field-name": "cnpqAreas",
         "term-uri-field": "cnpqAreasTermURI",
-        "cvoc-url": "http://200.130.0.214/thesa/index.php/thesa/",
-        "js-url": "http://200.130.0.214/thesa/js/skosmos.js",
+        "cvoc-url": "https://lattesdata.cnpq.br/thesa/index.php/thesa/",
+        "js-url": "https://lattesdata.cnpq.br/thesa/js/skosmos.js",
         "protocol": "skosmos",
-        "retrieval-uri": "http://200.130.0.214/thesa/index.php/thesa/rest/v1/data?uri={0}",
+        "retrieval-uri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/rest/v1/data?uri={0}",
         "term-parent-uri": "",
         "allow-free-text": false,
         "languages": "en, br",
         "vocabs": {
             "areas_cnpq": {
-                "vocabularyUri": "http://200.130.0.214/thesa/index.php/thesa/th/1",
-                "uriSpace": "http://200.130.0.214/thesa/index.php/thesa/"
+                "vocabularyUri": "https://lattesdata.cnpq.br/thesa/index.php/thesa/th/1",
+                "uriSpace": "https://lattesdata.cnpq.br/thesa/index.php/thesa/"
             }
         },
         "managed-fields": {
