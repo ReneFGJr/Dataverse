@@ -1,0 +1,1 @@
+curl -X PUT --upload-file keywordUnesco.json http://localhost:8080/api/admin/settings/:CVocConf
