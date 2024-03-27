@@ -3,7 +3,7 @@
         "field-name": "keyword",
         "term-uri-field": "keywordValue",
         "cvoc-url": "https://sistemas.sede.embrapa.br/agrotermos/",
-        "js-url": "/cvoc/js/skosmos.js",
+        "js-url": "/cvoc/js/agrovoc.js",
         "protocol": "skosmos",
         "retrieval-uri": "https://sistemas.sede.embrapa.br/agrotermos/rest/termoParcial?label={0}",
         "term-parent-uri": "",
