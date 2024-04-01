@@ -96,6 +96,7 @@ function expandSkosmos() {
 }
 
 function updateSkosmosInputs() {
+    console.log("updateSkosmosInputs");
     // For each input element within skosmosInputSelector elements
     $(skosmosInputSelector).each(function() {
         var skosmosInput = this;
