@@ -1,0 +1,1 @@
+curl -X PUT -d 'Aleia <aleia@ibict.br>' http://localhost:8080/api/admin/settings/:SystemEmail
