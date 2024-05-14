@@ -1,0 +1,9 @@
+<!-- app.component.html -->
+<form [formGroup]="doiForm" (ngSubmit)="onSubmit()">
+  <label for="doiNumber">DOI Number:</label>
+  <input type="text" id="doiNumber" formControlName="doiNumber">
+  <hr>
+  {{ doiForm.value | json}}
+  <hr>
+  <button type="submit">Submit</button>
+</form>
