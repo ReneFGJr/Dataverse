@@ -9,7 +9,6 @@ import { lastValueFrom } from 'rxjs';
 })
 export class AppComponent {
   title = 'Dataverse-SPAdmim';
-  DOI = ''
   currentLanguage: string = 'pt_BR';
 
   async ngOnInit(): Promise<void> {
@@ -27,10 +26,5 @@ export class AppComponent {
 
   switchLanguage(language: string) {
     this.translate.use(language);
-  }
-
-  hello(data: string) {
-    console.log(data);
-    this.DOI = data
   }
 }

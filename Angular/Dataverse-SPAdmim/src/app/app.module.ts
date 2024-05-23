@@ -4,20 +4,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './010_tools/page/main/main.component';
-import { RepatriationComponent } from './010_tools/widgat/repatriation/repatriation.component';
 import { HeaderModule } from './000_header/header/header.module';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DoiInputComponent } from './010_tools/widgat/doi-input/doi-input.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DoiOutputComponent } from './010_tools/widgat/doi-output/doi-output.component';
+import { RepatriationComponent } from './010_tools/page/repatriation/repatriation.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
 @NgModule({
-  declarations: [AppComponent, MainComponent, RepatriationComponent, DoiInputComponent],
+  declarations: [
+    AppComponent,
+    MainComponent,
+    DoiInputComponent,
+    DoiOutputComponent,
+    RepatriationComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
