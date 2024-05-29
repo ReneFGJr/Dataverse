@@ -1,0 +1,9 @@
+.facetTypeDataverse a {
+    color: blue;
+}
+.facetTypeDataset a {
+    color: red;
+}
+.facetTypeFile a{
+    color: green;
+}

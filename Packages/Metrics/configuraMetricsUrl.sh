@@ -1,0 +1,1 @@
+curl -X PUT -d https://metrics.dataverse.example.edu http://localhost:8080/api/admin/settings/:MetricsUrl
