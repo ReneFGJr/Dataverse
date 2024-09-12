@@ -1,4 +1,4 @@
-FILE = 'custom-stylesheet.css'
+export FILE='custom-stylesheet.css'
 mkdir /var/www/dataverse/
 mkdir /var/www/dataverse/branding/
 cp FILE /var/www/dataverse/branding/.
