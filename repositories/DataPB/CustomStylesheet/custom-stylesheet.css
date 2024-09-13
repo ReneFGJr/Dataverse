@@ -13,9 +13,57 @@ body, a, h1, h2, h3, h4 ,h5 ,h6 {
 
 
 .dataverseResult {
-    /* border-color: #c55b28; */
-    border: 4px solid #3174AF;
-    background-color: #D1E4FF;
-    padding: 10px;
-    font-size: 1.2rem;
+        padding: 20px;
+        background-color: #fefaf6;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+.dataverseResult .text-muted {
+        font-weight: bold;
+}
+.dataverseResult .card-title-icon-block {
+        margin-bottom: 20px;
+}
+.dataverseResult .card-title-icon-block a {
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #127690;
+}
+.dataverseResult a {
+        color: #127690;
+}
+
+.datasetResult {
+        padding: 20px;
+        background-color: #f3f9fb;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+.datasetResult .card-title-icon-block a {
+        display: block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #127690;
+}
+.datasetResult a {
+        color: #127690;
+}
+
+.fileResult {
+        padding: 20px !important;
+        background-color: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+.fileResult .card-title-icon-block a {
+        display: block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #127690;
+}
+.fileResult a {
+        color: #127690;
 }
