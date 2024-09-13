@@ -12,8 +12,10 @@ body, a, h1, h2, h3, h4 ,h5 ,h6 {
 }
 
 
-table[id$='resultsTable'] td > div.dataverseResult {
+table[id$='resultsTable'] td > div.dataverseResult, td > div.dataverseResult, .td > div.dataverseResult {
     /* border-color: #c55b28; */
     border: 4px solid #3174AF;
     background-color: #D1E4FF;
+    padding: 10px;
+    font-size: 1.2rem;
 }
