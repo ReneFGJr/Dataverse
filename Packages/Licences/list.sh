@@ -1,1 +1,0 @@
-curl -H "X-Dataverse-key: SEU_API_TOKEN_AQUI" https://seu-dataverse-url.com/api/admin/licenses
