@@ -14,6 +14,7 @@ adicionar_licenca() {
   "name": "CC-BY",
   "uri": "https://creativecommons.org/licenses/by/4.0/",
   "shortDescription": "Atribuição - Permite que outros distribuam, remixem, adaptem e criem obras derivadas, mesmo que para fins comerciais, desde que atribuam crédito apropriado.",
+  "iconUrl": "https://licensebuttons.net/l/by/4.0/88x31.png",
   "active": true
 }
 EOF
@@ -34,7 +35,7 @@ remover_licenca() {
 
 # Função listar licenças
 lista_licenca() {
-  response=$(curl -s -X PUT "$BASE_URL/api/admin/licenses" -H "$HEADERS" -H "Content-Type: application/json" -d "$DATA")
+  response=$(curl -s -X PUT "$BASE_URL/api/admin/licenses" -H "$HEADERS")
   echo "Resposta do servidor: $response"
 }
 
@@ -51,7 +52,7 @@ ativar_licenca() {
 # Função principal para selecionar a ação
 menu_principal() {
   echo "Selecione a ação que deseja realizar:"
-  echo "1) Adicionar licença CC-BY"
+  echo "10) Adicionar licença CC-BY 4.0"
   echo "2) Remover licença por ID"
   echo "3) Ativar licença por ID"
   echo "4) Listar licenças"
@@ -60,7 +61,7 @@ menu_principal() {
   read -p "Escolha uma opção (1-4): " opcao
 
   case $opcao in
-    1)
+    10)
       adicionar_licenca
       ;;
     2)
@@ -72,7 +73,6 @@ menu_principal() {
       ativar_licenca $licenca_id
       ;;
     4)
-      read -p "Digite o ID da licença a ser ativada: " licenca_id
       lista_licenca
       ;;
     9)
