@@ -20,7 +20,7 @@ adicionar_licenca() {
 EOF
 )
 
-  response=$(curl -s -X POST "$BASE_URL/api/admin/licenses" -H "$HEADERS" -H "Content-Type: application/json" -d "$DATA")
+  response=$(curl -s -X POST "$BASE_URL/api/admin/licenses/" -H "$HEADERS" -H "Content-Type: application/json" -d "$DATA")
   echo "Resposta do servidor: $response"
 }
 
