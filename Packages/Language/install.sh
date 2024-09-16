@@ -18,7 +18,7 @@ $PAYARA/bin/asadmin stop-domain
 echo "Definindo os idiomas ativos"
 $PAYARA/bin/asadmin start-domain
 echo "===>Definindo os idiomas do Dataverse e suas extensões"
-curl http://localhost:8080/api/admin/settings/:Languages -X PUT -d '[{"locale":"en","title":"Idioma Padrão"}, {"locale":"us","title":"English"}, {"locale":"pt","title":"Português"}, {"locale":"es","title":"Espanhol"}]'
+curl http://localhost:8080/api/admin/settings/:Languages -X PUT -d '[{"locale":"en","title":"Idioma Padrão"}, {"locale":"us","title":"English"}, {"locale":"br","title":"Português"}, {"locale":"es","title":"Espanhol"}]'
 $PAYARA/bin/asadmin stop-domain
 
 echo "Reinicializando"
