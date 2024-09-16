@@ -32,6 +32,12 @@ remover_licenca() {
   echo "Resposta do servidor: $response"
 }
 
+# Função listar licenças
+lista_licenca() {
+  response=$(curl -s -X PUT "$BASE_URL/api/admin/licenses" -H "$HEADERS" -H "Content-Type: application/json" -d "$DATA")
+  echo "Resposta do servidor: $response"
+}
+
 # Função para ativar uma licença por ID
 ativar_licenca() {
   LICENCA_ID=$1
@@ -48,7 +54,8 @@ menu_principal() {
   echo "1) Adicionar licença CC-BY"
   echo "2) Remover licença por ID"
   echo "3) Ativar licença por ID"
-  echo "4) Sair"
+  echo "4) Listar licenças"
+  echo "9) Sair"
 
   read -p "Escolha uma opção (1-4): " opcao
 
@@ -65,6 +72,10 @@ menu_principal() {
       ativar_licenca $licenca_id
       ;;
     4)
+      read -p "Digite o ID da licença a ser ativada: " licenca_id
+      lista_licenca
+      ;;
+    9)
       echo "Saindo..."
       exit 0
       ;;
