@@ -17,6 +17,7 @@ def download_dataset_metadata(dataset_id):
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
+        print(response.json())
         return response.json()
     else:
         print(f"#001# Erro ao baixar metadados do dataset: {response.status_code}")
@@ -55,6 +56,8 @@ def upload_dataset_metadata(metadata, new_dataverse_alias):
         'Content-Type': 'application/json'
     }
     response = requests.post(url, headers=headers, json=metadata)
+
+    print(metadata)
 
     if response.status_code == 201:
         print("#200 - Metadados submetidos com sucesso.")
