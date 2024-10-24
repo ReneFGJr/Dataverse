@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 
 # Definir as URLs das APIs e os APIKEYs
 OLD_DATAVERSE_API_URL = 'https://vitrinedadosabertos-dev.rnp.br/api'
@@ -17,11 +18,31 @@ def download_dataset_metadata(dataset_id):
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
-        print(response.json())
+        response_data = response.json()
+        response_data = remove_at_id(response_data,'@id')
+        response_data = remove_at_id(response_data,'identifier')
+
+
+        with open('dataset.json', 'w') as arquivo:
+            # Escrevendo o conteúdo no arquivo
+            arquivo.write(json.dumps(response_data, indent=4))
         return response.json()
     else:
         print(f"#001# Erro ao baixar metadados do dataset: {response.status_code}")
         return None
+
+def remove_at_id(data,tag):
+    if isinstance(data, dict):
+        # Remove apenas a chave '@id' se ela existir no dicionário
+        data.pop(tag, None)
+        # Aplica recursivamente para os valores do dicionário
+        return {k: remove_at_id(v,tag) for k, v in data.items()}
+    elif isinstance(data, list):
+        # Aplica a função recursivamente para cada item da lista
+        return [remove_at_id(item,tag) for item in data]
+    else:
+        # Retorna o valor inalterado se não for um dict ou uma lista
+        return data
 
 # Função para baixar os arquivos do dataset
 def download_dataset_files(dataset_id, download_path):
@@ -51,13 +72,12 @@ def download_dataset_files(dataset_id, download_path):
 # Função para fazer o upload dos metadados em um novo Dataverse
 def upload_dataset_metadata(metadata, new_dataverse_alias):
     url = f"{NEW_DATAVERSE_API_URL}/dataverses/{new_dataverse_alias}/datasets"
+    print("===",url)
     headers = {
         'X-Dataverse-key': NEW_APIKEY,
         'Content-Type': 'application/json'
     }
     response = requests.post(url, headers=headers, json=metadata)
-
-    print(metadata)
 
     if response.status_code == 201:
         print("#200 - Metadados submetidos com sucesso.")

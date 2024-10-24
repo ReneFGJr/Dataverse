@@ -1,0 +1,51 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "name": "Microdados do Censo da Educa\u00e7\u00e3o Superior 1995",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "de",
+            "familyName": "tituto Nacional de Estudos e Pesquisas Educacionais An\u00edsio Teixeira",
+            "name": "Instituto Nacional de Estudos e Pesquisas Educacionais An\u00edsio Teixeira"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "de",
+            "familyName": "tituto Nacional de Estudos e Pesquisas Educacionais An\u00edsio Teixeira",
+            "name": "Instituto Nacional de Estudos e Pesquisas Educacionais An\u00edsio Teixeira"
+        }
+    ],
+    "datePublished": "2024-10-23",
+    "dateModified": "2024-10-23",
+    "version": "1",
+    "description": "O Censo da Educa\u00e7\u00e3o Superior, realizado anualmente pelo Inep, \u00e9 o instrumento de pesquisa mais completo do Brasil sobre as institui\u00e7\u00f5es de educa\u00e7\u00e3o superior que ofertam cursos de gradua\u00e7\u00e3o e sequenciais de forma\u00e7\u00e3o espec\u00edfica, bem como sobre seus alunos e docentes. P\u00e1gina do Censo",
+    "keywords": [
+        "Social Sciences",
+        "Censos Educacionais",
+        "Dados estat\u00edsticos",
+        "Educa\u00e7\u00e3o superior"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Instituto Nacional de Estudos e Pesquisas Educacionais An\u00edsio Teixeira. Sinopse estat\u00edstica do ensino superior 1995. Bras\u00edlia, DF: Inep, [s. d.]."
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Vitrine DEMO",
+        "url": "https://vitrinedadosabertos-dev.rnp.br"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Vitrine DEMO"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "Vitrine DEMO"
+    }
+}
