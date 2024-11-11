@@ -10,3 +10,12 @@ chmod 700 install.sh
 <h1>Guia</h1>
 No arquivo Guia_Aleia.pdf está disponível a última versão do Guia do Usuário do Aleia
 Versão de 11/out./2023.
+
+
+/usr/local/payara6/glassfish/domains/domain1/applications/dataverse-6.4/WEB-INF/faces-config.xml
+
+        <locale-config>
+            <default-locale>br</default-locale>
+            <supported-locale>en</supported-locale>
+            <supported-locale>es</supported-locale>
+        </locale-config>
