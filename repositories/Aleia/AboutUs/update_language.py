@@ -48,4 +48,5 @@ def atualizar_bundle(file_about, file_bundle):
     print("Bundle.propriety atualizado com sucesso.")
 
 # Exemplo de uso:
+fileO = '/var/www/'
 atualizar_bundle("about_pt.propriety", "Bundle.propriety")
