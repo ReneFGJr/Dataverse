@@ -1,6 +1,6 @@
 #echo "https://guides.dataverse.org/en/latest/installation/config.html?highlight=apitermsofuse"
 
-export PAYARA=/usr/local/payara5/glassfish
+export PAYARA=/usr/local/payara6/glassfish
 export SERVER_URL=http://localhost:8080
 export URL=https://aleia.ibict.br/
 export ABOUT_XML=about.xhtml
