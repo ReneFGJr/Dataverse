@@ -48,5 +48,6 @@ def atualizar_bundle(file_about, file_bundle):
     print("Bundle.propriety atualizado com sucesso.")
 
 # Exemplo de uso:
-fileO = '/var/www/'
-atualizar_bundle("about_pt.propriety", "Bundle.propriety")
+fileO = 'about_pt.propriety'
+fileD = '/var/www/dataverse/langBundles/Bundle_pt.properties'
+atualizar_bundle(fileO, fileD)
