@@ -51,3 +51,11 @@ def atualizar_bundle(file_about, file_bundle):
 fileO = 'about_pt.propriety'
 fileD = '/var/www/dataverse/langBundles/Bundle_pt.properties'
 atualizar_bundle(fileO, fileD)
+
+fileO = 'about_en.propriety'
+fileD = '/var/www/dataverse/langBundles/Bundle_en.properties'
+atualizar_bundle(fileO, fileD)
+
+fileO = 'about_es.propriety'
+fileD = '/var/www/dataverse/langBundles/Bundle_es.properties'
+atualizar_bundle(fileO, fileD)

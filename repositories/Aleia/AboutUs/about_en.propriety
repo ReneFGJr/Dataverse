@@ -1,0 +1,227 @@
+about.TB001=History
+about.TB002=User Guide
+about.TB003=Policies
+about.TB004=
+
+about.AA001=About Aleia
+about.AA002=Aleia is the official Ibict repository that holds, publishes, disseminates, preserves and shares datasets from the Ibict scientific community (consisting of its staff, visiting researchers, scholarship holders and students of the postgraduate program). Its objective is to promote, support and facilitate the adoption of open access to research data, foster new research and promote Open Science. about.AA003=In 2016, the Brazilian Institute of Information in Science and Technology (Ibict) launched the Manifesto for Open Access to Brazilian Research Data for Citizen Science, which aims to demonstrate its strategic and informational value and to stimulate and support movements and initiatives for Open Science in Brazil, translated into broad and unrestricted access to primary research sources used by researchers and other social segments, enabling sharing, reproducibility, verification, evaluation, reuse and redistribution in new contexts and in collaborative and interdisciplinary research. The creation of Aleia was motivated by Commitment 3 of the 4th National Action Plan, which aims to establish mechanisms for governance of scientific data for the advancement of Open Science in Brazil.
+about.AA004=Currently, Aleia aims to make accessible and give visibility to research data prepared by the Ibict scientific community; to guarantee the reproducibility and reuse of research data from the institutional scientific community of Ibict; to function as a tool to promote transparency and, consequently, the trust and solidity of the research developed, maximizing the return on the application of public resources; to enable the digital preservation of research data, helping to prevent the loss and mismanagement of research data, guiding and encouraging authors in the organization and planning of the life cycle of research data.
+about.AA005=Aleia is in operation for the deposit, sharing and opening of research data.
+about.AA006=To clarify doubts, obtain information or start a deposit process in Aleia, contact us by email: aleia@ibict.br
+about.AB001=General Policy
+about.AB002=Guidelines
+about.AB003=The Aleia Repository is Ibict's official digital repository for archiving, publishing, disseminating, preserving and sharing digital research data produced by the Ibict scientific community, with the mission of promoting, supporting and facilitating the adoption of open access to research data, fostering new research and promoting Open Science. For the purposes of this document, the institutional scientific community is that constituted by its employees, visiting researchers, scholarship holders and students of the postgraduate program.
+about.AB004=The development of the repository aims to:
+about.AB010=Make accessible and give visibility to research data prepared by the Ibict scientific community;
+about.AB011=Ensure the reproducibility and reuse of research data from the institutional scientific community of Ibict;
+about.AB012=Function as a tool to promote transparency and consequently the trust and solidity of the research developed, maximizing the return on the application of public resources;
+about.AB013=Enable the digital preservation of research data, helping to prevent the loss and mismanagement of research data, guiding and encouraging authors in the organization and planning of the life cycle of research data.
+about.AB014=To deposit scientific publications by Ibict members, the Institutional Repository of the Brazilian Institute of Information in Science and Technology (RIDI) must be used.
+
+about.AC001=Legal Aspects
+about.AC002=Some legal aspects must be observed when handling research data, especially in the public and open context. To this end, this policy covers the following:
+about.AC010=Law No. 13,709/2018 - which establishes the General Law for the Protection of Personal Data (LGPD).
+about.AC011=Decree No. 8,777/2016 - which establishes the Open Data Policy of the federal Executive Branch.
+about.AC012=Law No. 12,527/2011 - which regulates the Law on Access to Information (LAI).
+about.AC013=Resolution 466/12 of the National Health Council that deals with research and testing on human beings.
+
+about.AD001=Interoperability
+about.AD002=Aleia is interoperable and allows the collection of metadata by service providers (harvesters) and other international and national aggregating systems such as the Brazilian Portal of Publications and Scientific Data in Open Access - Oasisbr, Open Access Scientific Repositories of Portugal (RCAAP), Red de Repositorios de Acceso Abierto a la Ciencia (LA Referencia), OpenAIRE and other service providers.
+
+about.AE002=Ibict is committed to providing long-term storage for research data deposited in Aleia, in compliance with the recommendations of the digital preservation reference model for digital archives Open Archival Information System (OAIS) and criteria for certification of reliable repositories. When developing digital preservation strategies, consider the risks caused by technological, environmental, cultural, operational, managerial factors, among others, and observe the continued value of the research data to be preserved. In addition, act in accordance with Brazilian legislation and institutional, national and international regulations.
+
+about.AF001=Technological Infrastructure
+about.AF002=The technological structure of the Aleia repository is based on Dataverse software, an open-source web application developed in 2006 by the Institute for Quantitative Social Sciences at Harvard University. Dataverse has tools that facilitate the provision of data to other researchers and allows the reuse of other researchers' work more easily.
+about.AF003=Aleia has two Dataverse installations, one for approval and the other for production. Both installations run on local servers under the responsibility of the General Coordination of Information and Computer Technologies (CGTI).
+
+about.AG001=Team and its Responsibilities
+about.AG002=Aleia allows different roles/permissions to be assigned to users, considering the role they will play in the research data management process.
+
+about.AH001=Aleia Communities
+about.AH002=According to the themes worked by Ibict, seven areas were chosen for the creation of communities within Aleia, namely:
+about.AH010=Information Technologies
+about.AH011=Scientific Information
+about.AH012=Information for Sustainability
+about.AH013=Technological Information
+about.AH014=Education and Research
+about.AH015=Popularization of Science
+about.AH016=Information for Society
+about.AH003=The Management Committee will inform a person responsible and a substitute for the curation of each community.
+
+about.AH101=Each administrator of their respective community must designate a Curator who will work to ensure that Aleia's policies and guidelines are applied within the collection.
+about.AH102=The General Coordination of Information and Computer Technologies (CGTI) must ensure the full operation of the data repository and the development and absorption of technical improvements that may be necessary.
+about.AH103=Aleia allows users to be assigned different roles/permissions, which will be detailed below:
+about.AH104=Administrator: profile that has all permissions on dataverses, datasets and files. Its role/permissions are: adding dataverses, adding datasets, viewing unpublished dataverses, downloading files, editing dataverse, editing datasets, managing dataverse permissions, managing dataset permissions, publishing dataverse, publishing datasets, deleting dataverse and deleting datasets and viewing dataverses and datasets that are in public mode. The administrator profile's main and exclusive role is to grant curator(s) permission to a dataverse.
+about.AH105=Dataset creator: profile for the institutional scientific community of Ibict (servers, visiting researchers, scholarship holders and students of the postgraduate program). Has the following functions/permissions: inserting datasets, viewing unpublished datasets, downloading files, editing datasets, deleting datasets and viewing dataverses and datasets that are in public mode.
+about.AH106=User: profile for public users of Aleia. Has the following functions/permissions: downloading files and viewing dataverses and datasets that are in public mode.
+about.AH107=CuratorCurator: profile dedicated especially to reviewing the description of metadata provided by authors and publishing data, coordinating requests for the creation of new dataverses and datasets, ensuring the operation flow for data deposit. Its functions/permissions are: viewing unpublished dataverses, downloading files, editing datasets, managing dataset permissions, publishing datasets, deleting datasets, and viewing dataverses and datasets that are in public mode.
+about.AH108=IT Manager: will be responsible for implementing and ensuring the maintenance and scalable growth of the infrastructure required for the use of Aleia; managing and constantly updating the versions of the Repository platform, based on technological evolution or security updates; ensuring the basic principles of information security (confidentiality, integrity, and availability) of stored data; planning and executing database backup procedures, preferably in an automated manner, in order to guarantee the process of accessing information in a safe and efficient manner within the adopted standards; providing the necessary technical support to enable and operationalize the migration of stored files; allowing the availability of Aleia metadata for automatic collection by information service providers; and ensuring the capacity for integration with national and international systems and networks.
+
+about.AI109=Content
+about.AI001=Datasets and related documents allowed for deposit in Aleia must comply with the following criteria:
+about.AI001=They must be in native digital or digitized format and ready for dissemination.
+about.AI002=For data sets involving research with human beings, of any nature and area of ​​knowledge, researchers must certify and guarantee that all ethical precepts and procedures defined by Ibict are followed. Personal data must be anonymized or pseudo-anonymized before deposit.
+about.AI003=The data depositor must grant Ibict the right to preserve and distribute the data sets and complementary documentation by signing the Deposit Agreement.
+about.AI004=For a data set to be deposited in Aleia, it must not be larger than 1 (one) GB. Needs not covered here, please contact support: aleia@ibict.br
+
+about.AL001=Licenses
+about.AL002=The research datasets of the items deposited in the Aleia Repository are made available under three types of licenses:
+about.AL003=CC BY - Allows distribution, remixing, adaptation and creation from the work, even for commercial purposes, as long as credit is given to the author of the original work.
+about.AL004=CC BY-NC - Allows remixing, adaptation and creation from the work, as long as credit is given to the author and the new creation is not used for commercial purposes.
+about.AL005=CC BY-NC-SA - Allows remixing, adaptation and creation from the work, for non-commercial purposes, as long as credit is given to the author of the original work and the new creations use the same license as the original work.
+about.AL006=The depositor can define specific license terms for use and access to the datasets.
+about.AL007=At the discretion of the author of the research data, specific rules and access controls may be applied to research datasets defined as: Public (access to both metadata and datasets) or Embargoed (access to metadata only).
+about.AL008=All deposited datasets will be assigned a Digital Object Identifier (DOI) that can be used for citation in any research publication. DOIs should be associated with datasets and not with individual files.
+
+about.AM001=Research Data Deposit
+about.AM002=To register and deposit research data in Aleia, you must first authenticate yourself on the ORCID platform. After registration, the person responsible for the respective Aleia community will define the permissions for your account.
+about.AM003=Within the Ibict scientific community, Ibict collaborators are required to deposit the following data sets:
+about.AM004=I- research data sets included in reports from the Institutional Training Program (PCI);
+about.AM005=II- research data sets included in research grant reports coordinated by Ibict;
+about.AM006=III- research data sets included in pro-doc consultancy products;
+about.AM007=IV- research data sets that were produced during the execution of research indicated in the semiannual TCG;
+about.AM008=V- data sets from research conducted within the scope of the Graduate Program in Information Science (PPGCI), more specifically from defended theses and dissertations.
+about.AM009=Before depositing, the Deposit Policy and the Deposit Term, available on the institutional website, should be consulted to verify other procedures and necessary information.
+about.AN001=Content deletion
+about.AN002=Aleia allows the deletion of data in special cases, at the request of the researcher when an inconsistency or restriction on its disclosure is found or at the request of third parties when copyright or privacy violation is alleged. The data will be deleted as quickly as possible and a “tombstone” will be assigned that must provide a complete bibliographic citation so that users can verify whether they found the correct item.
+about.AN003=Use and download
+about.AN004=Browsing the repository and accessing descriptive metadata of datasets deposited in Aleia in open access are available to anyone interested. For files with restricted access, it is necessary to register with ORCID to access information from that dataset. It is also forbidden to use the content made available by the repository to create a database or similar service without prior authorization from Aleia's administration.
+about.AN005=The Download Policy and Download Terms, available on the institutional website, should be consulted to verify other procedures and necessary information
+
+about.AO001=Glossary
+about.AO002=For clarification and access to the definitions of the terms used in this policy, we recommend accessing the Research Data Thesaurus, which presents a controlled and structured list of terms for thematic analysis and searching for documents and publications in the area of ​​Research Data.
+
+about.AP001=Deposit Policy
+about.AP002=Last updated on April 4, 2023
+about.AP003=This application and its content (“Aleia”) are controlled and operated by Ibict. All rights reserved.
+about.AP004=Purpose and target audience. Aleia is a digital repository that holds, publishes, disseminates, preserves and shares datasets from Ibict's scientific community (consisting of its staff, visiting researchers, scholarship holders and students of the postgraduate program).
+about.AP005=Registration and login. To register and deposit research data in Aleia, you must initially authenticate yourself on the ORCID platform or through the CAFe Network. After registration, the person responsible for the respective Aleia community will define the permissions of your account. To assist with registration and authentication, follow the instructions below:
+about.AP006=On the Aleia repository home page (https://aleia.ibict.br/), click on “Start session”.
+about.AP007=On the “Start session” page, click on the “Create or connect your ORCID” or “Create or connect via the CAFe Network” button (https://aleia.ibict.br/loginpage.xhtml?redirectPage=%2Fdataverse_homepage.xhtml).
+about.AP008=Having your ORCID associated with your datasets also makes it easier to locate the datasets you have published. To access Aleia and use most of its features, you must register using ORCID. Browsing the repository and accessing the metadata of the datasets deposited in Aleia are open to anyone interested.
+about.AP009=Type of research data deposited. Digital research data produced by the institutional scientific community are accepted. The Ibict scientific community is required to deposit the following data sets:
+about.AP010=I- research data sets included in reports from the Institutional Training Program (PCI);
+about.AP011=II- research data sets included in research grant reports coordinated by Ibict;
+about.AP011=III- research data sets included in pro-doc consultancy products;
+about.AP012=IV- research data sets that were produced during the execution of research indicated in the semiannual TCG;
+about.AP013=V- research data sets carried out within the scope of the Postgraduate Program in Information Science (PPGCI), more specifically from defended theses and dissertations. about.AP014=Datasets and related documents allowed for deposit in Aleia must meet the following criteria:
+about.AP015=They must be in native digital or digitized format, complete and ready for dissemination.
+about.AP016=For datasets involving research with human beings, of any nature and area of ​​knowledge, researchers must certify and guarantee that all ethical precepts and procedures have been followed.
+about.AP017=Personal data must be anonymized or pseudonymized before deposit. The data depositor must grant Ibict the right to preserve and distribute the datasets and complementary documentation by signing the Terms of Assignment of Rights specific to the deposit in Aleia.
+about.AP018=File size. For a dataset to be deposited in Aleia, it must not be larger than 1 (one) GB.
+about.AP019=Deposit of data from ongoing research. Research data that has not yet been finalized may be deposited in Aleia and updated when finalized.
+about.AP020=Embargo. If necessary, access to the data may be embargoed for a period of up to 01 (one) year from the date of deposit, based on the justification presented by the researcher at the time of deposit. This period may be renewed only once, upon new justification presented by the researcher.
+about.AP021=Restrictions on access to research data. The research datasets of the items deposited in the Aleia Repository are made available under the following licenses: CC BY - Allows distribution, remixing, adaptation, and creation from the work, even for commercial purposes, as long as credit is given to the author of the original work. CC BY-NC - Allows remixing, adaptation, and creation from the work, as long as credit is given to the author and the new creation is not used for commercial purposes. CC BY-NC-SA - Allows remixing, adaptation and creation from the work, for non-commercial purposes, as long as credit is given to the author of the original work and the new creations use the same license as the original work.
+about.AP022=At the discretion of the author of the research data, specific rules and access control may be applied to research datasets defined as: Public (access to both metadata and datasets) or Restricted (access to metadata only).
+about.AP023=Prohibited Content. Any content that is defamatory, slanderous, injurious, violent, pornographic, obscene, offensive or illicit, as determined by Aleia at its sole discretion, including proprietary information belonging to other people or companies, is prohibited without the express authorization of the owner of such rights, the violation of which will not be the responsibility of Aleia.
+about.AP024=Ownership of Content. Any content provided by the user remains their property. However, by depositing it on Aleia, the user grants us a worldwide, indefinite, free and non-transferable license, with the right to sublicense, use, copy, modify, create derivative works, distribute, publish, display such content in all possible formats and distribution channels, without the need for further notice, and without the need for any payment, as long as this is related to the operation of the platform.
+about.AP025=Deletion of Content. Aleia allows data to be deleted in special cases, at the request of the researcher when an inconsistency or restriction on its disclosure is found, or at the request of third parties when copyright or privacy violations are alleged. Data will be deleted as quickly as possible and a “headstone” will be assigned that must provide a complete bibliographic citation so that users can verify that they have found the correct item.
+about.AP026=Changes . To improve your experience, Aleia is always being updated. For this reason, these Terms of Use may be changed at any time to reflect the adjustments made. If you use Aleia anyway even after these Terms of Use have been changed, this means that you agree to all modifications. Conflict between Provisions. In the event of a conflict between these terms and the modifying terms, the subsequent terms will prevail with respect to such conflict.
+about.AP027=Law and Jurisdiction. These Terms of Use are governed by the laws of the Federative Republic of Brazil. Any doubts and situations not covered by these Terms of Use will be resolved first by Aleia and, if they persist, they must be resolved by the Court of the District of Brasília, Federal District, to the exclusion of any other, however privileged it may be or may become.
+about.AP028=Before depositing, the Deposit Term, available on the institutional website, must be consulted to check other procedures and necessary information.
+about.AP029=Questions. If you have any questions, comments or suggestions, please contact us by email: aleia@ibict.br
+
+about.AQ001=Download Policy
+about.AQ002=Last updated on April 5, 2023
+about.AQ003=This application and its content (“Aleia”) are controlled and operated by Ibict. All rights reserved.
+about.AQ004=Aleia is a digital repository that holds, publishes, disseminates, preserves and shares datasets from Ibict's scientific community (consisting of its employees, visiting researchers, scholarship holders and students of the postgraduate program).
+about.AQ005=Before agreeing to this term, consult the Download Policy, available on the institutional website, to check other procedures and necessary information.
+about.AQ006=The research datasets of the items deposited in the Aleia Repository are made available under the following licenses:
+about.AQ007=CC BY - Allows distribution, remixing, adaptation and creation from the work, even for commercial purposes, as long as the author of the original work is credited.
+about.AQ008=CC BY-NC - Allows remixing, adaptation and creation from the work, as long as the author is credited and the new creation is not used for commercial purposes.
+about.AQ009=CC BY-NC-SA - Allows remixing, adaptation and creation from the work, for non-commercial purposes, as long as the author of the original work is credited and the new creations use the same license as the original work.
+about.AQ010=Under no circumstances may the research data from Aleia undergo any changes in authorship, title and integrity that may modify the research datasets originally deposited. All research data in Aleia are subject to all rights reserved to the authors, unless otherwise indicated, and therefore all uses not explicitly authorized are reserved to the authors, especially any commercial uses of the research data.
+about.AQ011=Browsing the repository and access to descriptive metadata of the datasets deposited in Aleia in open access are available to anyone interested. For files with restricted access, it is necessary to register with the Open Researcher and Contributor ID (ORCID) to access information from that dataset. It is also forbidden to use the content made available by the repository to create a database or similar service without prior authorization from the Aleia administration.
+about.AQ012=To access the research dataset, the user must, if required, sign their agreement to the Download Terms, taking responsibility for the appropriate use of the research data.
+
+TERMS.title=Terms
+
+about.AR001=Deposit Term
+about.AR002=Last updated on April 4, 2023
+about.AR002=This application and its content (“Aleia”) are controlled and operated by Ibict. All rights reserved.
+about.AR003=The research datasets of the items deposited in the Aleia Repository are made available under the following licenses:
+about.AR004=CC BY - Allows distribution, remixing, adaptation and creation from the work, even for commercial purposes, as long as credit is given to the author of the original work.
+about.AR005=CC BY-NC - Allows remixing, adaptation and creation from the work, as long as credit is given to the author and the new creation is not used for commercial purposes.
+about.AR006=CC BY-NC-SA - Allows remixing, adaptation and creation from the work, for non-commercial purposes, as long as credit is given to the author of the original work and that the new creations use the same license as the original work.
+about.AR007=The depositor can define specific license terms for use and access to the datasets.
+about.AR008=I understand that the research data submitted is original and does not infringe the rights of any other person. If it contains files that do not hold copyright, I declare that I have obtained prior authorization from the holder of said rights. The deposit of the files preserves the rights of the author and, therefore, does not imply the transfer of my rights over the research data. about.AR009=I declare for the purposes of this Deposit and Authorization Term for Publication of a Research Dataset in the Aleia Repository, that I am aware that:
+about.AR010=The embargo (partial or total) will be maintained for a period of up to 1 (one) year from the date of deposit only due to the presentation of justification. The extension of this period requires a new justification in a timely manner, that is, before the end of the aforementioned period. If there is no manifestation, the full content of the dataset will be automatically made available;
+about.AR011=even in cases of embargo, the summary and metadata will always be available for consultation;
+about.AR012=the research data and metadata that the depositor fills in will be the sole responsibility of the depositor;
+about.AR013=Law No. 13,709/2018 (General Personal Data Protection Law), Decree No. 8,777/2016 (Open Data Policy of the Executive Branch), Law No. 12,527/2011 (Access to Information Law) and Resolution No. 466/12 of the National Health Council must be taken into consideration when depositing the data set in Aleia;
+about.AR014=the respective PGD will be referenced in the deposited data sets;
+about.AR015=regarding the implications for sensitive, restricted or confidential data and their due treatment;
+about.AR016=if the content of the data is subject to patent registration;
+about.AR017=before depositing, the Deposit Policy, available on the institutional website, must be consulted to verify other procedures and necessary information.
+about.AR018=The author(s) attest(s) that the dataset is formatted in accordance with the guidelines and requirements necessary for the content of the dataset in accordance with the applicable standards and regulations.
+about.AR019=The digital file must be delivered in a format supported by Dataverse software. Whenever possible, formats that help preserve and guarantee long-term access to the files deposited in Aleia should be chosen, with preference for files in open and non-proprietary formats. For example: PDF/A and ASCII are preferred formats for textual content; TIFF and JPEG2000 are preferred for images.
+
+
+1.384 / 5.000
+about.AS001=Download Terms
+about.AS002=Last updated on April 4, 2023
+about.AS003=This application and its content (“Aleia”) are controlled and operated by Ibict. All rights reserved.
+about.AS004=These terms of use aim to define the rules to be followed for the use of Aleia (“Terms of Use”), without prejudice to the application of current legislation.
+about.AS005=Aleia is a digital repository that holds, publishes, disseminates, preserves and shares data sets from Ibict's scientific community (consisting of its employees, visiting researchers, scholarship holders and students of the postgraduate program).
+about.AS006=The research datasets of the items deposited in the Aleia Repository are made available under the following licenses:
+about.AS007=CC BY - Allows distribution, remixing, adaptation, and building upon the work, even for commercial purposes, as long as the author of the original work is credited.
+about.AS008=CC BY-NC - Allows remixing, adaptation, and building upon the work, as long as the author is credited and the new creation is not used for commercial purposes.
+about.AS009=CC BY-NC-SA - Allows remixing, adaptation, and building upon the work, for non-commercial purposes, as long as the author of the original work is credited and the new creations use the same license as the original work.
+
+about.AT001=Terms of use and privacy policy
+about.AT002=Last updated on April 4, 2023
+about.AT003=This document aims to inform Aleia users about the collection, processing, licensing and use of their personal data, as well as the right to reproduce, translate and/or publicly distribute deposits for research and scientific advancement purposes, under the terms of LAW Nº 13.709, OF AUGUST 14, 2018, General Law for the Protection of Personal Data (LGPD).
+about.AT004=Personal Data Collected
+about.AT005=The Aleia Repository only collects personal data that users directly provide to it, namely: username, password, full name, email address, affiliation and profession.
+about.AT006=Of the Rights and Duties of the Holders
+about.AT007=The user is responsible for updating his/her personal information and for the consequences of omission or errors in the personal information registered.
+about.AT008=Declares to be aware that the deposit is original and that he/she holds the power to grant the rights contained in this license, not violating the copyrights of any other person.
+about.AT009=Aleia may, without altering the content, transfer the publication to any medium or format for preservation purposes, keeping more than one copy of the publication for security and backup purposes.
+about.AT000=If the depositor does not have exclusive ownership of the deposited content, it is hereby acknowledged that he/she has obtained unrestricted permission from the other copyright holders to grant it to Aleia. Therefore, material owned by third parties must be clearly identified and acknowledged in the text or content of the deposited publication. about.AT010=The user has the right to request access to their personal data and the correction of data that they consider incomplete or incorrect. Likewise, they may request the deletion of unnecessary, excessive data or data processed in non-compliance with the General Data Protection Law.
+about.AT011=The user has the right, at any time, to oppose the processing of data for reasons related to their particular situation, in the event of non-compliance with the provisions of the General Data Protection Law.
+about.AT012=The user is responsible for the repair of any and all damages, direct or indirect (including those resulting from the violation of any rights of other users, third parties, including intellectual property rights, confidentiality and personality rights), that are caused to the Public Administration, to any other user, or even to third parties, including due to non-compliance with the provisions of these Terms of Use and Privacy Policy or any act carried out based on their access to Aleia.
+about.AT013=The user is responsible for keeping his/her password in a safe place, and sharing it with third parties is prohibited. The user agrees to notify Aleia immediately, through a secure means, of any unauthorized use of his/her account.
+about.AT014=The user is prohibited from downloading the aforementioned content (except for data sets, their contents, metadata descriptors and PGDs) with the intention of storing it in a database to offer to third parties other than the user without prior authorization from Aleia's administration.
+about.AT015=It is possible that Aleia may contain links to third-party websites and applications, as well as have integrated technologies. This does not imply in any way that Aleia endorses, verifies, guarantees or has any connection with the owners of these websites or applications, and is not responsible for their content, accuracy, policies, practices or opinions. Aleia recommends that the user read the terms of use and privacy policies of each third-party website or service that the user visits or uses.
+
+about.AU001=DATA STORAGE DURATION
+about.AU002=Personal data will be stored for as long as the registration with the repository is maintained or for the time necessary to provide the services for which they are intended. After this period, Aleia may still store them for statistical purposes, provided that their anonymity is guaranteed.
+about.AU003=Updating the Terms of Use and Privacy Policy
+about.AU004=The Terms of Use and Privacy Policy are valid indefinitely, but are subject to change without prior notice.
+about.AU005=Aleia reserves the right to modify these documents at any time, to better adapt them to current legislation with the necessary adaptations, to provide new features or to eliminate/modify existing ones.
+about.AU006=Any change or update to this document will come into effect from the date of its publication in this medium and should be observed periodically.
+about.AU007=PROTECTION OF COLLECTED DATA
+about.AU008=Aleia guarantees the security of personal data provided during the registration process, providing enhanced protection using specific technical and organizational security measures to prevent personal data from being used illegally or fraudulently.
+about.AU009=The firewall is used by Ibict for data protection and to better guarantee the preservation of the state of stored data, backups will be performed on a scheduled and frequent basis. about.AU010=CONSENT
+about.AU011=By providing personal information on the platform, the user is consenting to this Privacy Policy and Terms of Use.
+about.AU012=JURISDICTION FOR RESOLUTION OF DISPUTES
+about.AU013=For the resolution of disputes arising from this instrument, Brazilian Law will be fully applied, and any disputes, whether administrative or judicial, must be filed in the jurisdiction of the judicial district of the Federal District.
+about.AU014=RESPONSIBLE FOR DATA PROCESSING
+about.AU015=Personal data processing operations are carried out within the scope of the Aleia controlling body, namely: Brazilian Institute of Information in Science and Technology (IBICT) located at SAUS Quadra 5 - Lote 6 Bloco H - Asa Sul - CEP: 70.070-912 - Brasília – DF. Contact: aleia@ibict.br, telephone: (55 61) 3217-6449.
+
+FAQ.title=FAQ
+FAQ.description=This section contains frequently asked questions about the Aleia Repository of the Brazilian Institute of Science Information
+FAQ.Q001=What is the Aleia Repository?
+FAQ.R001=Aleia is the official repository of Ibict that holds, publishes, disseminates, preserves and shares datasets from the Ibict scientific community (consisting of its staff, visiting researchers, scholarship holders and students of the postgraduate program). Each dataset (also known as a dataset) is composed of data files, also including representative metadata, terms of use (licenses), codes and corresponding documentation.
+FAQ.Q002=What is research data?
+FAQ.R002=Data collected and produced during technical or scientific research and used as a primary source, commonly accepted in the community to validate the findings and results of a study.
+FAQ.Q003=What is the difference between RIDI and Aleia?
+FAQ.R003=Articles published in scientific journals, books resulting from scientific projects, book chapters, theses, dissertations, postdoctoral research reports, papers presented at scientific and/or academic events that have been peer-reviewed must be deposited in the RIDI Institutional Repository (https://ridi.ibict.br/). Aleia is a data repository that meets the demand for depositing and sharing datasets resulting from research produced by the Ibict scientific community. The following datasets must be deposited in Aleia: research datasets that appear in reports of the Institutional Training Program (PCI); research datasets that appear in research grant reports coordinated by Ibict; research datasets that appear in pro-doc consulting products; research datasets that were produced during the execution of research indicated in the semiannual TCG; datasets from research conducted within the scope of the Postgraduate Program in Information Science (PPGCI), more specifically from defended theses and dissertations.
+FAQ.Q004=Who can access Aleia?
+FAQ.R004=Aleia is available to researchers and society in general, allowing them to perform searches, view metadata and download content that is open and/or unrestricted access, without needing to authenticate through the CAFe network or ORCID. If the user wishes to request access to restricted data files, it is necessary to authenticate through the Cafe network or ORCID. The Ibict scientific community (consisting of its employees, visiting researchers, scholarship holders and students of the postgraduate program) can deposit datasets in Aleia.
+FAQ.Q005=Who can deposit research data in Aleia?
+FAQ.R005=The Ibict scientific community (consisting of its employees, visiting researchers, scholarship holders and students of the postgraduate program) can deposit datasets in Aleia.
+FAQ.Q006=How do I register in Aleia?
+FAQ.R006=The Ibict scientific community and external users can log in to Aleia using the CAFe Network or ORCID authentication data.
+FAQ.Q007=What types of data can be deposited in Aleia?
+FAQ.R007=The datasets allowed for deposit in Aleia include spreadsheets, images, videos, graphs, tabular files, among others, as long as they are data collected and produced during technical or scientific research by the Ibict scientific community. They must be in native digital or digitized format, complete and ready for dissemination.<br>For data sets involving research with human beings, of any nature and area of ​​knowledge, researchers must certify and guarantee that all ethical precepts and procedures have been followed. Personal data must be anonymized or pseudonymized before deposit.<br>Any content of a defamatory, slanderous, injurious, violent, pornographic, obscene, offensive or illicit nature, as determined by Aleia at its sole discretion, is prohibited, including proprietary information belonging to other people or companies, without the express authorization of the holder of these rights, whose violation will not be Aleia's responsibility.
+FAQ.Q008=What file formats can be deposited in Aleia?
+FAQ.R008=Any file format can be deposited in Aleia, but whenever possible, formats that help preserve and ensure long-term access to the files deposited in Aleia should be chosen, with preference given to files in open and non-proprietary formats. For example: PDF/A and ASCII are preferred formats for textual content; TIFF and JPEG2000 are preferred for images.
+FAQ.Q009=Is there a size limit for deposited files?
+FAQ.R009=For a dataset to be deposited in Aleia, it must not be larger than 1 (one) GB.
+FAQ.Q010=Can I control who can access the deposited data?
+FAQ.R010=At the discretion of the author of the research data, specific rules and access control may be applied to research datasets defined as: Public (access to both metadata and datasets) or Restricted (access to metadata only).
+FAQ.Q011=How can I contact the Aleia support team?
+FAQ.R011=or contact us by phone at (61) 3217-6134.
+CONTACT.title=Contact
+CONTACT.description=If you have any questions, need information or want to start a deposit process at Aleia, send an email to aleia@ibict.br or contact us by phone +55(61)3217-6134.
