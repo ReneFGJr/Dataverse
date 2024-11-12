@@ -225,3 +225,7 @@ FAQ.Q011=How can I contact the Aleia support team?
 FAQ.R011=or contact us by phone at (61) 3217-6134.
 CONTACT.title=Contact
 CONTACT.description=If you have any questions, need information or want to start a deposit process at Aleia, send an email to aleia@ibict.br or contact us by phone +55(61)3217-6134.
+
+guide.title=User Guide
+guide.description=Access the User Guide with the Aleia Warehouse manual (Portugues)
+guide.url=/assets/pdf/Guia_Aleia.pdf

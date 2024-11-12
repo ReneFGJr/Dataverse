@@ -37,28 +37,28 @@
             <p>#{bundle['about.AA006']}</p>
           </p:tab>
 
-          <p:tab id="guia" title="#{bundle['about.TB002']}">
-            <h1>Guia do Usuário do Aleia</h1>
-            <p>Acesse o Guia do Usuário com o manual de Depósito do Aleia</p>
+          <p:tab id="guia" title="#{bundle['guide.title']}">
+            <h1>#{bundle['guide.title']}</h1>
+            <p>#{bundle['guide.description']}</p>
             <p>
               <a
                 class="btn btn-primary"
                 targer="_blank"
-                href="/assets/pdf/Guia_Aleia.pdf"
+                href="#{bundle['guide.url']}"
                 style="color: white"
-                >GUIA DO USUÁRIO</a
+                >#{bundle['guide.title']}</a
               >
             </p>
           </p:tab>
 
           <p:tab id="accountInfo2" title="#{bundle['about.TB003']}">
             <ul>
-              <li><a href="/about.xhtml#PoliticaGeral">Política Geral</a></li>
+              <li><a href="/about.xhtml#PoliticaGeral">#{bundle['about.AB001']}</a></li>
               <li>
-                <a href="/about.xhtml#PoliticaDeposito">Política de Depósito</a>
+                <a href="/about.xhtml#PoliticaDeposito">#{bundle['about.AP001']}</a>
               </li>
               <li>
-                <a href="/about.xhtml#PoliticaDownload">Política de Download</a>
+                <a href="/about.xhtml#PoliticaDownload">#{bundle['about.AQ001']}</a>
               </li>
             </ul>
 
@@ -265,15 +265,13 @@
           <p:tab id="accountInfo6" title="#{bundle['TERMS.title']}">
             <ul>
               <li>
-                <a href="/about.xhtml#TermoDeposito">Termo de Depósito</a>
+                <a href="/about.xhtml#TermoDeposito">#{bundle['about.AR001']}</a>
               </li>
               <li>
-                <a href="/about.xhtml#TermoDownload">Termo de Download</a>
+                <a href="/about.xhtml#TermoDownload">#{bundle['about.AS001']}</a>
               </li>
               <li>
-                <a href="/about.xhtml#TermoPrivadidade"
-                  >Termo de uso e política de privacidade</a
-                >
+                <a href="/about.xhtml#TermoPrivadidade">#{bundle['about.AT001']}</a>
               </li>
             </ul>
 
