@@ -14,18 +14,12 @@ def update_propriety(fileO, fileS):
     with open(fileS, "r", encoding="utf-8") as additional_file:
         additional_content = additional_file.readlines()
 
-    # Convertendo cada linha do arquivo adicional para unicode escape, preservando '\n'
-    additional_content = [convert_to_unicode_escape(line.rstrip()) + "\n" for line in additional_content]
-
-    # Adicionando o conteúdo do arquivo adicional ao final
+    # Adicionando o conteúdo do arquivo adicional ao final, preservando UTF-8
     lines.extend(additional_content)
 
     # Reescrevendo o arquivo principal com o conteúdo atualizado
     with open(fileO, "w", encoding="utf-8") as file:
         file.writelines(lines)
-
-def convert_to_unicode_escape(input_text):
-    return input_text.encode('unicode_escape').decode('ascii')
 
 file_path = '/var/www/dataverse/langBundles/Bundle_pt.properties'
 additional_file_path = "about_pt.propriety"
