@@ -1,61 +1,30 @@
-def atualizar_bundle(file_about, file_bundle):
-    import os
+# Caminhos dos arquivos
+def update_propriety(fileO,fileS):
 
-    # Verificar se os arquivos existem
-    if not os.path.exists(file_about) or not os.path.exists(file_bundle):
-        print("Um ou ambos os arquivos especificados não existem.")
-        return
+    # Abrindo e lendo o conteúdo do arquivo principal
+    with open(fileO, "r", encoding="utf-8") as file:
+        lines = file.readlines()
 
-    # Ler o conteúdo de about_br.properties
-    with open(file_about, 'r', encoding='utf-8') as about_file:
-        about_lines = about_file.readlines()
+    # Encontrando a linha que inicia com 'about.TB001'
+    start_index = next((i for i, line in enumerate(lines) if line.startswith("about.TB001")), None)
 
-    # Criar um dicionário para as variáveis de about_br.properties
-    about_dict = {}
-    for line in about_lines:
-        line = line.strip()
-        if "=" in line:
-            key, value = line.split("=", 1)
-            about_dict[key.strip()] = value.strip()
+    # Se encontrada, remove o conteúdo a partir dessa linha
+    if start_index is not None:
+        lines = lines[:start_index]
 
-    # Ler o conteúdo de Bundle.properties e atualizar ou adicionar as variáveis
-    with open(file_bundle, 'r+', encoding='utf-8') as bundle_file:
-        bundle_lines = bundle_file.readlines()
+    # Abrindo e lendo o conteúdo do arquivo adicional
+    with open(fileS, "r", encoding="utf-8") as additional_file:
+        additional_content = additional_file.readlines()
 
-        # Criar um dicionário para as variáveis já existentes em Bundle.properties
-        bundle_dict = {}
-        for line in bundle_lines:
-            line = line.strip()
-            if "=" in line:
-                key, value = line.split("=", 1)
-                bundle_dict[key.strip()] = value.strip()
+    # Adicionando o conteúdo do arquivo adicional ao final
+    lines.extend(additional_content)
 
-        # Atualizar ou adicionar as variáveis
-        for key, value in about_dict.items():
-            if key in bundle_dict:
-                # Atualizar a variável existente
-                bundle_dict[key] = value
-            else:
-                # Adicionar nova variável
-                bundle_dict[key] = value
+    # Reescrevendo o arquivo principal com o conteúdo atualizado
+    with open(fileO, "w", encoding="utf-8") as file:
+        file.writelines(lines)
 
-        # Reescrever o conteúdo de Bundle.properties
-        bundle_file.seek(0)
-        bundle_file.truncate()  # Limpar o conteúdo antigo
-        for key, value in bundle_dict.items():
-            bundle_file.write(f"{key}={value}\n")
 
-    print("Bundle.propriety atualizado com sucesso.")
-
-# Exemplo de uso:
-fileO = 'about_pt.propriety'
-fileD = '/var/www/dataverse/langBundles/Bundle_pt.properties'
-atualizar_bundle(fileO, fileD)
-
-fileO = 'about_en.propriety'
-fileD = '/var/www/dataverse/langBundles/Bundle_en.properties'
-atualizar_bundle(fileO, fileD)
-
-fileO = 'about_es.propriety'
-fileD = '/var/www/dataverse/langBundles/Bundle_es.properties'
-atualizar_bundle(fileO, fileD)
+file_path = "/var/www/databerse/Bundle.proprieties"
+additional_file_path = "about_pt.propriety"
+update_propriety(file_path,additional_file_path)
+print("Arquivo atualizado com sucesso!")
