@@ -162,7 +162,8 @@ about.AR016=caso o conteúdo dos dados estiver sujeitos a registro de patente;
 about.AR017=antes do depósito deverá ser consultada a Política de Depósito, disponível no site institucional, para verificar demais procedimentos e informações necessárias.
 about.AR018=O(s) autor(es) atesta(m) que o conjunto de dados está formatado de acordo com as diretrizes e requerimentos necessários para o conteúdo do conjunto de dados de acordo com as possíveis normas e padrões vigentes aplicáveis.
 about.AR019=O arquivo digital deve ser entregue em formato sustentado pelo software Dataverse. Sempre que possível devem ser escolhidos formatos que ajudem a preservar e garantir o acesso a longo prazo aos arquivos depositados no Aleia, com preferência por arquivos em formatos abertos e não-proprietários. Por exemplo: PDF/A e ASCII são formatos preferidos para conteúdo textual; TIFF e JPEG2000 são preferidos para imagens.
-
+about.AR020=
+about.AR021=
 
 about.AS001=Termo de Download
 about.AS002=Última atualização em 04 de abril de 2023

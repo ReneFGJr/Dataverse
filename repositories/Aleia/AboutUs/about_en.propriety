@@ -147,7 +147,8 @@ about.AR004=CC BY - Allows distribution, remixing, adaptation and creation from 
 about.AR005=CC BY-NC - Allows remixing, adaptation and creation from the work, as long as credit is given to the author and the new creation is not used for commercial purposes.
 about.AR006=CC BY-NC-SA - Allows remixing, adaptation and creation from the work, for non-commercial purposes, as long as credit is given to the author of the original work and that the new creations use the same license as the original work.
 about.AR007=The depositor can define specific license terms for use and access to the datasets.
-about.AR008=I understand that the research data submitted is original and does not infringe the rights of any other person. If it contains files that do not hold copyright, I declare that I have obtained prior authorization from the holder of said rights. The deposit of the files preserves the rights of the author and, therefore, does not imply the transfer of my rights over the research data. about.AR009=I declare for the purposes of this Deposit and Authorization Term for Publication of a Research Dataset in the Aleia Repository, that I am aware that:
+about.AR008=I understand that the research data submitted is original and does not infringe the rights of any other person. If it contains files that do not hold copyright, I declare that I have obtained prior authorization from the holder of said rights. The deposit of the files preserves the rights of the author and, therefore, does not imply the transfer of my rights over the research data.
+about.AR009=I declare for the purposes of this Deposit and Authorization Term for Publication of a Research Dataset in the Aleia Repository, that I am aware that:
 about.AR010=The embargo (partial or total) will be maintained for a period of up to 1 (one) year from the date of deposit only due to the presentation of justification. The extension of this period requires a new justification in a timely manner, that is, before the end of the aforementioned period. If there is no manifestation, the full content of the dataset will be automatically made available;
 about.AR011=even in cases of embargo, the summary and metadata will always be available for consultation;
 about.AR012=the research data and metadata that the depositor fills in will be the sole responsibility of the depositor;
@@ -158,7 +159,8 @@ about.AR016=if the content of the data is subject to patent registration;
 about.AR017=before depositing, the Deposit Policy, available on the institutional website, must be consulted to verify other procedures and necessary information.
 about.AR018=The author(s) attest(s) that the dataset is formatted in accordance with the guidelines and requirements necessary for the content of the dataset in accordance with the applicable standards and regulations.
 about.AR019=The digital file must be delivered in a format supported by Dataverse software. Whenever possible, formats that help preserve and guarantee long-term access to the files deposited in Aleia should be chosen, with preference for files in open and non-proprietary formats. For example: PDF/A and ASCII are preferred formats for textual content; TIFF and JPEG2000 are preferred for images.
-
+about.AR020=
+about.AR021=
 
 1.384 / 5.000
 about.AS001=Download Terms
@@ -180,7 +182,8 @@ about.AT006=Of the Rights and Duties of the Holders
 about.AT007=The user is responsible for updating his/her personal information and for the consequences of omission or errors in the personal information registered.
 about.AT008=Declares to be aware that the deposit is original and that he/she holds the power to grant the rights contained in this license, not violating the copyrights of any other person.
 about.AT009=Aleia may, without altering the content, transfer the publication to any medium or format for preservation purposes, keeping more than one copy of the publication for security and backup purposes.
-about.AT000=If the depositor does not have exclusive ownership of the deposited content, it is hereby acknowledged that he/she has obtained unrestricted permission from the other copyright holders to grant it to Aleia. Therefore, material owned by third parties must be clearly identified and acknowledged in the text or content of the deposited publication. about.AT010=The user has the right to request access to their personal data and the correction of data that they consider incomplete or incorrect. Likewise, they may request the deletion of unnecessary, excessive data or data processed in non-compliance with the General Data Protection Law.
+about.AT000=If the depositor does not have exclusive ownership of the deposited content, it is hereby acknowledged that he/she has obtained unrestricted permission from the other copyright holders to grant it to Aleia. Therefore, material owned by third parties must be clearly identified and acknowledged in the text or content of the deposited publication.
+about.AT010=The user has the right to request access to their personal data and the correction of data that they consider incomplete or incorrect. Likewise, they may request the deletion of unnecessary, excessive data or data processed in non-compliance with the General Data Protection Law.
 about.AT011=The user has the right, at any time, to oppose the processing of data for reasons related to their particular situation, in the event of non-compliance with the provisions of the General Data Protection Law.
 about.AT012=The user is responsible for the repair of any and all damages, direct or indirect (including those resulting from the violation of any rights of other users, third parties, including intellectual property rights, confidentiality and personality rights), that are caused to the Public Administration, to any other user, or even to third parties, including due to non-compliance with the provisions of these Terms of Use and Privacy Policy or any act carried out based on their access to Aleia.
 about.AT013=The user is responsible for keeping his/her password in a safe place, and sharing it with third parties is prohibited. The user agrees to notify Aleia immediately, through a secure means, of any unauthorized use of his/her account.
@@ -195,7 +198,8 @@ about.AU005=Aleia reserves the right to modify these documents at any time, to b
 about.AU006=Any change or update to this document will come into effect from the date of its publication in this medium and should be observed periodically.
 about.AU007=PROTECTION OF COLLECTED DATA
 about.AU008=Aleia guarantees the security of personal data provided during the registration process, providing enhanced protection using specific technical and organizational security measures to prevent personal data from being used illegally or fraudulently.
-about.AU009=The firewall is used by Ibict for data protection and to better guarantee the preservation of the state of stored data, backups will be performed on a scheduled and frequent basis. about.AU010=CONSENT
+about.AU009=The firewall is used by Ibict for data protection and to better guarantee the preservation of the state of stored data, backups will be performed on a scheduled and frequent basis.
+about.AU010=CONSENT
 about.AU011=By providing personal information on the platform, the user is consenting to this Privacy Policy and Terms of Use.
 about.AU012=JURISDICTION FOR RESOLUTION OF DISPUTES
 about.AU013=For the resolution of disputes arising from this instrument, Brazilian Law will be fully applied, and any disputes, whether administrative or judicial, must be filed in the jurisdiction of the judicial district of the Federal District.
