@@ -239,4 +239,7 @@ guide.title=User Guide
 guide.description=Access the User Guide with the Aleia Warehouse manual (Portugues)
 guide.url=/assets/pdf/Guia_Aleia.pdf
 
+documents.title=Documents
+documents.description=List of documents
+
 image.IMG001=fluxo_deposito_en.png
