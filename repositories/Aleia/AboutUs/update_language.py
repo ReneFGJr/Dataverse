@@ -24,7 +24,7 @@ def update_propriety(fileO,fileS):
         file.writelines(lines)
 
 
-file_path = "/var/www/databerse/langBundles/Bundle_pt.properties"
+file_path = '/var/www/dataverse/langBundles/Bundle_pt.properties'
 additional_file_path = "about_pt.propriety"
 update_propriety(file_path,additional_file_path)
 print("Arquivo atualizado com sucesso!")
