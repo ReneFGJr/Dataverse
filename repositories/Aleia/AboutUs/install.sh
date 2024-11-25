@@ -7,7 +7,7 @@ export ABOUT_XML=about.xhtml
 export FAQ_XML=faq.xhtml
 export APP=/usr/local/payara6/glassfish/domains/domain1/applications/dataverse-6.4
 export GUIDE=Guia_Aleia.pdf
-export IMG=fluxo_deposito.png
+export IMG=*.png
 
 cp $ABOUT_XML $APP/$ABOUT_XML
 cp $FAQ_XML $APP/$FAQ_XML
