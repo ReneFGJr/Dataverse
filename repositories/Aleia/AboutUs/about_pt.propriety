@@ -243,4 +243,7 @@ guide.title=Guia dos usuários
 guide.description=Acesse o Guia do Usuário com o manual de Depósito do Aleia
 guide.url=/assets/pdf/Guia_Aleia.pdf
 
+DOCUMENTS.Title=Documentos
+DOCUMENTS.description=Lista de documentos
+
 image.IMG001=fluxo_deposito_pt.png
