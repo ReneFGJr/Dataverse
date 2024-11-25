@@ -24,4 +24,9 @@ def update_propriety(fileO, fileS):
 file_path = '/var/www/dataverse/langBundles/Bundle_pt.properties'
 additional_file_path = "about_pt.propriety"
 update_propriety(file_path, additional_file_path)
-print("Arquivo atualizado com sucesso!")
+print("PORTUGUES - Arquivo atualizado com sucesso!")
+
+file_path = '/var/www/dataverse/langBundles/Bundle_en.properties'
+additional_file_path = "about_en.propriety"
+update_propriety(file_path, additional_file_path)
+print("INGLÊS - Arquivo atualizado com sucesso!")
