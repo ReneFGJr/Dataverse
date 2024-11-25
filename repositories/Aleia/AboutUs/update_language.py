@@ -1,6 +1,4 @@
-# Caminhos dos arquivos
-def update_propriety(fileO,fileS):
-
+def update_propriety(fileO, fileS):
     # Abrindo e lendo o conteúdo do arquivo principal
     with open(fileO, "r", encoding="utf-8") as file:
         lines = file.readlines()
@@ -14,7 +12,10 @@ def update_propriety(fileO,fileS):
 
     # Abrindo e lendo o conteúdo do arquivo adicional
     with open(fileS, "r", encoding="utf-8") as additional_file:
-        additional_content = convert_to_unicode_escape(additional_file.readlines())
+        additional_content = additional_file.readlines()
+
+    # Convertendo cada linha do arquivo adicional para unicode escape
+    additional_content = [convert_to_unicode_escape(line) for line in additional_content]
 
     # Adicionando o conteúdo do arquivo adicional ao final
     lines.extend(additional_content)
@@ -28,5 +29,5 @@ def convert_to_unicode_escape(input_text):
 
 file_path = '/var/www/dataverse/langBundles/Bundle_pt.properties'
 additional_file_path = "about_pt.propriety"
-update_propriety(file_path,additional_file_path)
+update_propriety(file_path, additional_file_path)
 print("Arquivo atualizado com sucesso!")
