@@ -15,7 +15,7 @@ mkdir $APP/assets/
 mkdir $APP/assets/pdf/
 mkdir $APP/assets/img/
 cp $GUIDE $APP/assets/pdf/$GUIDE
-cp $IMG $APP/assets/img/$IMG
+cp $IMG $APP/assets/img/.
 
 curl -X PUT -d $ABOUT_XML $SERVER_URL/api/admin/settings/:NavbarAboutUrl
 
