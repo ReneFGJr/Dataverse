@@ -29,6 +29,7 @@ about.AC013=Resolution 466/12 of the National Health Council that deals with res
 about.AD001=Interoperability
 about.AD002=Aleia is interoperable and allows the collection of metadata by service providers (harvesters) and other international and national aggregating systems such as the Brazilian Portal of Publications and Scientific Data in Open Access - Oasisbr, Open Access Scientific Repositories of Portugal (RCAAP), Red de Repositorios de Acceso Abierto a la Ciencia (LA Referencia), OpenAIRE and other service providers.
 
+about.AE001=Preservation
 about.AE002=Ibict is committed to providing long-term storage for research data deposited in Aleia, in compliance with the recommendations of the digital preservation reference model for digital archives Open Archival Information System (OAIS) and criteria for certification of reliable repositories. When developing digital preservation strategies, consider the risks caused by technological, environmental, cultural, operational, managerial factors, among others, and observe the continued value of the research data to be preserved. In addition, act in accordance with Brazilian legislation and institutional, national and international regulations.
 
 about.AF001=Technological Infrastructure
@@ -105,7 +106,8 @@ about.AP010=I- research data sets included in reports from the Institutional Tra
 about.AP011=II- research data sets included in research grant reports coordinated by Ibict;
 about.AP011=III- research data sets included in pro-doc consultancy products;
 about.AP012=IV- research data sets that were produced during the execution of research indicated in the semiannual TCG;
-about.AP013=V- research data sets carried out within the scope of the Postgraduate Program in Information Science (PPGCI), more specifically from defended theses and dissertations. about.AP014=Datasets and related documents allowed for deposit in Aleia must meet the following criteria:
+about.AP013=V- research data sets carried out within the scope of the Postgraduate Program in Information Science (PPGCI), more specifically from defended theses and dissertations.
+about.AP014=Datasets and related documents allowed for deposit in Aleia must meet the following criteria:
 about.AP015=They must be in native digital or digitized format, complete and ready for dissemination.
 about.AP016=For datasets involving research with human beings, of any nature and area of ​​knowledge, researchers must certify and guarantee that all ethical precepts and procedures have been followed.
 about.AP017=Personal data must be anonymized or pseudonymized before deposit. The data depositor must grant Ibict the right to preserve and distribute the datasets and complementary documentation by signing the Terms of Assignment of Rights specific to the deposit in Aleia.
