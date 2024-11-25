@@ -14,8 +14,8 @@ def update_propriety(fileO, fileS):
     with open(fileS, "r", encoding="utf-8") as additional_file:
         additional_content = additional_file.readlines()
 
-    # Convertendo cada linha do arquivo adicional para unicode escape
-    additional_content = [convert_to_unicode_escape(line) for line in additional_content]
+    # Convertendo cada linha do arquivo adicional para unicode escape, preservando '\n'
+    additional_content = [convert_to_unicode_escape(line.rstrip()) + "\n" for line in additional_content]
 
     # Adicionando o conteúdo do arquivo adicional ao final
     lines.extend(additional_content)
