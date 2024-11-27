@@ -1,0 +1,772 @@
+{
+    "id": 202620,
+    "identifier": "O6O5TS",
+    "persistentUrl": "https://doi.org/10.35078/O6O5TS",
+    "protocol": "doi",
+    "authority": "10.35078",
+    "publisher": "Arca Dados",
+    "publicationDate": "2024-11-18",
+    "storageIdentifier": "file://10.35078/O6O5TS",
+    "latestVersion": {
+        "id": 2581,
+        "datasetId": 202620,
+        "datasetPersistentId": "doi:10.35078/O6O5TS",
+        "storageIdentifier": "file://10.35078/O6O5TS",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "UNF": "UNF:6:oZOHZDa4Rx5dCVvczAUBIQ==",
+        "lastUpdateTime": "2024-11-18T16:09:45Z",
+        "releaseTime": "2024-11-18T16:09:45Z",
+        "createTime": "2024-11-04T16:52:17Z",
+        "publicationDate": "2024-11-18",
+        "citationDate": "2024-11-18",
+        "license": {
+            "name": "CC BY-NC 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Nutritional status and quality of life: urban-rural disparities and the impact of obesity"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Casaes, Ane Caroline"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Oliveira, Ricardo Riccio"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Menezes, Camilla Almeida"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Santos, Ronald Alves dos"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Souza, Bruna Oliveira Lopes"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Silva, Brenda Rodrigues Brito Cunha"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Tabajara, Yuri"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Macedo, Michael Nascimento"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jesus, Kelvin Edson Marques de"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fialho, Thainá Rodrigues de Souza"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Souza, Robson da Paixão de"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Siqueira, Isadora Cristina de"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Santana, Monica Leila Portela de"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Universidade Federal da Bahia. Escola de Nutrição"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Casaes, Ane Caroline"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ane.casaes@fiocruz.br"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Riccio, Ricardo"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Instituto Gonçalo Moniz. Fiocruz Bahia"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ricardo.riccio@fiocruz.br"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The shift in dietary habits has reshaped the population's health profile, leading to a rise in overweight individuals and a subsequent decline in quality of life (QoL). This study evaluated the correlations between demographic, social, and health-related factors and QoL in rural and urban areas of Bahia, Brazil. The cross-sectional study included 124 participants aged 18-60 who underwent interviews, anthropometric measurements, and laboratory tests. The WHOQol-BREF instrument assessed QoL. Results showed that rural participants had lower educational levels, income, and access to sanitation. Despite these challenges, rural residents reported better QoL in psychological, social relations, and health satisfaction domains, although differences diminished after age adjustment. Urban participants, who had higher rates of obesity and related metabolic risks, experienced a negative correlation between BMI and QoL, especially in the Social relationships domain. The study highlights that environmental and social factors, such as weight-related stigma and social connections, significantly influence QoL in urban areas, emphasizing the need for public health interventions that address both nutritional status and urban-specific challenges [en]\nA mudança nos hábitos alimentares remodelou o perfil de saúde da população, levando ao aumento do excesso de peso e ao subsequente declínio da qualidade de vida (QV). Este estudo avaliou as correlações entre fatores demográficos, sociais e relacionados à saúde e a QV em áreas rurais e urbanas da Bahia, Brasil. O estudo transversal incluiu 124 participantes com idades entre 18 e 60 anos que foram submetidos a entrevistas, medidas antropométricas e exames laboratoriais. O instrumento WHOQol-BREF avaliou a QV. Os resultados mostraram que os participantes rurais tinham níveis educacionais, rendimentos e acesso ao saneamento mais baixos. Apesar destes desafios, os residentes rurais relataram melhor qualidade de vida nos domínios psicológico, relações sociais e satisfação com a saúde, embora as diferenças tenham diminuído após o ajuste de idade. Os participantes urbanos, que apresentavam taxas mais elevadas de obesidade e riscos metabólicos relacionados, experimentaram uma correlação negativa entre o IMC e a QV, especialmente no domínio Relações sociais. O estudo destaca que factores ambientais e sociais, como o estigma relacionado com o peso e as ligações sociais, influenciam significativamente a qualidade de vida nas áreas urbanas, enfatizando a necessidade de intervenções de saúde pública que abordem tanto o estado nutricional como os desafios específicos das zonas urbanas [pt]\nEl cambio en los hábitos alimentarios ha remodelado el perfil de salud de la población, provocando un aumento del exceso de peso y una posterior disminución de la calidad de vida (CdV). Este estudio evaluó las correlaciones entre factores demográficos, sociales y relacionados con la salud y la calidad de vida en áreas rurales y urbanas de Bahía, Brasil. El estudio transversal incluyó a 124 participantes con edades entre 18 y 60 años a quienes se les realizaron entrevistas, mediciones antropométricas y pruebas de laboratorio. El instrumento WHOQol-BREF evaluó la calidad de vida. Los resultados mostraron que los participantes rurales tenían niveles educativos, ingresos y acceso a saneamiento más bajos. A pesar de estos desafíos, los residentes rurales informaron una mejor calidad de vida en los ámbitos psicológicos, relaciones sociales y satisfacción con la salud, aunque las diferencias se redujeron después del ajuste por edad. Los participantes urbanos, que tenían tasas más altas de obesidad y riesgos metabólicos relacionados, experimentaron una correlación negativa entre el IMC y la calidad de vida, especialmente en el dominio de Relaciones Sociales. El estudio destaca que los factores ambientales y sociales, como el estigma relacionado con el peso y las conexiones sociales, influyen significativamente en la calidad de vida en las áreas urbanas, enfatizando la necesidad de intervenciones de salud pública que aborden tanto el estado nutricional como los desafíos específicos de las áreas urbanas [es]"
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-11-04"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Qualidade de Vida"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=12225&filter=ths_termall&q=Qualidade%20de%20vida"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Quality of Life"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Calidad de Vida"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Estado Nutricional"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=28466&filter=ths_termall&q=Estado%20nutricional"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Nutritional Status"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Obesidade"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=9951&filter=ths_termall&q=Obesidade"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Obesity"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Obesidad"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sobrepeso"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=50524&filter=ths_termall&q=Sobrepeso"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Overweight"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Áreas Endêmicas"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Endemic Areas"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Zonas Endémicas"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "População Rural"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=12797&filter=ths_termall&q=Popula%C3%A7%C3%A3o%20rural"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rural Population"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Población Rural"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "População Urbana"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=14904&filter=ths_termall&q=Popula%C3%A7%C3%A3o%20urbana"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban Population"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Población Urbana"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Esquistossomose"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=12935&filter=ths_termall&q=Esquistossomose"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Schistosomiasis"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Esquistosomiasis"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bahia"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Brasil"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://decs.bvsalud.org/ths/resource/?id=1963&filter=ths_termall&q=brasil"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Brazil"
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DeCS/MeSH"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Casaes, Ane Caroline"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-11-04"
+                    }
+                ]
+            },
+            "submit_terms": {
+                "displayName": "submit_terms",
+                "name": "submit_terms",
+                "fields": [
+                    {
+                        "typeName": "term_accept",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "YES"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "Banco de dados relativo a pesquisa sobre Qualidade de vida e estado nutricional de pessoas infectadas por Schistosoma mansoni em áreas rurais e urbanas em duas cidades do estado da Bahia-Brasil.",
+                "label": "Banco de dados.tab",
+                "restricted": true,
+                "version": 27,
+                "datasetVersionId": 2581,
+                "categories": [
+                    "Bahia",
+                    "Brasil",
+                    "Data",
+                    "Esquistossomose",
+                    "Obesidade",
+                    "População rural",
+                    "População urbana",
+                    "Qualidade de vida",
+                    "Áreas endêmicas"
+                ],
+                "dataFile": {
+                    "id": 202621,
+                    "persistentId": "",
+                    "filename": "Banco de dados.tab",
+                    "contentType": "text/tab-separated-values",
+                    "friendlyType": "Tab-Delimited",
+                    "filesize": 90706,
+                    "description": "Banco de dados relativo a pesquisa sobre Qualidade de vida e estado nutricional de pessoas infectadas por Schistosoma mansoni em áreas rurais e urbanas em duas cidades do estado da Bahia-Brasil.",
+                    "categories": [
+                        "Bahia",
+                        "Brasil",
+                        "Data",
+                        "Esquistossomose",
+                        "Obesidade",
+                        "População rural",
+                        "População urbana",
+                        "Qualidade de vida",
+                        "Áreas endêmicas"
+                    ],
+                    "storageIdentifier": "file://192f856bdd8-89b7a86a7fa5",
+                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "originalFormatLabel": "MS Excel Spreadsheet",
+                    "originalFileSize": 115791,
+                    "originalFileName": "Banco de dados.xlsx",
+                    "UNF": "UNF:6:oZOHZDa4Rx5dCVvczAUBIQ==",
+                    "rootDataFileId": -1,
+                    "md5": "57bbf2e3bda94d02d91281a17ab3187b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "57bbf2e3bda94d02d91281a17ab3187b"
+                    },
+                    "tabularData": true,
+                    "creationDate": "2024-11-04",
+                    "publicationDate": "2024-11-18",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}

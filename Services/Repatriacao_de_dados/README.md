@@ -1,0 +1,2 @@
+Bibliotecas
+ pip install requests
