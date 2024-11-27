@@ -85,7 +85,7 @@ def duplicate_metadata_only(source_base_url, source_doi, target_base_url, target
 
 # Exemplo de uso
 source_base_url = "https://arcadados.fiocruz.br"
-source_doi = "doi:10.35078/O6O5TS"  # Ajustado para incluir o prefixo "doi:"
+source_doi = "doi:10.35078/WNT0HS"  # Ajustado para incluir o prefixo "doi:"
 target_base_url = "https://vitrinedadosabertos-dev.rnp.br"
 target_api_key = "fc178044-78ff-4bcb-a83d-97eeaee4bbb2"
 

@@ -1,0 +1,664 @@
+{
+    "id": 202505,
+    "identifier": "WNT0HS",
+    "persistentUrl": "https://doi.org/10.35078/WNT0HS",
+    "protocol": "doi",
+    "authority": "10.35078",
+    "publisher": "Arca Dados",
+    "publicationDate": "2024-08-19",
+    "storageIdentifier": "file://10.35078/WNT0HS",
+    "latestVersion": {
+        "id": 2557,
+        "datasetId": 202505,
+        "datasetPersistentId": "doi:10.35078/WNT0HS",
+        "storageIdentifier": "file://10.35078/WNT0HS",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "lastUpdateTime": "2024-08-19T14:02:09Z",
+        "releaseTime": "2024-08-19T13:06:53Z",
+        "createTime": "2024-08-07T00:39:04Z",
+        "publicationDate": "2024-08-19",
+        "citationDate": "2024-08-19",
+        "license": {
+            "name": "CC BY-NC 4.0",
+            "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+            "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+        },
+        "fileAccessRequest": true,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Projeto Valoriza: Saúde em Foco - Parcial - Volume 1: Relatório Parcial de Pesquisa"
+                    },
+                    {
+                        "typeName": "subtitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Projeto Valoriza: Saúde em Foco - “Ações de Educação, Prevenção e Promoção da Saúde e Qualidade de Vida Voltadas à Comunidade Carcerária” (PRES-007-FIO-22)"
+                    },
+                    {
+                        "typeName": "alternativeTitle",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Valoriza Project: Health in Focus - Partial - Volume 1: Partial Research Report"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SEVERO, Fernanda M.D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasilia"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4078-6768"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ANAISSI, Bárbara"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasilia"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0009-0009-8820-0042"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PRADO, Yuri D."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasilia"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-6706-5568"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SENS, Diogo"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PACHECO, Milena"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NOGUEIRA, Janne R."
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0001-6412-2929"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SCAFUTO, June C.B."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasília"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4160-8293"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "LUQUINE, Cézar D."
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SOUSA, Maria S.A."
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CARNEIRO, Ana Paula M."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GUERRERO, André V.P."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasília"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SEVERO, Fernanda M.D."
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasilia"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "fernanda.severo@fiocruz.br"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PRADO, Yuri D."
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fundação Oswaldo Cruz. Fiocruz Brasilia"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "yuri.prado@fiocruz.br"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Para uma análise dos dados coletados no âmbito deste projeto, foi realizada uma divisão por tópicos e dados relacionados. Dessa forma, esse conjunto de dados configura-se na análise da “Saúde e qualidade de vida dos trabalhadores do sistema prisional: Revisão Integrativa da Literatura” com metodologia de revisão sistemática, sendo eles o Relatório Parcial de Pesquisa, o Relatório Executivo, duas planilhas com bancos de dados (planilha digital) e um compilado de compartilhamento de dados e boas práticas.\nParticularmente, nesse conjunto de dados apresentamos a documentação referente ao\nRelatório Parcial - Volume 1 - Saúde e qualidade de vida dos trabalhadores do sistema prisional - panorama parcial de revisão integrativa, que consiste em um consolidado técnico-científico da revisão sistemática e integrativa (nacional e internacional) de conhecimentos na temática com o recorte cronológico de 1972-2022. Apresenta síntese das balizas empíricas sobre o perfil do contingente laboral do SENAPPEN e tópicos teórico-conceituais sobre a Qualidade de Vida no Trabalho. Descreve de modo minucioso o método de revisão sistemática e integrativa, estratégias de buscas das bases indexadas e a classificação em prioridades dos achados. Por fim, apresenta panorama em gráficos sobre a produção em termos cronológicos, geográficos e temáticos, entre outros. Apresenta as categorizações analíticas e indica os aspectos a serem contemplados na dimensão analítica. O documento contém ainda anexos com as planilhas dos itens de Alta e Média prioridade em anexo e insumos tabulados para futuras análises bibliométricas.\nPara destacar o papel de cada integrante na produção da pesquisa e análise dos resultados da pesquisa, segue a organização das contribuições: SEVERO, FMD. Realizou a coordenação e planejamento metodológico da pesquisa, acompanhou a compilação dos dados, consolidação e estruturação das análises de conteúdos, produção do documento textual e gestão do conhecimento. ANAISSI, B. Colaborou com a coordenação geral da pesquisa e gestão do conhecimento. PRADO, YD. Realizou a pesquisa sistemática em bases de dados indexadas, compilação de informações dos bancos nacionais e internacionais, colaborou com consolidação textual do descritivo dos métodos de pesquisa. SENS, D. PRADO, YD. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura internacional. PACHECO, M; NOGUEIRA, J. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura nacional. SEVERO, F; ANAISSI, B; CD; SENS, D; NOGUEIRA, J; SCAFUTO, J; PACHECO, M;; PRADO, YD. colaboraram igualmente com a estruturação do documento e produção textual. LUQUINE JR, SOUZA, S. Colaboraram com leitura crítica e revisão das categorizações analíticas. ANAISSI, B. SEVERO, FMD. Realizaram a revisão final e normatização do documento. SEVERO, FMD. PRADO, Y. ANAISSI, B. Realizaram a produção de metadados e gestão da informação para Ciência Aberta. CARNEIRO, APM. Coordenação geral do Projeto. GUERRERO, AVP., SCAFUTO, J. Coordenação executiva do Projeto e do Núcleo de Saúde Mental, Álcool e Outras Drogas, colaboraram com a revisão final [pt]"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "For an analysis of the data collected within the scope of this project, a division was carried out by topics and related data. In this way, this set of data is configured in the analysis of “Health and quality of life of workers in the prison system: Integrative Literature Review” with a systematic review methodology, namely the Partial Research Report, the Executive Report, two spreadsheets with databases (digital spreadsheet) and a compilation of data sharing and good practices.\nParticularly, in this dataset we present documentation regarding the\nPartial Report - Volume 1 - Health and quality of life of workers in the prison system - partial overview of an integrative review, which consists of a consolidated technical-scientific systematic and integrative review (national and international) of knowledge on the subject with a chronological cut of 1972-2022. It presents a summary of the empirical guidelines on the profile of SENAPPEN's labor force and theoretical-conceptual topics on Quality of Life at Work. It describes in detail the systematic and integrative review method, search strategies for indexed databases and the priority classification of findings. Finally, it presents a graphical overview of production in chronological, geographic and thematic terms, among others. It presents the analytical categorizations and indicates the aspects to be covered in the analytical dimension. The document also contains annexes with spreadsheets of High and Medium priority items attached and tabulated inputs for future bibliometric analyses.\nTo highlight the role of each member in producing the research and analyzing the research results, the organization of contributions follows: \nSEVERO, FMD. Carried out the coordination and methodological planning of the research, monitored the compilation of data, consolidation and structuring of content analyses, production of the textual document and knowledge management. ANAISSI, B. Collaborated with the general coordination of research and knowledge management. PRADO, YD. Performed systematic research in indexed databases, compiled information from national and international banks, collaborated with textual consolidation of the description of research methods. SENS, D. PRADO, YD. They collaborated with the thematic prospecting and narrative synthesis of the international literature review. PACHECO, M; NOGUEIRA, J. Collaborated with the thematic prospecting and narrative synthesis of the national literature review. SEVERUS, F; ANAISSI, B; CD; SENS, D; NOGUEIRA, J; SCAFUTO, J; PACHECO, M;; PRADO, YD. They also collaborated with the structuring of the document and textual production. LUQUINE JR, SOUZA, S. Collaborated with critical reading and review of the analytical categorizations. ANAISSI, B. SEVERO, FMD. They carried out the final review and standardization of the document. SEVERO, FMD. PRADO, Y. ANAISSI, B. Performed the production of metadata and information management for Open Science. CARNEIRO, APM. General coordination of the Project. GUERRERO, AVP., SCAFUTO, J. Executive coordination of the Project and the Center for Mental Health, Alcohol and Other Drugs, collaborated with the final review [en]"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Para un análisis de los datos recopilados en el alcance de este proyecto, se realizó una división por temas y datos relacionados. De esta manera, este conjunto de datos se configura en el análisis de “Salud y calidad de vida de los trabajadores del sistema penitenciario: Revisión Integrativa de la Literatura” con una metodología de revisión sistemática, a saber, el Informe Parcial de Investigación, el Informe Ejecutivo, dos hojas de cálculo con bases de datos (hoja de cálculo digital) y una recopilación de intercambio de datos y buenas prácticas.\nEn particular, en este conjunto de datos presentamos documentación sobre la\nInforme Parcial - Volumen 1 - Salud y calidad de vida de los trabajadores del sistema penitenciario - panorama parcial de la revisión integradora, el cual consiste en una revisión técnico-científica consolidada, sistemática e integradora (nacional e internacional) del conocimiento sobre el tema con un período cronológico de 1972-2022. Presenta un resumen de los lineamientos empíricos sobre el perfil de la fuerza laboral del SENAPPEN y temas teórico-conceptuales sobre Calidad de Vida en el Trabajo. Describe en detalle el método de revisión sistemática e integradora, las estrategias de búsqueda en bases de datos indexadas y la clasificación prioritaria de los hallazgos. Finalmente, presenta un panorama gráfico de la producción en términos cronológicos, geográficos y temáticos, entre otros. Presenta las categorizaciones analíticas e indica los aspectos a cubrir en la dimensión analítica. El documento también contiene anexos con hojas de cálculo de elementos de prioridad alta y media adjuntas y aportes tabulados para futuros análisis bibliométricos.\nPara resaltar el papel de cada miembro en la producción de la investigación y el análisis de los resultados de la investigación, la organización de las contribuciones es la siguiente:\nSEVERO, FMD. Realicé la coordinación y planificación metodológica de la investigación, seguimiento a la recopilación de datos, consolidación y estructuración de los análisis de contenido, producción del documento textual y gestión del conocimiento. ANAISSI, B. Colaboró ​​con la coordinación general de investigación y gestión del conocimiento. PRADO, YD. Realicé investigaciones sistemáticas en bases de datos indexadas, recopilé información de bancos nacionales e internacionales, colaboré con la consolidación textual de la descripción de los métodos de investigación. SENS, D. PRADO, YD. Colaboraron con la prospección temática y síntesis narrativa de la revisión de literatura internacional. PACHECO, M; NOGUEIRA, J. Colaboró ​​en la prospección temática y síntesis narrativa de la revisión de literatura nacional. SEVERO, F; ANAISSI, B; CD; SENS, D; NOGUEIRA, J; ESCAFUTO, J; PACHECO, M;; PRADO, YD. También colaboraron con la estructuración del documento y la producción textual. LUQUINE JR, SOUZA, S. Colaboraron en la lectura crítica y revisión de las categorizaciones analíticas. ANAISSI, B. SEVERO, FMD. Realizaron la revisión final y estandarización del documento. SEVERO, fiebre aftosa. PRADO, Y. ANAISSI, B. Realizó la producción de metadatos y gestión de información para Ciencia Abierta. CARNEIRO, APM. Coordinación general del Proyecto. GUERRERO, AVP., SCAFUTO, J. La coordinación ejecutiva del Proyecto y el Centro de Salud Mental, Alcohol y Otras Drogas, colaboraron con la revisión final [es]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Social Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Políticas Públicas de Saúde"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Políticas de Salud Pública"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Public Health Policies"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Saúde Prisional"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Sanidad Penitenciaria"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Prison Health"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Revisão Integrativa"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Revisión Integradora"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Integrative Review"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Revisão de Literatura"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Revisión de la Literatura"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Literature Review"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Comunidade Carcerária"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Comunidad Penitenciaria"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Prison Community"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Campanha de Comunicação em Saúde"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Campaña de Comunicación Sanitaria"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Health Communication Campaign"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CARNEIRO, Ana Paula M.; GUERRERO, André V.P.; SCAFUTO, June C.B.; REIS, Sara M.B.; MAFRA, Deciane F.; MATOS, Letícia M.; GONÇALVES, Cintya A.; SEVERO, Fernanda M.D.; ANAISSI, Bárbara; PRADO, Yuri D.; SENS, Diogo; NOGUEIRA, Janne R.; PACHECO, Milena; SOUSA, Maria S.A.; LUQUINE, Cézar D., 2024, \"Projeto Valoriza: Saúde em Foco - “Ações de Educação, Prevenção e Promoção da Saúde e Qualidade de Vida Voltadas à Comunidade Carcerária” (PRES-007-FIO-22)\", https://doi.org/10.35078/0NOCUW, Arca Dados, V2"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.35078/0NOCUW"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.35078/0NOCUW"
+                                }
+                            },
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SEVERO, Fernanda M.D.; ANAISSI, Bárbara; SOUSA, Maria S.A.; LUQUINE, Cézar D.; PRADO, Yuri D.; SENS, Diogo; PACHECO, Milena; NOGUEIRA, Janne R.; SCAFUTO, June C.B.; CARNEIRO, Ana Paula M.; GUERRERO, André V.P., 2024, \"Projeto Valoriza: Saúde em Foco - Parcial - Volume 2: Resumo Executivo\", https://doi.org/10.35078/IKTW7N, Arca Dados, V1"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.35078/IKTW7N"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.35078/IKTW7N"
+                                }
+                            },
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SEVERO, Fernanda M.D.; PRADO, Yuri D.; PACHECO, Milena; NOGUEIRA, Janne R.; SENS, Diogo; ANAISSI, Bárbara, 2024, \"Projeto Valoriza: Saúde em Foco - Parcial - Volume 3: Planilha 1\", https://doi.org/10.35078/0QBUUD, Arca Dados, V1"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.35078/0QBUUD"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.35078/0QBUUD"
+                                }
+                            },
+                            {
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "SEVERO, Fernanda M.D.; LUQUINE, Cézar D.; SOUSA, Maria S.A.; PRADO, Yuri D.; PACHECO, Milena; NOGUEIRA, Janne R.; SENS, Diogo; ANAISSI, Bárbara, 2024, \"Projeto Valoriza: Saúde em Foco - Parcial - Volume 4: Planilha 2 \", https://doi.org/10.35078/KNVWHU, Arca Dados, V1"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.35078/KNVWHU"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.35078/KNVWHU"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "PRADO, Yuri D."
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-08-06"
+                    }
+                ]
+            },
+            "submit_terms": {
+                "displayName": "submit_terms",
+                "name": "submit_terms",
+                "fields": [
+                    {
+                        "typeName": "term_accept",
+                        "multiple": false,
+                        "typeClass": "controlledVocabulary",
+                        "value": "YES"
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "description": "RELATÓRIO PARCIAL| Consolidado técnico-científico da revisão sistemática e integrativa (nacional e internacional) de conhecimentos na temática com o recorte cronológico de 1972-2022. Apresenta síntese das balizas empíricas sobre o perfil do contingente laboral do SENAPPEN e tópicos teórico-conceituais sobre a Qualidade de Vida no Trabalho. Descreve de modo minucioso o método de revisão sistemática e integrativa, estratégias de buscas das bases indexadas e a classificação em prioridades dos achados. Por fim, apresenta panorama em gráficos sobre a produção em termos cronológicos, geográficos e temáticos, entre outros. Apresenta as categorizações analíticas e indica os aspectos a serem contemplados na dimensão analítica. O documento contém ainda anexos com as planilhas dos itens de Alta e Média prioridade em anexo e insumos tabulados para futuras análises bibliométricas. \n\nProjeto de Pesquisa “Saúde e Qualidade de Vida dos Trabalhadores do Sistema Prisional: Revisão Integrativa da Literatura”. SEVERO, FMD. Realizou a coordenação e planejamento metodológico da pesquisa, acompanhou a compilação dos dados, consolidação e estruturação das análises de conteúdos, produção do documento textual e gestão do conhecimento. ANAISSI, B. Colaborou com a coordenação geral da pesquisa e gestão do conhecimento. PRADO, YD. Realizou a pesquisa sistemática em bases de dados indexadas, compilação de informações dos bancos nacionais e internacionais, colaborou com consolidação textual do descritivo dos métodos de pesquisa. SENS, D. PRADO, YD. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura internacional. PACHECO, M; NOGUEIRA, J. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura nacional. SEVERO, F; ANAISSI, B; CD; SENS, D; NOGUEIRA, J; SCAFUTO, J; PACHECO, M;; PRADO, YD. colaboraram igualmente com a estruturação do documento e produção textual. LUQUINE JR, SOUZA, S. Colaboraram com leitura crítica e revisão das categorizações analíticas. ANAISSI, B. SEVERO, FMD. Realizaram a revisão final e normatização do documento. SEVERO, FMD. PRADO, YD. ANAISSI, B. Realizaram a produção de metadados e gestão da informação para Ciência Aberta. CARNEIRO, APM. Coordenação geral do Projeto. GUERRERO, AVP., SCAFUTO, J. Coordenação executiva do Projeto e do Núcleo de Saúde Mental, Álcool e Outras Drogas, colaboraram com a revisão final.",
+                "label": "Relatório parcial - Volume 1 - Saúde e qualidade de vida dos trabalhadores do sistema prisional - panorama parcial de revisão integrativa. Brasília, 2023.pdf",
+                "restricted": false,
+                "directoryLabel": "relatorios",
+                "version": 5,
+                "datasetVersionId": 2557,
+                "categories": [
+                    "Data",
+                    "Documentação",
+                    "Qualidade de Vida",
+                    "Saúde do Trabalhador",
+                    "Saúde Prisional"
+                ],
+                "dataFile": {
+                    "id": 202506,
+                    "persistentId": "",
+                    "filename": "Relatório parcial - Volume 1 - Saúde e qualidade de vida dos trabalhadores do sistema prisional - panorama parcial de revisão integrativa. Brasília, 2023.pdf",
+                    "contentType": "application/pdf",
+                    "friendlyType": "Adobe PDF",
+                    "filesize": 4928640,
+                    "description": "RELATÓRIO PARCIAL| Consolidado técnico-científico da revisão sistemática e integrativa (nacional e internacional) de conhecimentos na temática com o recorte cronológico de 1972-2022. Apresenta síntese das balizas empíricas sobre o perfil do contingente laboral do SENAPPEN e tópicos teórico-conceituais sobre a Qualidade de Vida no Trabalho. Descreve de modo minucioso o método de revisão sistemática e integrativa, estratégias de buscas das bases indexadas e a classificação em prioridades dos achados. Por fim, apresenta panorama em gráficos sobre a produção em termos cronológicos, geográficos e temáticos, entre outros. Apresenta as categorizações analíticas e indica os aspectos a serem contemplados na dimensão analítica. O documento contém ainda anexos com as planilhas dos itens de Alta e Média prioridade em anexo e insumos tabulados para futuras análises bibliométricas. \n\nProjeto de Pesquisa “Saúde e Qualidade de Vida dos Trabalhadores do Sistema Prisional: Revisão Integrativa da Literatura”. SEVERO, FMD. Realizou a coordenação e planejamento metodológico da pesquisa, acompanhou a compilação dos dados, consolidação e estruturação das análises de conteúdos, produção do documento textual e gestão do conhecimento. ANAISSI, B. Colaborou com a coordenação geral da pesquisa e gestão do conhecimento. PRADO, YD. Realizou a pesquisa sistemática em bases de dados indexadas, compilação de informações dos bancos nacionais e internacionais, colaborou com consolidação textual do descritivo dos métodos de pesquisa. SENS, D. PRADO, YD. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura internacional. PACHECO, M; NOGUEIRA, J. Colaboraram com a prospecção temática e síntese narrativa da revisão da literatura nacional. SEVERO, F; ANAISSI, B; CD; SENS, D; NOGUEIRA, J; SCAFUTO, J; PACHECO, M;; PRADO, YD. colaboraram igualmente com a estruturação do documento e produção textual. LUQUINE JR, SOUZA, S. Colaboraram com leitura crítica e revisão das categorizações analíticas. ANAISSI, B. SEVERO, FMD. Realizaram a revisão final e normatização do documento. SEVERO, FMD. PRADO, YD. ANAISSI, B. Realizaram a produção de metadados e gestão da informação para Ciência Aberta. CARNEIRO, APM. Coordenação geral do Projeto. GUERRERO, AVP., SCAFUTO, J. Coordenação executiva do Projeto e do Núcleo de Saúde Mental, Álcool e Outras Drogas, colaboraram com a revisão final.",
+                    "categories": [
+                        "Data",
+                        "Documentação",
+                        "Qualidade de Vida",
+                        "Saúde do Trabalhador",
+                        "Saúde Prisional"
+                    ],
+                    "storageIdentifier": "file://1912a45b5be-d9468ca0c2b6",
+                    "rootDataFileId": -1,
+                    "md5": "b55ba42e765f93c6829a92b76df1b1c1",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b55ba42e765f93c6829a92b76df1b1c1"
+                    },
+                    "tabularData": false,
+                    "creationDate": "2024-08-06",
+                    "publicationDate": "2024-08-19",
+                    "fileAccessRequest": true
+                }
+            }
+        ]
+    }
+}
