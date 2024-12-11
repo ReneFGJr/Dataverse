@@ -17,7 +17,7 @@ mkdir $APP/assets/img/
 cp $GUIDE $APP/assets/pdf/.
 cp $IMG $APP/assets/img/.
 
-curl -X PUT -d $ABOUT_XML $SERVER_URL/api/admin/settings/:NavbarAboutUrl
+curl -X PUT -d /$ABOUT_XML $SERVER_URL/api/admin/settings/:NavbarAboutUrl
 
 #Reinicia o Dataverse
 /home/dataverse/restart

@@ -7,12 +7,14 @@ mkdir /var/www/dataverse/langBundles
 export PAYARA=/usr/local/payara6/glassfish
 
 echo "Baixando arquivos atualizados"
+rm dataverse-language-packs-develop -R
 rm *.zip
 wget https://github.com/GlobalDataverseCommunityConsortium/dataverse-language-packs/archive/refs/heads/develop.zip
 unzip develop.zip
 
 echo "Removendo anteriores do diretorio Language"
 rm language -R
+
 
 echo "Criando diretório"
 mkdir language
