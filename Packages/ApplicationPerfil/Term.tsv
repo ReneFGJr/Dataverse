@@ -1,6 +1,6 @@
-#metadataBlock	name	dataverseAlias	displayName	blockURI	
-	Term	submit_terms						
-#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI	
-	term_accept	term_accept	term_accept_description	term_accept_watermark	text	1	#VALUE	FALSE	TRUE	FALSE	FALSE	FALSE	TRUE	submit_terms		
-#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+#metadataBlock	name	dataverseAlias	displayName	blockURI
+	Term	submit_terms	Submit_terms
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	term_accept	term_accept	term_accept_description	term_accept_watermark	text	1	#VALUE	FALSE	TRUE	FALSE	FALSE	FALSE	TRUE	submit_terms
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder
 	term_accept	YES		0
