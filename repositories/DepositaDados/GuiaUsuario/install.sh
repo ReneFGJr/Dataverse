@@ -11,6 +11,8 @@ mkdir -p $PAYARA/domains/domain1/docroot/guide
 
 echo "Copiando Arquivos"
 cp guiaUsuarioBr.pdf /$PAYARA/domains/domain1/docroot/guide/guiaUsuarioBr.pdf
+cp guiaUsuarioBr.pdf /$PAYARA/domains/domain1/docroot/guide/guiaUsuarioBr.pdf
+cp guiaUsuarioBr.pdf /usr/local/payara6/glassfish/domains/domain1/applications/dataverse-6.4/.
 cp guiaUsuarioBr.pdf /var/www/guide/public/
 
 echo "Configurando GuidePage"
