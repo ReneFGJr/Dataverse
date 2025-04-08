@@ -13,10 +13,9 @@
     <f:metadata>
       <f:viewAction action="#{dataverseSession.updateLocaleInViewRoot}" />
       <f:viewAction action="#{Shib.init}" />
-      <!--Only allow existing email to be specified while in development, to test account conversion.-->
-      <!--<f:viewParam name="exisitingEmail" value="#{Shib.existingEmail}"/>-->
       <f:viewParam name="redirectPage" value="#{Shib.redirectPage}" />
     </f:metadata>
+
     <ui:composition template="/dataverse_template.xhtml">
       <ui:param
         name="pageTitle"
@@ -24,11 +23,13 @@
       />
       <ui:param name="showDataverseHeader" value="false" />
       <ui:param name="showMessagePanel" value="#{true}" />
+
       <ui:define name="body">
         <ui:fragment rendered="#{Shib.offerToConvertExistingAccount}">
           <ui:fragment rendered="#{Shib.existingDisplayName != null}">
             <h2>#{bundle['shib.askToConvert']}</h2>
           </ui:fragment>
+
           <div class="alert alert-info messagePanel">
             <p>
               <span class="glyphicon glyphicon-info-sign" />
@@ -39,27 +40,22 @@
               </h:outputFormat>
             </p>
           </div>
+
           <div
             class="alert alert-danger messagePanel"
             jsf:rendered="#{Shib.passwordRejected}"
           >
-            <div
-              class="alert alert-danger messagePanel"
-              jsf:rendered="#{Shib.passwordRejected}"
-            >
-              <p>
-                <span class="glyphicon glyphicon-exclamation-sign" />
-                <h:outputText
-                  value=" #{bundle['shib.passwordRejected']}"
-                  escape="false"
-                />
-              </p>
-            </div>
+            <p>
+              <span class="glyphicon glyphicon-exclamation-sign" />
+              <h:outputText
+                value=" #{bundle['shib.passwordRejected']}"
+                escape="false"
+              />
+            </p>
           </div>
         </ui:fragment>
 
         <ui:fragment rendered="#{Shib.offerToCreateNewAccount}">
-          <!-- THIS MSG SHOULD BE IN THE BACKING BEAN + BUNDLE, NOT HARDCODED HERE IN THE XHTML -->
           <div class="alert alert-info messagePanel">
             <span class="glyphicon glyphicon-info-sign" />
             <strong>#{bundle['shib.accountInformation']}</strong> –
@@ -68,9 +64,14 @@
         </ui:fragment>
 
         <center>
-        <h3 class="ml4">Guia do Usuário</h4>
-        <iframe width="860" height="1224" src="https://depositadados.ibict.br/guide/guiaUsuarioBr.pdf"></iframe>
-
+          <h3 class="ml4">Guia do Usuário</h3>
+          <iframe
+            width="860"
+            height="1224"
+            src="https://depositadados.ibict.br/guide/guiaUsuarioBr.pdf"
+            title="Guia do Usuário"
+          ></iframe>
+        </center>
       </ui:define>
     </ui:composition>
   </h:body>
