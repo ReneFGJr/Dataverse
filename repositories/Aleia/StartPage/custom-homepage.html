@@ -1,0 +1,124 @@
+<form class="form bg-search">
+  <img src="/dvn/images/logo-deposita.jpg" alt="Aleia repositório de dados científicos do Ibict"/>
+	<h2>Se você estiver interessado em publicar seus dados em nosso repositório, consulte <a href="#">nossas instruções</a> para autores e entre em contato</h2>
+  <div class="input-group input-group-lg">
+    <input type="text" class="form-control" id="inputDataverseSearch" onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();" placeholder="Pesquise aqui os Datasets do nosso repositório.">
+    <div class="input-group-btn">
+      <button class="btn btn-default" id="btnDataverseSearch" type="submit" onclick="window.location = '/dataverse/aleia?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i class="glyphicon glyphicon-search"></i></button>
+    </div>
+  </div>
+</form>
+
+<!-- SEARCH + BROWSE + RECENT -->
+
+<div class="row-fluid mt-4">
+  <div class="col">
+    <button type="button" class="btn btn-outline-primary btn-lg btn-block" onClick="window.location.href='/dataverse/aleia'">Explore nossos Datasets</button>
+  </div>
+</div>
+
+<!-- <hr class="heavy-rule" /> -->
+<div class="col mt-4">
+  <h3 class="ml4">Datasets mais recentes</h3>
+</div>
+<div class="row">
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Microplastic concentrations in lagoon, bay and beach environments of Binh Dinh.</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card" >
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Monthly input of Escherichia coli within the Houay Pano headwater catchment</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Stakeholders’ mental models about the Makay region, Madagascar</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Replication Data for Distribution of Quercus ilex subsp</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+</div>
+	
+<div class="row">
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Microplastic concentrations in lagoon, bay and beach environments of Binh Dinh.</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card" >
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Monthly input of Escherichia coli within the Houay Pano headwater catchment</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Stakeholders’ mental models about the Makay region, Madagascar</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <p class="badge badge-light">Mon Sep 19 2022</p>
+      <a href="#">
+      <h5 class="card-title">Replication Data for Distribution of Quercus ilex subsp</h5>
+      </a> <a href="#">
+      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
+      </a> </div>
+  </div>
+</div>
+</div>
+
+
+<script>
+getvals(url_metrics + 'dataverses', 'ID_dataverse', 'Total');
+getvals(url_metrics + 'datasets', 'ID_datasets', 'Total');
+getvals(url_metrics + 'files', 'ID_files', 'Total');
+getvals(url_metrics + 'downloads', 'ID_projetos', 'Total');
+</script> 

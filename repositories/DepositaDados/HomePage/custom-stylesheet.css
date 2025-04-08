@@ -1,0 +1,233 @@
+.navbar-fixed-top {
+  top: 0;
+  padding: 10px 0;
+}
+.headerCustom {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #00538f;
+  min-height: 70px;
+}
+.headerCustom img {
+  margin-right: 1em;
+  margin-top: 0.5em;
+}
+.bg-search {
+  background-size: contain;
+  text-align: center;
+}
+.bg-search h1 {
+  text-align: center;
+  font-size: 5em;
+}
+.bg-search img {
+  max-width: 95%;
+  margin-bottom: 2em;
+}
+.bg-search h2 {
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+  margin: 0.8em 0.5em 3em;
+  /*font-style: italic;*/
+  font-weight: bold;
+  border: 1px solid #3052A4;
+  padding: 1em;
+  border-radius: 20px;
+  background: #3052A4;
+  font-size: 2em;
+}
+.bg-search h2 a {
+  text-decoration: underline;
+  color: #fff;
+}
+.btn-outline-primary {
+  border-color: #3052A4;
+  background: none;
+  color: #3052A4;
+}
+.badge {
+  background-color: #3052A4;
+}
+#login-container {
+  margin-top: 5em;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.btn-outline-success {
+  background: none;
+  color: #3052A4;
+  border-color: #3052A4;
+}
+.dataverseHeaderLogo {
+  padding: 3rem 0 0 2rem;
+  width: 236px;
+  height: 49px;
+  max-width: 50%;
+  background: none !important;
+}
+.dataverseHeaderDataverseName H1 {
+  display: none;
+}
+.poweredbylogo {
+  color: #fff;
+}
+#dataverseHeader .dataverseHeaderCell {
+  display: block;
+}
+#dataverseHeader .dataverseHeaderCell.dataverseHeaderLogo img {
+  max-width: none;
+  max-height: none;
+}
+.deposite {
+  padding-top: 15px;
+}
+.deposite a {
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.deposite i {
+  margin-right: 5px;
+}
+.btn {
+  margin-bottom: 5px;
+}
+/*
+Estilos footer
+*/
+#dvfooter {
+  background: #0D3EA0;
+  padding-top: 2rem;
+  padding-bottom: 2em;
+  margin-top: 4em;
+}
+#dvfooter p {
+  color: #fff;
+}
+.custom-footer {
+  background: #0F49BD;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /*  margin-top: 5em;*/
+  margin-bottom: -6em
+}
+.custom-footer {
+  color: #fff;
+}
+.custom-footer h6 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-height: 2.0em;
+}
+.custom-footer li {
+  padding-bottom: 0.4em;
+}
+.custom-footer ul {
+  padding-bottom: 0.5em;
+}
+.custom-footer li a {
+  color: #fff;
+}
+.row-social {
+  background: #014B82;
+}
+.custom-footer i {
+  color: #fff;
+  margin-left: 10px
+}
+/*
+Estilos da lista de resultado
+*/
+table[id$='resultsTable'] td > div {
+  border-radius: 5px;
+}
+[id$='resultsTable'] div[class*='Result'] > div.card-title-icon-block, [id$='resultsTable'] div[class*='Result'] > div.card-preview-icon-block, [id$='resultsTable'] div[class*='Result'] > div.file-tags-block {
+  font-size: 120%;
+  font-weight: bold;
+  margin: 1rem;
+}
+table[id$='resultsTable'] td > div.datasetResult {
+  background: #f0f7fc;
+  border: #bfc4c9 1px solid;
+}
+table[id$='resultsTable'] td > div.dataverseResult {
+  background: #f7f7f7;
+  border: #abafbb 1px solid;
+}
+table[id$='resultsTable'] td > div.fileResult {
+  background: #f8fcfb;
+  border: #b9c3c3 1px solid;
+}
+.bg-citation {
+  background: #FFF;
+  border: 0;
+  border-radius: 5px !important;
+}
+.datasetResult a {
+  color: #568bb7;
+}
+.dataverseResult a {
+  color: #5267b2;
+}
+.fileResult a {
+  color: #55b79b;
+}
+/*
+Estilos da FAQ
+*/
+.faq-question {
+  padding: 0.5em 0;
+  font-size: 18px;
+}
+/*
+Chamada
+*/
+.dataverseHeaderName {
+  margin-left: 130px;
+}
+/*
+Espaço no reenvio de senha
+*/
+#messagePanel {
+  margin-top: 80px;
+}
+.ml4 {
+  color: #3052A4;
+}
+/*card*/
+.card-body {
+  border: 1px solid #568bb7;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 3mm;
+  line-height: 1.6;
+}
+.card-title {
+  font-weight: bold;
+  color: #0F49BD !important;
+}
+.card-subtitle {
+  color: #3052A4;
+}
+.mt-negativo {
+  margin-top: -1.5em;
+}
+@media (min-width: 600px) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+  }
+}
+.sticky-top {
+
+	margin-bottom: 50px;	 
+}
+
+#dataverse-header-block {
+    padding-top: 0;
+}
