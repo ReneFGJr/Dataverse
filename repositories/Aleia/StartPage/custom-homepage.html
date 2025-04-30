@@ -1,124 +1,76 @@
 <form class="form bg-search">
-  <img src="/dvn/images/logo-deposita.jpg" alt="Aleia repositório de dados científicos do Ibict"/>
-	<h2>Se você estiver interessado em publicar seus dados em nosso repositório, consulte <a href="#">nossas instruções</a> para autores e entre em contato</h2>
+    <img src="/logos/navbar/logo_aleia_final.png" alt="Aleia repositório de dados científicos do Ibict"/>
+<p>Bem-vindo ao repositório de dados de pesquisa do Ibict</p>
   <div class="input-group input-group-lg">
-    <input type="text" class="form-control" id="inputDataverseSearch" onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();" placeholder="Pesquise aqui os Datasets do nosso repositório.">
+    <input type="text" class="form-control" id="inputDataverseSearch" onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();" placeholder="Digite sua pesquisa">
     <div class="input-group-btn">
       <button class="btn btn-default" id="btnDataverseSearch" type="submit" onclick="window.location = '/dataverse/aleia?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i class="glyphicon glyphicon-search"></i></button>
     </div>
   </div>
 </form>
 
+<!-- <hr class="heavy-rule" /> -->
+
 <!-- SEARCH + BROWSE + RECENT -->
+
+<div class="row mt-4">
+  <div class="col-sm-4 mt-2">
+    <a type="button" class="btn btn-outline-primary btn-lg btn-block" href="/dataverse/aleia?q=&types=dataverses&sort=dateSort&order=desc&page=1"><span  class="badge badge-light" id="ID_dataverse">0</span> Conjunto de DataVerses </a>
+  </div>
+  <div class="col-sm-4 mt-2">
+    <a type="button" class="btn btn-outline-primary btn-lg btn-block" href="/dataverse/aleia?q=&types=datasets&sort=dateSort&order=desc"> <span class="badge badge-light" id="ID_datasets">0</span> Conjunto de Dados (DataSets) </a>
+  </div>
+  <div class="col-sm-2 mt-2">
+    <a type="button" class="btn btn-outline-primary btn-lg btn-block" href="/dataverse/aleia?q=&types=files&sort=dateSort&order=desc"> <span class="badge badge-light" id="ID_files">0</span> Arquivos </a>
+  </div>
+  <div class="col-sm-2 mt-2">
+    <a type="button" class="btn btn-outline-primary btn-lg btn-block"> <span class="badge badge-light" id="ID_projetos">0</span> Downloads </a>
+  </div>
+</div>
 
 <div class="row-fluid mt-4">
   <div class="col">
-    <button type="button" class="btn btn-outline-primary btn-lg btn-block" onClick="window.location.href='/dataverse/aleia'">Explore nossos Datasets</button>
+    <button type="button" class="btn btn-outline-primary btn-lg btn-block" onClick="window.location.href='/dataverse/aleia'">Explorar</button>
   </div>
 </div>
-
-<!-- <hr class="heavy-rule" /> -->
-<div class="col mt-4">
-  <h3 class="ml4">Datasets mais recentes</h3>
-</div>
-<div class="row">
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Microplastic concentrations in lagoon, bay and beach environments of Binh Dinh.</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card" >
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Monthly input of Escherichia coli within the Houay Pano headwater catchment</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Stakeholders’ mental models about the Makay region, Madagascar</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Replication Data for Distribution of Quercus ilex subsp</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-</div>
-	
-<div class="row">
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Microplastic concentrations in lagoon, bay and beach environments of Binh Dinh.</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card" >
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Monthly input of Escherichia coli within the Houay Pano headwater catchment</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Stakeholders’ mental models about the Makay region, Madagascar</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-<div class="col-sm-3">
-  <div class="card">
-    <div class="card-body">
-      <p class="badge badge-light">Mon Sep 19 2022</p>
-      <a href="#">
-      <h5 class="card-title">Replication Data for Distribution of Quercus ilex subsp</h5>
-      </a> <a href="#">
-      <h6 class="card-subtitle ">Microplastic in Aquatic Environments</h6>
-      </a> </div>
-  </div>
-</div>
-</div>
-
 
 <script>
+url_metrics = '/api/info/metrics/';
+function getvals(url, div, expr, param) {
+    fetch(url)
+        .then((response) => { return response.json(); })
+        .then((myJson) => {
+            switch (expr) {
+                case 'Total':
+                    document.getElementById(div).innerHTML = myJson.data.count;
+                    break;
+            }
+        });
+}
+
 getvals(url_metrics + 'dataverses', 'ID_dataverse', 'Total');
 getvals(url_metrics + 'datasets', 'ID_datasets', 'Total');
 getvals(url_metrics + 'files', 'ID_files', 'Total');
 getvals(url_metrics + 'downloads', 'ID_projetos', 'Total');
-</script> 
+</script>
+
+
+
+
+<br/>
+<div class="row text-center mt-3">
+<h3 class="ml4">Aprenda como depositar seus dados no Deposita Dados</h3>
+  <table style="border: 0px solid #000; padding: 5px">
+    <tr>
+      <td style="padding: 5px" width="50%">
+        <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/ZNgYvbwApzs?si=L5bH9biQ7sx1-C3P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+      </td>
+    </tr>
+  </table>
+</div>

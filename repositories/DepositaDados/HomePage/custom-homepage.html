@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <form class="form bg-search">
   <img src="/dvn/images/logo-deposita.png" alt="Aleia repositório de dados científicos do Ibict"/>
-	<h2>Se você estiver interessado em publicar seus dados em nosso repositório, consulte <a href="https://depositadados.ibict.br/guide/deposito/">nossas instruções</a> para autores e entre em contato!</h2>
+	<h2>Se você estiver interessado em publicar seus dados em nosso repositório, consulte <a href="https://depositadados.ibict.br/dvn/guide/guides.html">nossas instruções</a> para autores e entre em contato!</h2>
   <div class="input-group input-group-lg">
     <input type="text" class="form-control" id="inputDataverseSearch" onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();" placeholder="Pesquise aqui os Datasets do nosso repositório.">
     <div class="input-group-btn">
@@ -18,10 +18,31 @@
   </div>
 </div>
 
+<br/>
+<div class="row text-center mt-3">
+<h3 class="ml4">Aprenda como depositar seus dados no Deposita Dados</h3>
+  <table style="border: 0px solid #000; padding: 5px">
+    <tr>
+      <td style="padding: 5px" width="50%">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fHHD_obDO2Q?si=UoH1WyQSz4WI_rlV"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 <!-- <hr class="heavy-rule" /> -->
 <div class="col mt-4">
-  <h3 class="ml4">Datasets mais recentes</h3>
+  <h3 class="ml4 text-center">Datasets mais recentes</h3>
 </div>
 <div class="row">
 <div id="datasets"></div>
@@ -69,26 +90,6 @@
         // Load datasets on page load
         document.addEventListener('DOMContentLoaded', displayDatasets);
     </script>
-</div>
-
-<div class="row">
-<h3 class="ml4">Aprenda como depositar seus dados no Deposita Dados</h3>
-  <table style="border: 0px solid #000; padding: 5px">
-    <tr>
-      <td style="padding: 5px" width="50%">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/fHHD_obDO2Q?si=UoH1WyQSz4WI_rlV"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </td>
-    </tr>
-  </table>
 </div>
 
 <script>
