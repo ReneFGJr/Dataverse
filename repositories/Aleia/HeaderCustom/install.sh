@@ -1,0 +1,1 @@
+cp ../CoreTurusSeal/logo_cts.png /www/var/dataverse/branding/img/logo_cts.png
