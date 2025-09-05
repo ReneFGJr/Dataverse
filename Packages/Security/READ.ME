@@ -1,0 +1,8 @@
+Bloqueio no APACHE
+Inserir as regras
+
+RewriteRule   ^/api/(admin|builtin-users)           - [R=403,L]
+RewriteRule   ^/api/(v[0-9]*)/(admin|builtin-users) - [R=403,L]
+
+ProxyPass   /api/admin !
+Alias "/api/admin" "/"
