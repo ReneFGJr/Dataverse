@@ -5,10 +5,11 @@ import os
 PARENT = 'teste'
 
 # URL da API do Dataverse (substitua pelo seu)
-SERVER_URL = 'https://cedapdados.ufrgs.br/api'
-
+#SERVER_URL = 'https://cedapdados.ufrgs.br/api'
+#SERVER_URL = 'https://vitrinedadosabertos-dev.rnp.br/api'
+SERVER_URL = 'https://vitrinedadosabertos-dev.rnp.br/api/v1/api/'
 # Chave de API do Dataverse (substitua pela sua)
-API_TOKEN = "6a680d93-23ab-4471-ab8e-26e880d2ee14"
+API_TOKEN = "f29f846b-49fe-4d67-a56f-0bd36bdd05a8"
 
 # Caminho para o arquivo JSON
 json_file = './dataset.json'
@@ -20,7 +21,7 @@ headers = {
 }
 
 # URL da API para criar o dataset
-url = f"{SERVER_URL}/api/dataverses/{PARENT}/datasets"
+url = f"{SERVER_URL}/dataverses/{PARENT}/datasets"
 
 # Abrir e ler o conteúdo do arquivo JSON
 with open(json_file, 'r', encoding='utf-8') as f:

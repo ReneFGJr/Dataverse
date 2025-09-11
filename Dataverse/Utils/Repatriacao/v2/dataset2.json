@@ -1,0 +1,474 @@
+{
+  "id": 202774,
+  "identifier": "WINXUI",
+  "persistentUrl": "https://doi.org/10.35078/WINXUI",
+  "protocol": "doi",
+  "authority": "10.35078",
+  "publisher": "Arca Dados",
+  "publicationDate": "2025-08-18",
+  "storageIdentifier": "file://10.35078/WINXUI",
+  "datasetVersion": {
+    "id": 2698,
+    "datasetId": 202774,
+    "datasetPersistentId": "doi:10.35078/WINXUI",
+    "storageIdentifier": "file://10.35078/WINXUI",
+    "versionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "lastUpdateTime": "2025-08-27T23:39:38Z",
+    "releaseTime": "2025-08-27T23:39:38Z",
+    "createTime": "2025-08-27T16:59:12Z",
+    "publicationDate": "2025-08-18",
+    "citationDate": "2025-08-18",
+    "license": {
+      "name": "CC BY-NC 4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+      "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Indicador de Grupos de Pesquisa da Fiocruz no CNPq de janeiro de 1975 a junho de 2025"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jorge, Vanessa de Arruda"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Silva, Waldeyr Mendes Cordeiro"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Guimarães, Felipe Pontes"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Garcia, Luís Paulo Faina"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chalco, Jesus Mena"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Silva, Juliana Tyelle Pires da"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Medeiros, Thais Ketlyn da Silva"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Souza, Luciano Soares de"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Paiva, Igor Rodrigues"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jorge, Vanessa de Arruda"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vanessa.jorge@fiocruz.br"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Este conjunto de dados apresenta os procedimentos de coleta, curadoria e análise dos dados para elaboração do indicador sobre os grupos de pesquisa da Fiocruz cadastrados no Diretório de Grupos de Pesquisa no Brasil  - Plataforma Lattes - CNPq."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-08-14"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset presents the procedures for collecting, curating, and analyzing data to develop the indicator on Fiocruz research groups registered in the Directory of Research Groups in Brazil - Lattes Platform - CNPq."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-08-14"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Este conjunto de datos presenta los procedimientos de recopilación, curaduría y análisis de datos para la elaboración del indicador sobre los grupos de investigación de la Fiocruz registrados en el Directorio de Grupos de Investigación en Brasil - Plataforma Lattes - CNPq."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-08-14"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Medicine, Health and Life Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Grupos de pesquisa"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research Groups"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Grupos de Investigación"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indicadores de Ciência, Tecnologia e Inovação"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indicadores de Ciencia, Tecnología e Innovación"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Science, Technology and Innovation Indicators"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CNPq"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fiocruz"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Plataforma Lattes"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Diretório de Grupos de Pesquisa"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Directory of Research Groups"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Directorio de Grupos de Investigación"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Observatório em Ciência, Tecnologia e Inovação em Saúde da Fiocruz - Dashboard Grupos de Pesquisa CNPq de janeiro de 1975 a junho de 2025- url: https://observatorio.fiocruz.br/grupos-de-pesquisa"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Santos, Hataânderson Luiz Cabral dos"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-08-14"
+          }
+        ]
+      },
+      "submit_terms": {
+        "displayName": "submit_terms",
+        "name": "submit_terms",
+        "fields": [
+          {
+            "typeName": "term_accept",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "YES"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "fiocruz_cnpq_groups-0.xlsx",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 2698,
+        "dataFile": {
+          "id": 202784,
+          "persistentId": "",
+          "filename": "fiocruz_cnpq_groups-0.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1192602,
+          "storageIdentifier": "file://198be76f391-f9ac7040b839",
+          "rootDataFileId": -1,
+          "md5": "ede73d4f5ef568942410fd55d9744896",
+          "checksum": {
+            "type": "MD5",
+            "value": "ede73d4f5ef568942410fd55d9744896"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-18",
+          "publicationDate": "2025-08-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "fiocruz_cnpq_groups_1.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2698,
+        "dataFile": {
+          "id": 202785,
+          "persistentId": "",
+          "filename": "fiocruz_cnpq_groups_1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1180247,
+          "storageIdentifier": "file://198ec77fa59-2f6de766e64f",
+          "rootDataFileId": -1,
+          "md5": "07bc456095ac4119afefe99005bd48b5",
+          "checksum": {
+            "type": "MD5",
+            "value": "07bc456095ac4119afefe99005bd48b5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-27",
+          "publicationDate": "2025-08-27",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Metodologia Grupos de pesquisa CNPq julho 2025.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2698,
+        "dataFile": {
+          "id": 202783,
+          "persistentId": "",
+          "filename": "Metodologia Grupos de pesquisa CNPq julho 2025.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 88376,
+          "storageIdentifier": "file://198be76e9a4-68b4f26ed676",
+          "rootDataFileId": -1,
+          "md5": "e37376175e56c16d80d6b329add03948",
+          "checksum": {
+            "type": "MD5",
+            "value": "e37376175e56c16d80d6b329add03948"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-18",
+          "publicationDate": "2025-08-18",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Jorge, Vanessa de Arruda; Silva, Waldeyr Mendes Cordeiro; Guimarães, Felipe Pontes; Garcia, Luís Paulo Faina; Chalco, Jesus Mena; Silva, Juliana Tyelle Pires da; Medeiros, Thais Ketlyn da Silva; Souza, Luciano Soares de; Paiva, Igor Rodrigues, 2025, \"Indicador de Grupos de Pesquisa da Fiocruz no CNPq de janeiro de 1975 a junho de 2025\", https://doi.org/10.35078/WINXUI, Arca Dados, V2"
+  }
+}

@@ -5,7 +5,7 @@ import os
 # Configurações
 API_URL = "https://vitrinedadosabertos-dev.rnp.br/api"
 #API_URL = "https://hdatarepository.ipen.br/api"
-API_KEY = "fc178044-78ff-4bcb-a83d-97eeaee4bbb2"
+API_KEY = "f29f846b-49fe-4d67-a56f-0bd36bdd05a8"
 #API_KEY = "89a5c2b0-880a-4b46-b4e1-3221d95113b0"
 DATAVERSE_ALIAS = "repatriacao"
 FILE_JSON = 'metadata.json'

@@ -106,6 +106,7 @@ def upload_files_to_dataset(dataset_id, upload_path):
 def main():
     # ID do dataset no Dataverse antigo e novo alias para o Dataverse
     old_dataset_id = 'doi:10.5072/FK2/XQD31T'
+    old_dataset_id = 'doi:10.6084/m9.figshare.6265508.v1'
     new_dataverse_alias = 'testesinep'
     download_path = 'dataset_files'
 
