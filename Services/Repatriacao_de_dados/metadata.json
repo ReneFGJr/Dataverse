@@ -1,17 +1,17 @@
 {
     "id": 202620,
     "identifier": "IKTW7M",
-    "persistentUrl": "https://doi.org/10.17632/txt3rjj9dk.2",
+    "persistentUrl": "https://doi.org/10.5281/zenodo.10947952",
     "protocol": "doi",
     "authority": "10.17632",
     "publisher": "Arca Dados",
     "publicationDate": "2024-12-01",
-    "storageIdentifier": "file://10.17632/txt3rjj9dk.2",
+    "storageIdentifier": "file://10.5281/zenodo.10947952",
     "latestVersion": {
         "id": 2581,
         "datasetId": 202620,
-        "datasetPersistentId": "doi:10.17632/txt3rjj9dk.2",
-        "storageIdentifier": "file://10.17632/txt3rjj9dk.2",
+        "datasetPersistentId": "doi:10.5281/zenodo.10947952",
+        "storageIdentifier": "file://10.5281/zenodo.10947952",
         "versionNumber": 1,
         "versionMinorNumber": 0,
         "versionState": "RELEASED",
@@ -36,7 +36,7 @@
                         "typeName": "title",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Dados repatriados #2"
+                        "value": "Zonal Statistics of Climate Indicators from ERA5-Land for Brazilian Municipalities, 2023"
                     },
                     {
                         "typeName": "author",
