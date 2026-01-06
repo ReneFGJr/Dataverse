@@ -2,7 +2,7 @@
 
 export PAYARA=/usr/local/payara5/glassfish
 export SERVER_URL=http://localhost:8080
-export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse-5.12.1/
+export APP=/usr/local/payara6/glassfish/domains/domain1/applications/dataverse-6.9/
 
 export URL=https://cedapdados.ufrgs.br/
 export HOME=welcome.xhtml
