@@ -1,33 +1,42 @@
 <!-- // three.js - https://github.com/mrdoob/three.js
 var THREE=THREE||{REVISION:"56"} -->
 <link href="https://fonts.googleapis.com/css?family=Krona+One|Simonetta|Tomorrow&display=swap" rel="stylesheet">
-</div>
-<div class="container-fluid">
-<div class="row">
-	<div class="bk" id="bk">
-		<p class="logo">CEDAP<span style="color:#9090FF;">DADOS</span></p>
-		<p class="slogan">"Estudos sobre Dados de Pesquisa"</p>
-		<div class="search" class="text-end text-right">
-		<a href="/dataverse/cedapdados">
-		<img src="https://cedapdados.ufrgs.br/assets/img/bt_pesquisar.png" class="img1">
-        <br>
-		Explore nossos Dados!
-		</a>
-		</div>
-	</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="bk" id="bk">
+      
+      <div class="col-8">
+        <p class="logo">CEDAP<span style="color:#9090FF;">DADOS</span></p>
+        <p class="slogan">"Estudos sobre Dados de Pesquisa"</p>
+      </div>
+
+      <div class="col-4 search text-end">
+        <a href="/dataverse/cedapdados"
+           aria-label="Explorar dados do repositório CEDAP Dados"
+           title="Explorar dados">
+          <img 
+            src="https://cedapdados.ufrgs.br/assets/img/bt_pesquisar.png"
+            class="img1"
+            height="80"
+            alt="Explorar dados do repositório">
+        </a>
+      </div>
+
+    </div>
+  </div>
 </div>
-</div>
+
 <style>
 .search, .search a
 	{
-		width: 150px;
 		position: fixed;
-		right: 20px;
+		right: 120px;
 		top: 100px;
 		font-family: 'Krona One', 'Tomorrow',  sans-serif;
 		color: white;
 		text-decoration: none;
+        width: 150px;
 	}
 .bk {
     background-color: #193c6d;
