@@ -6,6 +6,7 @@ export APP=/usr/local/payara5/glassfish/domains/domain1/applications/dataverse-5
 
 export URL=https://cedapdados.ufrgs.br/
 export HOME=welcome.xhtml
+export IMG=*
 
 cp $HOME $APP/$HOME
 mkdir $APP/assets/
