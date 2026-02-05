@@ -1,28 +1,17 @@
 {
-    "id": 202620,
-    "identifier": "IKTW7M",
-    "persistentUrl": "https://doi.org/10.5281/zenodo.10947952",
+    "identifier": "",
+    "persistentUrl": "",
     "protocol": "doi",
-    "authority": "10.17632",
-    "publisher": "Arca Dados",
-    "publicationDate": "2024-12-01",
-    "storageIdentifier": "file://10.5281/zenodo.10947952",
-    "latestVersion": {
-        "id": 2581,
-        "datasetId": 202620,
-        "datasetPersistentId": "doi:10.5281/zenodo.10947952",
-        "storageIdentifier": "file://10.5281/zenodo.10947952",
-        "versionNumber": 1,
-        "versionMinorNumber": 0,
-        "versionState": "RELEASED",
-        "UNF": "UNF:6:oZOHZDa4Rx5dCVvczAUBIQ==",
-        "lastUpdateTime": "2024-12-01T16:09:45Z",
-        "releaseTime": "2024-12-01T16:09:45Z",
-        "createTime": "2024-11-04T16:52:17Z",
-        "publicationDate": "2024-12-01",
-        "citationDate": "2024-12-01",
+    "authority": "",
+    "publisher": "Brapci",
+    "publicationDate": "2025-08-18",
+    "storageIdentifier": "",
+    "datasetVersion": {
+        "datasetPersistentId": "",
+        "storageIdentifier": "",
+        "citationDate": "2025-08-18",
         "license": {
-            "name": "CC BY-NC 4.0",
+            "name": "CC0 1.0",
             "uri": "http://creativecommons.org/licenses/by-nc/4.0",
             "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
         },
@@ -36,7 +25,7 @@
                         "typeName": "title",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Zonal Statistics of Climate Indicators from ERA5-Land for Brazilian Municipalities, 2023"
+                        "value": "Brapci"
                     },
                     {
                         "typeName": "author",
@@ -48,13 +37,125 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Casaes, Ane Caroline"
+                                    "value": "Jorge, Vanessa de Arruda"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "IPEN"
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Silva, Waldeyr Mendes Cordeiro"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Guimarães, Felipe Pontes"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Garcia, Luís Paulo Faina"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Chalco, Jesus Mena"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Silva, Juliana Tyelle Pires da"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Medeiros, Thais Ketlyn da Silva"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Souza, Luciano Soares de"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Paiva, Igor Rodrigues"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
                                 }
                             }
                         ]
@@ -69,39 +170,19 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Casaes, Ane Caroline"
+                                    "value": "Jorge, Vanessa de Arruda"
                                 },
                                 "datasetContactAffiliation": {
                                     "typeName": "datasetContactAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "IPEN"
+                                    "value": "FIOCRUZ - Fundação Oswaldo Cruz"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "ane.casaes@ipen.br"
-                                }
-                            },
-                            {
-                                "datasetContactName": {
-                                    "typeName": "datasetContactName",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
-                                    "value": "Riccio, Ricardo"
-                                },
-                                "datasetContactAffiliation": {
-                                    "typeName": "datasetContactAffiliation",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
-                                    "value": "IPEN"
-                                },
-                                "datasetContactEmail": {
-                                    "typeName": "datasetContactEmail",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
-                                    "value": "ricardo.riccio@ipen.br"
+                                    "value": "vanessa.jorge@fiocruz.br"
                                 }
                             }
                         ]
@@ -116,13 +197,41 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Descrição"
+                                    "value": "Este conjunto de dados apresenta os procedimentos de coleta, curadoria e análise dos dados para elaboração do indicador sobre os grupos de pesquisa da Fiocruz cadastrados no Diretório de Grupos de Pesquisa no Brasil  - Plataforma Lattes - CNPq."
                                 },
                                 "dsDescriptionDate": {
                                     "typeName": "dsDescriptionDate",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "2024-11-04"
+                                    "value": "2025-08-14"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This dataset presents the procedures for collecting, curating, and analyzing data to develop the indicator on Fiocruz research groups registered in the Directory of Research Groups in Brazil - Lattes Platform - CNPq."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-08-14"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Este conjunto de datos presenta los procedimientos de recopilación, curaduría y análisis de datos para la elaboración del indicador sobre los grupos de investigación de la Fiocruz registrados en el Directorio de Grupos de Investigación en Brasil - Plataforma Lattes - CNPq."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-08-14"
                                 }
                             }
                         ]
@@ -132,6 +241,7 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
+                            "Computer and Information Science",
                             "Medicine, Health and Life Sciences",
                             "Social Sciences"
                         ]
@@ -146,34 +256,116 @@
                                     "typeName": "keywordValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Qualidade de Vida"
-                                },
-                                "keywordVocabulary": {
-                                    "typeName": "keywordVocabulary",
+                                    "value": "Grupos de pesquisa"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "DeCS/MeSH"
-                                },
-                                "keywordVocabularyURI": {
-                                    "typeName": "keywordVocabularyURI",
+                                    "value": "Research Groups"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "https://decs.bvsalud.org/ths/resource/?id=12225&filter=ths_termall&q=Qualidade%20de%20vida"
+                                    "value": "Grupos de Investigación"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Indicadores de Ciência, Tecnologia e Inovação"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Indicadores de Ciencia, Tecnología e Innovación"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Science, Technology and Innovation Indicators"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "CNPq"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fiocruz"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Plataforma Lattes"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Diretório de Grupos de Pesquisa"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Directory of Research Groups"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Directorio de Grupos de Investigación"
                                 }
                             }
                         ]
                     },
                     {
+                        "typeName": "notesText",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Observatório em Ciência, Tecnologia e Inovação em Saúde da Fiocruz - Dashboard Grupos de Pesquisa CNPq de janeiro de 1975 a junho de 2025- url: https://observatorio.fiocruz.br/grupos-de-pesquisa"
+                    },
+                    {
                         "typeName": "depositor",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Casaes, Ane Caroline"
+                        "value": "Santos, Hataânderson Luiz Cabral dos"
                     },
                     {
                         "typeName": "dateOfDeposit",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "2024-11-04"
+                        "value": "2025-08-14"
                     }
                 ]
             },
@@ -190,59 +382,7 @@
                 ]
             }
         },
-        "files": [{
-                "description": "Banco de dados relativo a pesquisa sobre Qualidade de vida e estado nutricional de pessoas infectadas por Schistosoma mansoni em áreas rurais e urbanas em duas cidades do estado da Bahia-Brasil.",
-                "label": "Banco de dados.tab",
-                "restricted": true,
-                "version": 27,
-                "datasetVersionId": 2581,
-                "categories": [
-                    "Bahia",
-                    "Brasil",
-                    "Data",
-                    "Esquistossomose",
-                    "Obesidade",
-                    "População rural",
-                    "População urbana",
-                    "Qualidade de vida",
-                    "Áreas endêmicas"
-                ],
-                "dataFile": {
-                    "id": 202621,
-                    "persistentId": "",
-                    "filename": "Banco de dados.tab",
-                    "contentType": "text/tab-separated-values",
-                    "friendlyType": "Tab-Delimited",
-                    "filesize": 90706,
-                    "description": "Banco de dados relativo a pesquisa sobre Qualidade de vida e estado nutricional de pessoas infectadas por Schistosoma mansoni em áreas rurais e urbanas em duas cidades do estado da Bahia-Brasil.",
-                    "categories": [
-                        "Bahia",
-                        "Brasil",
-                        "Data",
-                        "Esquistossomose",
-                        "Obesidade",
-                        "População rural",
-                        "População urbana",
-                        "Qualidade de vida",
-                        "Áreas endêmicas"
-                    ],
-                    "storageIdentifier": "file://192f856bdd8-89b7a86a7fa5",
-                    "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                    "originalFormatLabel": "MS Excel Spreadsheet",
-                    "originalFileSize": 115791,
-                    "originalFileName": "Banco de dados.xlsx",
-                    "UNF": "UNF:6:oZOHZDa4Rx5dCVvczAUBIQ==",
-                    "rootDataFileId": -1,
-                    "md5": "57bbf2e3bda94d02d91281a17ab3187b",
-                    "checksum": {
-                        "type": "MD5",
-                        "value": "57bbf2e3bda94d02d91281a17ab3187b"
-                    },
-                    "tabularData": true,
-                    "creationDate": "2024-11-04",
-                    "publicationDate": "2024-12-01",
-                    "fileAccessRequest": true
-                }
-            }]
+
+        "citation": "Jorge, Vanessa de Arruda; Silva, Waldeyr Mendes Cordeiro; Guimarães, Felipe Pontes; Garcia, Luís Paulo Faina; Chalco, Jesus Mena; Silva, Juliana Tyelle Pires da; Medeiros, Thais Ketlyn da Silva; Souza, Luciano Soares de; Paiva, Igor Rodrigues, 2025, \"Indicador de Grupos de Pesquisa da Fiocruz no CNPq de janeiro de 1975 a junho de 2025\", https://doi.org/10.35078/WINXUI, Arca Dados, V2"
     }
 }

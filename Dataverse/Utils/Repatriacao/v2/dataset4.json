@@ -1,14 +1,14 @@
 {
-    "identifier": "doi:10.35078/WINXUI",
-    "persistentUrl": "https://doi.org/10.35078/WINXUI",
+    "identifier": "doi:10.48472/VG2JJJ",
+    "persistentUrl": "https://doi.org/10.48472/deposita/VG2JJJ",
     "protocol": "doi",
-    "authority": "10.35078",
-    "publisher": "Arca Dados",
+    "authority": "10.48472",
+    "publisher": "Brapci",
     "publicationDate": "2025-08-18",
-    "storageIdentifier": "file://10.35078/WINXUI",
+    "storageIdentifier": "file://10.48472/VG2JJJ",
     "datasetVersion": {
-        "datasetPersistentId": "doi:10.35078/WINXUI",
-        "storageIdentifier": "file://10.35078/WINXUI",
+        "datasetPersistentId": "doi:10.48472/VG2JJJ",
+        "storageIdentifier": "file://10.48472/VG2JJJ",
         "citationDate": "2025-08-18",
         "license": {
             "name": "CC0 1.0",
@@ -25,7 +25,7 @@
                         "typeName": "title",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Indicador de Grupos de Pesquisa da Fiocruz no CNPq de janeiro de 1975 a junho de 2025"
+                        "value": "Brapci"
                     },
                     {
                         "typeName": "author",

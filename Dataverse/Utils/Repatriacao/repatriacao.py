@@ -3,10 +3,10 @@ import os
 import json
 
 # Definir as URLs das APIs e os APIKEYs
-OLD_DATAVERSE_API_URL = 'https://vitrinedadosabertos-dev.rnp.br/api'
-NEW_DATAVERSE_API_URL = 'https://vitrinedadosabertos-dev.rnp.br/api'
-OLD_APIKEY = 'fc178044-78ff-4bcb-a83d-97eeaee4bbb2'
-NEW_APIKEY = 'fc178044-78ff-4bcb-a83d-97eeaee4bbb2'
+OLD_DATAVERSE_API_URL = 'https://depositadados.ibict.br/api'
+NEW_DATAVERSE_API_URL = 'https://cedapdados.ufrgs.br/api'
+OLD_APIKEY = 'e2b99bbd-0ef3-4edf-9fa6-7bf9c2c55964'
+NEW_APIKEY = '39567208-9d62-4e2f-b37d-6773cf8651cc'
 
 # Função para baixar os metadados de um dataset
 def download_dataset_metadata(dataset_id):
@@ -49,6 +49,7 @@ def download_dataset_files(dataset_id, download_path):
     #url = f"{OLD_DATAVERSE_API_URL}/datasets/{dataset_id}/versions/:latest/files"
     url = f"{OLD_DATAVERSE_API_URL}/:persistentId/versions/:draft/files?persistentId={dataset_id}"
     headers = {'X-Dataverse-key': OLD_APIKEY}
+    print("===",url)
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
@@ -107,7 +108,8 @@ def main():
     # ID do dataset no Dataverse antigo e novo alias para o Dataverse
     old_dataset_id = 'doi:10.5072/FK2/XQD31T'
     old_dataset_id = 'doi:10.6084/m9.figshare.6265508.v1'
-    new_dataverse_alias = 'testesinep'
+    old_dataset_id = 'doi:10.48472/deposita/VG2JJJ'
+    new_dataverse_alias = 'brapci'
     download_path = 'dataset_files'
 
     # Baixar os metadados e arquivos

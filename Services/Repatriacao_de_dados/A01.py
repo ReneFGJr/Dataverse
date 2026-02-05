@@ -2,12 +2,17 @@ import requests
 import json
 import os
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
 # Configurações
-API_URL = "https://vitrinedadosabertos-dev.rnp.br/api"
+API_URL = "https://cedapdados.ufrgs.br/api"
 #API_URL = "https://hdatarepository.ipen.br/api"
-API_KEY = "f29f846b-49fe-4d67-a56f-0bd36bdd05a8"
+API_KEY = "39567208-9d62-4e2f-b37d-6773cf8651cc"
+OLD_APIKEY = 'e2b99bbd-0ef3-4edf-9fa6-7bf9c2c55964'
 #API_KEY = "89a5c2b0-880a-4b46-b4e1-3221d95113b0"
-DATAVERSE_ALIAS = "repatriacao"
+DATAVERSE_ALIAS = "brapci"
 FILE_JSON = 'metadata.json'
 
 # Verificar se o arquivo JSON existe
@@ -28,7 +33,7 @@ def fix_metadata_fields(fields):
             fix_metadata_fields(field["value"])
 
 # Preparar os metadados
-metadata_blocks = metadata["latestVersion"]["metadataBlocks"]
+metadata_blocks = metadata["datasetVersion"]["metadataBlocks"]
 fix_metadata_fields(metadata_blocks["citation"]["fields"])
 
 # Alterar o título do dataset
@@ -61,7 +66,7 @@ print("Enviando os seguintes metadados para a API:")
 print(json.dumps(dataset_metadata, indent=4, ensure_ascii=False))
 
 # Enviar solicitação para criar o dataset
-response = requests.post(endpoint, headers=headers, json=dataset_metadata, verify=False)
+response = requests.post(endpoint, headers=headers, json=dataset_metadata, verify=True)
 
 # Verificar resposta
 if response.status_code == 201:
