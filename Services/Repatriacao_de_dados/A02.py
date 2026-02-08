@@ -3,12 +3,12 @@ import json
 import os
 
 # Configurações
-API_URL = "https://vitrinedadosabertos-dev.rnp.br/api"
+API_URL = "https://cedapdados.ufrgs.br/api"
 #API_URL = "https://hdatarepository.ipen.br/api"
-API_KEY = "f29f846b-49fe-4d67-a56f-0bd36bdd05a8"
+API_KEY = "39567208-9d62-4e2f-b37d-6773cf8651cc"
 #API_KEY = "89a5c2b0-880a-4b46-b4e1-3221d95113b0"
 
-DATAVERSE_ALIAS = "repatriacao"
+DATAVERSE_ALIAS = "brapci"
 FILE_JSON = 'metadata.json'
 
 # Verificar se o arquivo JSON existe

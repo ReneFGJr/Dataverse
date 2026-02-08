@@ -88,6 +88,7 @@ source_base_url = "https://arcadados.fiocruz.br"
 source_doi = "doi:10.35078/WNT0HS"  # Ajustado para incluir o prefixo "doi:"
 target_base_url = "https://vitrinedadosabertos-dev.rnp.br"
 target_api_key = "fc178044-78ff-4bcb-a83d-97eeaee4bbb2"
+target_api_key = 'f29f846b-49fe-4d67-a56f-0bd36bdd05a8'
 
 try:
     result = duplicate_metadata_only(source_base_url, source_doi, target_base_url, target_api_key)
