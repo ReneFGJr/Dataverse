@@ -3,31 +3,43 @@ var THREE=THREE||{REVISION:"56"} -->
 <link href="https://fonts.googleapis.com/css?family=Krona+One|Simonetta|Tomorrow&display=swap" rel="stylesheet">
 </div>
 <div class="container-fluid">
-<div class="row">
-    <div class="versao">VERSÃO DE TESTE 2023-10-27</div>
-	<div class="bk" id="bk">
-		<p class="logo">CEDAP<span style="color:#9090FF;">DADOS</span></p>
-		<p class="slogan">"Estudos sobre Dados de Pesquisa"</p>
-		<div class="search" align="right">
-		<a href="/dataverse/cedapdados">
-		<img src="https://cedapdados.ufrgs.br/logos/bt_pesquisar.png" class="img1">
-		Explore nossos Dados!
-		</a>
-		</div>
-	</div>
+  <div class="row">
+    <div class="bk" id="bk">
+      <div class="col-md-8 col-sm-8 col-12">
+        <p class="logo">
+          CEDAP<span style="color:#9090FF;">DADOS</span>
+        </p>
+        <p class="slogan">"Estudos sobre Dados de Pesquisa"</p>
+      </div>
 
+      <div class="col-md-4 col-sm-4 text-right search">
+        <a href="/dataverse/cedapdados"
+           title="Explorar dados"
+           aria-label="Explorar dados do repositório CEDAP Dados">
+          <img 
+            src="https://cedapdados.ufrgs.br/assets/img/bt_pesquisar.png"
+            class="img-responsive img1"
+            style="display:inline-block; max-height:120px;"
+            alt="Explorar dados do repositório">
+            <br>Explore nossos Dados!
+		</a>
+      </div>
+
+    </div>
+  </div>
 </div>
-</div>
+
+
 <style>
 .search, .search a
 	{
-		width: 150px;
 		position: fixed;
-		right: 20px;
+		right: 220px;
 		top: 100px;
 		font-family: 'Krona One', 'Tomorrow',  sans-serif;
 		color: white;
 		text-decoration: none;
+        width: 150px;
 	}
 .bk {
     background-color: #193c6d;
@@ -58,7 +70,7 @@ var THREE=THREE||{REVISION:"56"} -->
 	}
 .slogan
 	{
-		font-family: 'Simonetta', cursive;
+		font-family: 'Krona One', 'Tomorrow',  sans-serif;
 		color: white;
 	    text-align: left;
 	    margin-left: 8%;

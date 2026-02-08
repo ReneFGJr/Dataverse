@@ -11,3 +11,12 @@ echo '<jvm-options>-Ddataverse.pid.datacite.username=IBICT.DOICURSO</jvm-options
 echo '<jvm-options>-Ddataverse.pid.datacite.password=7Y5f914sFysG</jvm-options>'
 echo '<jvm-options>-Ddataverse.pid.datacite.mds-api-url=https://mds.test.datacite.org</jvm-options>'
 echo '<jvm-options>-Ddataverse.pid.datacite.rest-api-url=https://api.test.datacite.org</jvm-options>'
+
+
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.type=swift"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.defaultEndpoint=endpoint1"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.authType.endpoint1=your-auth-type"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.authUrl.endpoint1=your-auth-url"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.tenant.endpoint1=your-tenant-name"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.username.endpoint1=your-username"
+./asadmin $ASADMIN_OPTS create-jvm-options "\-Ddataverse.files.<id>.endpoint.endpoint1=your-swift-endpoint"
