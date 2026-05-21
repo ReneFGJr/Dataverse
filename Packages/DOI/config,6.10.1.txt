@@ -1,0 +1,14 @@
+        <jvm-options>-Ddataverse.pid.providers=fake,datacite1</jvm-options>
+        <jvm-options>-Ddataverse.pid.fake.type=FAKE</jvm-options>
+        <jvm-options>-Ddataverse.pid.fake.label=DOI Fake DataCite</jvm-options>
+        <jvm-options>-Ddataverse.pid.fake.authority=10.5072</jvm-options>
+        <jvm-options>-Ddataverse.pid.fake.shoulder=FK2/</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.type=datacite</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.label=DOI DataCite</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.authority=10.48472</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.shoulder=CEDAP/</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.datacite.mds-api-url=https://mds.datacite.org/</jvm-optio>
+        <jvm-options>-Ddataverse.pid.datacite1.datacite.rest-api-url=https://api.datacite.org/</jvm-opti>
+        <jvm-options>-Ddataverse.pid.datacite1.datacite.username=IBICT.REP-I</jvm-options>
+        <jvm-options>-Ddataverse.pid.datacite1.datacite.password=SENHA</jvm-options>
+        <jvm-options>-Ddataverse.pid.default-provider=datacite1</jvm-options>
