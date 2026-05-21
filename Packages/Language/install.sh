@@ -4,7 +4,7 @@ mkdir /var/www/
 mkdir /var/www/dataverse/
 mkdir /var/www/dataverse/langBundles
 
-export PAYARA=/usr/local/payara6/glassfish
+export PAYARA=/usr/local/payara7/glassfish
 
 echo "Baixando arquivos atualizados"
 rm dataverse-language-packs-develop -R
