@@ -1,0 +1,1 @@
+cp *.xhtml /usr/local/payara6/glassfish/domains/domain1/applications/dataverse-6.10.1/.
