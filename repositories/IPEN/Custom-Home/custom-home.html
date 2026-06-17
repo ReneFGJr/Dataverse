@@ -1,0 +1,207 @@
+<!-- CUSTOM HOME -->
+<style>
+.home-title {
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.home-search {
+    margin: 30px 0;
+}
+
+.btn-explorar {
+    background: #f78747;
+    color: #fff;
+    border: 0;
+}
+
+.btn-explorar:hover {
+    background: #e87432;
+    color: #fff;
+}
+
+#centers {
+    background: url('/logos/navbar/atom.jpg') no-repeat center center;
+    background-size: 520px;
+    min-height: 560px;
+    padding-top: 20px;
+}
+
+.center-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btnipen {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+
+.btnipen:hover {
+    background: #1f1f8f;
+    border-color: #1f1f8f;
+}
+
+.btnipen img {
+    height: 64px;
+}
+
+.home-panel {
+    border: none;
+    box-shadow: none;
+}
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- COLUNA ESQUERDA -->
+        <div class="col-md-6">
+
+            <div class="panel home-panel">
+                <div class="panel-body">
+
+                    <h1 class="home-title">Seja bem-vindo!</h1>
+
+                    <p class="lead">
+                        Deposite, arquive e compartilhe seus dados de pesquisa no RDC IPEN.
+                    </p>
+
+                    <p>
+                        O Repositório de Dados Científicos do IPEN (RDC) foi criado com a missão
+                        de promover o compartilhamento responsável de dados científicos,
+                        fortalecendo os princípios da Ciência Aberta e da transparência da informação.
+                    </p>
+
+                    <p>
+                        O RDC oferece aos pesquisadores do IPEN um ambiente seguro para registrar,
+                        armazenar, preservar, compartilhar e gerenciar os dados produzidos durante
+                        suas pesquisas científicas.
+                    </p>
+
+                    <div class="alert alert-info">
+                        Antes de realizar qualquer depósito, consulte os
+                        <a href="/dvn/about/TERMO_DE_USO_DO_RDC_IPEN.pdf" target="_blank">
+                            Termos e Condições de Uso
+                        </a>.
+                    </div>
+
+                    <p>
+                        Precisa de ajuda?
+                        <a href="mailto:bibl@ipen.br">
+                            Entre em contato com a Biblioteca do IPEN
+                        </a>.
+                    </p>
+
+                    <!-- BUSCA -->
+                    <form class="home-search">
+                        <div class="input-group input-group-lg">
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="inputDataverseSearch"
+                                placeholder="Pesquisar conjuntos de dados..."
+                                onkeydown="if(event.keyCode==13) document.getElementById('btnDataverseSearch').click();"
+                            >
+
+                            <span class="input-group-btn">
+                                <button
+                                    class="btn btn-primary"
+                                    id="btnDataverseSearch"
+                                    type="submit"
+                                    onclick="window.location='/dataverse/IPEN/?q='+document.getElementById('inputDataverseSearch').value;return false;"
+                                >
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+
+                        </div>
+                    </form>
+
+                    <a href="/dataverse/IPEN/"
+                       class="btn btn-lg btn-block btn-explorar">
+                        Explorar nossos conjuntos de dados
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COLUNA DIREITA -->
+        <div class="col-md-6 text-center" id="centers">
+
+            <div class="center-title">
+                Identifique seu Centro
+            </div>
+
+            <div class="center-grid">
+
+                <a href="/dataverse/CEBIO" title="Centro de Biotecnologia" class="btnipen">
+                    <img src="/logos/navbar/cebio.jpg" alt="CEBIO">
+                </a>
+
+                <a href="/dataverse/CECCO" title="Centro de Célula e Combustível e Hidrogênio" class="btnipen">
+                    <img src="/logos/navbar/cecco.jpg" alt="CECCO">
+                </a>
+
+                <a href="/dataverse/CECTM" title="Centro de Ciências e Tecnologia de Materiais" class="btnipen">
+                    <img src="/logos/navbar/cectm.jpg" alt="CECTM">
+                </a>
+
+                <a href="/dataverse/CECON" title="Centro de Combustível Nuclear" class="btnipen">
+                    <img src="/logos/navbar/cecon.jpg" alt="CECON">
+                </a>
+
+                <a href="/dataverse/CEENG" title="Centro de Engenharia Nuclear" class="btnipen">
+                    <img src="/logos/navbar/ceeng.jpg" alt="CEENG">
+                </a>
+
+                <a href="/dataverse/CELAP" title="Centro de Lasers e Aplicações" class="btnipen">
+                    <img src="/logos/navbar/celap.jpg" alt="CELAP">
+                </a>
+
+                <a href="/dataverse/SEGMR" title="Serviço de Metrologia das Radiações" class="btnipen">
+                    <img src="/logos/navbar/segmr.jpg" alt="SEGMR">
+                </a>
+
+                <a href="/dataverse/CEQMA" title="Centro de Química e Meio Ambiente" class="btnipen">
+                    <img src="/logos/navbar/ceqma.jpg" alt="CEQMA">
+                </a>
+
+                <a href="/dataverse/CECRF" title="Centro de Radiofarmácia" class="btnipen">
+                    <img src="/logos/navbar/cecrf.jpg" alt="CECRF">
+                </a>
+
+                <a href="/dataverse/CERPQ" title="Centro do Reator de Pesquisa" class="btnipen">
+                    <img src="/logos/navbar/cerpq.jpg" alt="CERPQ">
+                </a>
+
+                <a href="/dataverse/CETER" title="Centro de Tecnologia das Radiações" class="btnipen">
+                    <img src="/logos/navbar/ceter.jpg" alt="CETER">
+                </a>
+
+                <a href="/dataverse/SEIDC" title="Serviço de Informação e Documentação Científica" class="btnipen">
+                    <img src="/logos/navbar/seidc.jpg" alt="SEIDC">
+                </a>
+
+                <a href="/dataverse/pmi" title="Projetos Multi-Institucionais" class="btnipen">
+                    <img src="/logos/navbar/projetos_especiais.jpg" alt="PMI">
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- END CUSTOM HOME -->
