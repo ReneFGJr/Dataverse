@@ -1,4 +1,7 @@
-pip install python-dotenv
+python -m venv .venv
+pip install -r requirements.txt
+# ===========================
+# pip install python-dotenv
 
 Arquivo .env
 
