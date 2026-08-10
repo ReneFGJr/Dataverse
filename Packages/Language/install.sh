@@ -3,8 +3,12 @@ mkdir /var/
 mkdir /var/www/
 mkdir /var/www/dataverse/
 mkdir /var/www/dataverse/langBundles
+chown dataverse:dataverse /var/www/dataverse -R
 
 export PAYARA=/usr/local/payara7/glassfish
+
+echo "Criando parametro para o Payara"
+$PAYARA/bin/asadmin create-jvm-options '-Ddataverse.lang.directory=/var/www/dataverse/langBundles'
 
 echo "Baixando arquivos atualizados"
 rm dataverse-language-packs-develop -R
@@ -25,12 +29,12 @@ cp dataverse-language-packs-develop/es_ES/*.properties language
 cd language
 zip language.zip *.properties
 cd ..
+mv language/language.zip language.zip
 
 
-echo "Criando parametro para o Payara"
-$PAYARA/bin/asadmin create-jvm-options '-Ddataverse.lang.directory=/var/www/dataverse/langBundles'
 
-curl http://localhost:8080/api/admin/datasetfield/loadpropertyfiles -X POST --upload-file language/language.zip -H "Content-Type: application/zip"
+
+curl http://localhost:8080/api/admin/datasetfield/loadpropertyfiles -X POST --upload-file language.zip -H "Content-Type: application/zip"
 
 $PAYARA/bin/asadmin stop-domain
 $PAYARA/bin/asadmin start-domain
@@ -39,7 +43,7 @@ echo "Aguarde o servidor voltar do Dataverse, e pressione [ENTER]"
 read -n 1 -s
 
 echo "Habilitando idiomas"
-curl http://localhost:8080/api/admin/settings/:Languages -X PUT -d '[{"locale":"pt","title":"Português"}, {"locale":"en","title":"English"}, {"locale":"es",">
+curl http://localhost:8080/api/admin/settings/:Languages -X PUT -d '[{"locale":"pt","title":"Português"}, {"locale":"en","title":"English"}, {"locale":"es","title":"Espanhol"}]'
 
 
 
