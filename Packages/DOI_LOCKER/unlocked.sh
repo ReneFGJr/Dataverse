@@ -1,0 +1,1 @@
+curl -sS -X DELETE -H "X-Dataverse-key: APYKEY" "https://datarepository.ipen.br/api/datasets/:persistentId/locks?persistentId=doi:10.XXXX/shoulder/VSVE6E&type=finalizePublication"

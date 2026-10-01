@@ -1,0 +1,1 @@
+curl -sS "https://datarepository.ipen.br/api/datasets/:persistentId/locks?persistentId=doi:10.XXXX/shoulder/VSVE6E"
