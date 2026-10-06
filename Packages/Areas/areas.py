@@ -31,75 +31,175 @@ def load_tsv():
 
 def add_subject(lines):
     """
-    Procura a seção #controlledVocabulary e acrescenta
-    Information Science - Library ao vocabulário subject.
+    Adiciona 'Information Science - Library' ao vocabulário
+    controlado do campo subject do citation.tsv.
     """
 
-    new_lines = []
-    in_vocabulary = False
-    subject_exists = False
-    last_subject_index = None
+    NEW_VALUE = "Information Science - Library"
+    NEW_IDENTIFIER = "information_science_library"
+
+    # -------------------------------------------------------
+    # Descobrir cabeçalho do vocabulário controlado
+    # -------------------------------------------------------
+
+    header_index = None
+    header = None
 
     for i, line in enumerate(lines):
+        cols = line.rstrip("\n").split("\t")
 
-        if line.startswith("#controlledVocabulary"):
-            in_vocabulary = True
+        # Procura uma tabela que tenha DatasetField e Value
+        if "DatasetField" in cols and "Value" in cols:
+            header_index = i
+            header = cols
 
-        elif line.startswith("#") and in_vocabulary:
-            in_vocabulary = False
+            print("Cabeçalho encontrado:")
+            print(header)
+            break
 
-        if in_vocabulary:
-            columns = line.rstrip("\n").split("\t")
-
-            if len(columns) >= 2 and columns[0] == "subject":
-
-                last_subject_index = len(new_lines)
-
-                # Verifica se já existe
-                if NEW_SUBJECT.lower() in [
-                    c.lower() for c in columns
-                ]:
-                    subject_exists = True
-
-        new_lines.append(line)
-
-    if subject_exists:
-        print(
-            f"O assunto '{NEW_SUBJECT}' já existe."
-        )
-        return new_lines
-
-    if last_subject_index is None:
+    if header_index is None:
         raise RuntimeError(
-            "Não foi possível localizar o vocabulário 'subject'."
+            "Não foi possível localizar o cabeçalho "
+            "do vocabulário controlado no citation.tsv."
         )
 
-    # Usa a última linha de subject como modelo
-    template = new_lines[last_subject_index]
-    columns = template.rstrip("\n").split("\t")
+    # -------------------------------------------------------
+    # Descobrir posições das colunas
+    # -------------------------------------------------------
 
-    # ATENÇÃO:
-    # normalmente:
-    # coluna 0 = DatasetField
-    # coluna 1 = Value
-    #
-    # Ajuste caso seu citation.tsv tenha estrutura diferente.
+    field_col = header.index("DatasetField")
+    value_col = header.index("Value")
 
-    columns[0] = "subject"
-    columns[1] = NEW_SUBJECT
+    identifier_col = None
+    display_order_col = None
 
-    new_line = "\t".join(columns) + "\n"
+    if "identifier" in header:
+        identifier_col = header.index("identifier")
 
-    new_lines.insert(
-        last_subject_index + 1,
+    if "displayOrder" in header:
+        display_order_col = header.index("displayOrder")
+
+    # -------------------------------------------------------
+    # Localizar todos os valores de subject
+    # -------------------------------------------------------
+
+    subject_rows = []
+
+    for i in range(header_index + 1, len(lines)):
+
+        line = lines[i]
+
+        # Próxima seção
+        if line.startswith("#"):
+            if subject_rows:
+                break
+            continue
+
+        cols = line.rstrip("\n").split("\t")
+
+        if len(cols) <= max(field_col, value_col):
+            continue
+
+        if cols[field_col].strip() == "subject":
+
+            subject_rows.append({
+                "index": i,
+                "columns": cols
+            })
+
+            print(
+                "Subject encontrado:",
+                cols[value_col]
+            )
+
+    if not subject_rows:
+        raise RuntimeError(
+            "O campo 'subject' foi localizado no cabeçalho, "
+            "mas nenhum valor do vocabulário foi encontrado."
+        )
+
+    # -------------------------------------------------------
+    # Verificar se já existe
+    # -------------------------------------------------------
+
+    for row in subject_rows:
+
+        cols = row["columns"]
+
+        if cols[value_col].strip().lower() == NEW_VALUE.lower():
+
+            print(
+                f"\n'{NEW_VALUE}' já está cadastrado."
+            )
+
+            return lines
+
+    # -------------------------------------------------------
+    # Criar nova linha
+    # -------------------------------------------------------
+
+    last_row = subject_rows[-1]
+
+    # Número de colunas igual ao cabeçalho
+    new_cols = [""] * len(header)
+
+    new_cols[field_col] = "subject"
+    new_cols[value_col] = NEW_VALUE
+
+    # Identificador próprio
+    if identifier_col is not None:
+        new_cols[identifier_col] = NEW_IDENTIFIER
+
+    # Ordem
+    if display_order_col is not None:
+
+        orders = []
+
+        for row in subject_rows:
+
+            cols = row["columns"]
+
+            if len(cols) > display_order_col:
+
+                try:
+                    orders.append(
+                        int(cols[display_order_col])
+                    )
+                except ValueError:
+                    pass
+
+        if orders:
+            new_cols[display_order_col] = str(max(orders) + 1)
+
+    # -------------------------------------------------------
+    # Inserir depois do último subject
+    # -------------------------------------------------------
+
+    new_line = "\t".join(new_cols) + "\n"
+
+    insert_position = last_row["index"] + 1
+
+    lines.insert(
+        insert_position,
         new_line
     )
 
+    print()
+    print("Novo Subject:")
+    print(NEW_VALUE)
+
+    if identifier_col is not None:
+        print(
+            "Identifier:",
+            NEW_IDENTIFIER
+        )
+
     print(
-        f"Novo assunto preparado: {NEW_SUBJECT}"
+        "Inserido na linha:",
+        insert_position + 1
     )
 
-    return new_lines
+    return lines
 
 
 # ============================================================
